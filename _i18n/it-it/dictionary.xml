@@ -293,7 +293,6 @@
   <block id="e5edd9b09362e413b0820d9a92c20456" category="paragraph">Scopri le modifiche più recenti apportate alle funzionalità e ai servizi dati che fanno parte della NetApp Console.  Per una cronologia completa delle versioni, vai a<block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> per ogni singolo servizio.</block>
   <block id="f3aae44c0ba1e9d5c7a46f4e224ea31e" category="section-title">Caratteristiche amministrative</block>
   <block id="eda012cb030b90a4fd456d7fac051308" category="paragraph">Questa sezione descrive le nuove funzionalità relative alle funzionalità di amministrazione della console NetApp : organizzazioni, identificazione e accesso, agenti della console, credenziali del provider cloud e altro ancora.</block>
-  <block id="2301c6ac77340860cc332b53114acee4" category="paragraph">Direttiva non risolta in &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/console-setup-admin/main/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">06 ottobre 2025</block>
   <block id="e2d159efa7a8b8226e5914e1a2875270" category="section-title">Gli BlueXP alerts ora sono avvisi ONTAP</block>
   <block id="5928017639f3567a373281effc14e646" category="paragraph">Gli BlueXP alerts sono stati rinominati avvisi ONTAP .</block>
@@ -380,8 +379,6 @@
   <block id="bff48bc8f1cd9f08f36e8d0c4fa810ff" category="paragraph">Scopri di più su<block ref="a53ad2061326060987afe3d1fd22d00d" category="inline-link-rx"></block> .</block>
   <block id="ba695b3cf8b635f89946173735838948" category="section-title">Caching dei bordi</block>
   <block id="7659a4df75917e662ad56e3eeb883afe" category="paragraph">Il servizio di edge caching è stato rimosso il 7 agosto 2024.</block>
-  <block id="8550fddd746d7726347622638caabf0e" category="paragraph">Direttiva non risolta in &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/storage-management-google-cloud-netapp-volumes/main/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
-  <block id="c38ff7255b06912e6bfba337f607b067" category="paragraph">Direttiva non risolta in &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/storage-management-google-cloud-storage/main/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">22 settembre 2025</block>
   <block id="e83b5a250e0912f549b3d3758e90e680" category="section-title">Aggiunta del monitoraggio degli avvisi</block>
   <block id="eff9717b3e6b80befe3a05db7b3e6a1d" category="paragraph">La dashboard Keystone in BlueXP ora include una scheda *Monitoraggio* per gestire avvisi e monitoraggi in tutti i tuoi abbonamenti. Questa nuova scheda ti consente di:</block>
@@ -402,14 +399,12 @@
   <block id="4ac75c7e9ef3301446bb1108a0761fd8" category="paragraph">Il supporto per l'individuazione e la gestione dei cluster Kubernetes è stato rimosso il 7 agosto 2024.</block>
   <block id="ac7b3cf10ea08c788a374e0291742517" category="section-title">Rapporti di migrazione</block>
   <block id="080f313851ea933f8837533bd9d2015d" category="paragraph">Il servizio di segnalazione delle migrazioni è stato rimosso il 7 agosto 2024.</block>
-  <block id="ba1556d34583c474fab50f0a69230b0a" category="paragraph">Direttiva non risolta in &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
   <block id="efc0c4f71709b261c273fb935757cfae" category="section-title">Resilienza operativa</block>
   <block id="5f2e609dafef66bdac17d517b701b5cd" category="paragraph">Le funzionalità di resilienza operativa sono state rimosse il 22 agosto 2025.</block>
   <block id="e53b07ba66e79a2d740d3ecd4db054db" category="paragraph">Direttiva non risolta in &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/data-services-ransomware-resilience/main/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
   <block id="282baca6aef56652f503adce6afa9f07" category="section-title">Bonifica</block>
   <block id="d80d66faf1506d2c22d481620ab133ea" category="paragraph">Il servizio di bonifica è stato rimosso il 22 aprile 2024.</block>
   <block id="415a9b0499c8358f57046142d870bf77" category="paragraph">Direttiva non risolta in &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/data-services-replication/main/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
-  <block id="fe7ce63686ee4c7c86055fb800fb1d0b" category="paragraph">Direttiva non risolta in &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/console-software-updates/main/release-notes/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
   <block id="b5a69118f32e3db146c29d98f8baf80d" category="paragraph">Direttiva non risolta in &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/storage-managment-storagegrid/main/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
   <block id="ec5be73f5b6f32ab0f879db6114d6b44" category="paragraph">Direttiva non risolta in &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/data-service-cloud-tiering/main/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
   <block id="dbffe2253db6b5aaefd3b4582fd8f6a7" category="paragraph">Direttiva non risolta in &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/console-volume-caching/main/release-notes/cache-whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
@@ -447,4 +442,162 @@
   <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">Servizi dati NetApp</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunità NetApp</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">Modifiche recenti</block>
+  <block id="91d6aafc857e46203357e992ab4434f8" category="section-title">6 ottobre 2025</block>
+  <block id="0b0a6d9ce7462fc9a218e93ccbee32e7" category="section-title">Menu e pagine di navigazione</block>
+  <block id="7ceea4a6639fef28fae4477857f229e5" category="paragraph">NetApp ha spostato la maggior parte delle opzioni del menu nel riquadro di navigazione a sinistra e ha riorganizzato i menu per una navigazione più semplice nella console NetApp .</block>
+  <block id="4fa56c3d158c844dc75b2826ee4c98d0" category="section-title">Canvas è sostituito dalla pagina Sistemi</block>
+  <block id="e98962c5bb7d0d1afd483518e730b4c8" category="paragraph">NetApp ha rinominato Canvas nella pagina *Sistemi*. Accedere alla pagina *Sistema* dal menu *Archiviazione &gt; Gestione*.</block>
+  <block id="ddd56b1479dbec10cfb6fc0a3a8afe57" category="inline-image-macro">Uno screenshot della pagina dei sistemi.</block>
+  <block id="028a5defa734a1e5527100ece8ea2e66" category="paragraph"><block ref="028a5defa734a1e5527100ece8ea2e66" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e6ee78fd171283b1b449978ae0c73e06" category="section-title">Menu di archiviazione espanso</block>
+  <block id="52f2049d6a6b3b78ceb9820e5ce16a9d" category="paragraph">Il menu *Archiviazione* include anche *Avvisi* per visualizzare gli avvisi del sistema ONTAP e *Pianificazione del ciclo di vita* (in precedenza *Efficienza economica*) per identificare risorse inutilizzate o sottoutilizzate.</block>
+  <block id="b75b41949ffca5829d6a1887ecf0ebd4" category="paragraph">NetApp ha inoltre spostato Keystone nel menu *Archiviazione*, dove è possibile gestire gli abbonamenti NetApp Keystone e visualizzarne l'utilizzo.</block>
+  <block id="0bc00d5c9372c38aa1f6078843c22005" category="inline-image-macro">Uno screenshot del menu Archiviazione.</block>
+  <block id="748eeb353f241e217120dfabd2fa058d" category="paragraph"><block ref="748eeb353f241e217120dfabd2fa058d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0e279d1eb32921bbbc940faea63f4db6" category="section-title">Menu di amministrazione</block>
+  <block id="08386d27df9de73a030b8e5da1f8112b" category="paragraph">Utilizzare il menu centralizzato *Amministrazione* per gestire la console NetApp , i casi di supporto, le licenze e gli abbonamenti (in precedenza denominati portafoglio digitale).</block>
+  <block id="c952530b2009e9e6caa227e55b2c5e17" category="inline-image-macro">Uno screenshot del menu Amministrazione.</block>
+  <block id="728ef7c59bd4ee6cc2dc652bfa8b7724" category="paragraph"><block ref="728ef7c59bd4ee6cc2dc652bfa8b7724" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e50100ff2f51950e126a3dbaa4b4ef09" category="section-title">Menù della salute</block>
+  <block id="ad7e4f5f6f60985f3399015db62758db" category="paragraph">Un efficiente menu *Salute* include *Aggiornamenti software*, dove puoi gestire gli aggiornamenti software ONTAP , *Sostenibilità*, dove puoi monitorare il tuo impatto ambientale, e * Digital Advisor*, dove puoi ottenere consigli proattivi per ottimizzare il tuo ambiente di archiviazione.</block>
+  <block id="57c608afd91ed07846d392ab3573d362" category="inline-image-macro">Uno screenshot del menu salute.</block>
+  <block id="378c09e0c5c36dad3c574eb6116e190d" category="paragraph"><block ref="378c09e0c5c36dad3c574eb6116e190d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0faa8df8101b114b9791a097a9ee9c24" category="section-title">Menù di governance</block>
+  <block id="f6edeb6fe9d83e893f282e018535255e" category="paragraph">Il menu *Governance* include *Classificazione dati*, in cui è possibile gestire la classificazione e la conformità dei dati, e *Hub automazione*, in cui è possibile creare e gestire flussi di lavoro di automazione.</block>
+  <block id="d84377f0ff9f4c9d765690e219a05b9e" category="inline-image-macro">Uno screenshot del menu Governance.</block>
+  <block id="ee631e6affe0c80b3b6fcb825e738791" category="paragraph"><block ref="ee631e6affe0c80b3b6fcb825e738791" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f5bafc8e64005ab8e0ab21be6dd862ea" category="section-title">Denominazione più intuitiva di elementi, servizi dati e funzionalità</block>
+  <block id="d17c4f20c3bce4ab77d1716163da4ea8" category="paragraph">NetApp ha rinominato diversi elementi, servizi dati e funzionalità per chiarirne lo scopo. Le principali modifiche includono:</block>
+  <block id="7a07575f34b771108115df89d720fe52" category="cell">*Nome precedente*</block>
+  <block id="44f7d4416512ddf1752dda33cbe7f320" category="cell">* Nome della console NetApp *</block>
+  <block id="fe4a785cf549e843e958f443c4baf0fe" category="cell">Connettori</block>
+  <block id="e31b45fe41b7087523da6d9cd8dffb81" category="paragraph">Agenti della console.</block>
+  <block id="19e700ebc01a62f4b2c6e556e26b940b" category="paragraph">Visualizza, aggiungi e gestisci i tuoi agenti dal menu *Amministrazione &gt; Agenti*.</block>
+  <block id="f3ce4049040b68c57f0cafd280f3373b" category="cell">Pagina della cronologia</block>
+  <block id="50c786c9efcadf10b6b80a91b4bb98cf" category="paragraph">Pagina di controllo</block>
+  <block id="cad5a8979fad73eaeb6c7d23e28457ba" category="paragraph">Visualizza l'attività della Console di controllo dal menu *Amministrazione &gt; Controllo*.</block>
+  <block id="8e7eaac4ef6ddba0d9f93228ce3ac6e7" category="cell">Ambienti di lavoro</block>
+  <block id="d685640410801eb03bb5dcb58186458f" category="paragraph">Sistemi</block>
+  <block id="e0c587dd9b957ebcce9c74f98e436000" category="paragraph">Visualizza, aggiungi e gestisci i tuoi sistemi dal menu *Archiviazione &gt; Gestione*.</block>
+  <block id="735f4e13421d56ac8c83fdc3365fad9c" category="cell">Protezione da BlueXP Ransomware</block>
+  <block id="5f7dcc012fb17e5ef25c0e9b228b1a8e" category="paragraph">Resilienza al ransomware NetApp .</block>
+  <block id="daef547b38d58d888634bb4fe08a23e0" category="paragraph">Ransomware Resilience ti aiuta a proteggere i tuoi dati e a ripristinarli rapidamente in caso di attacco ransomware.</block>
+  <block id="b66bedd32eaff49a6390c88238f395f5" category="cell">Efficienza economica BlueXP</block>
+  <block id="32e6b958eebb891547bf5b4b37d42a7f" category="paragraph">Pianificazione del ciclo di vita.</block>
+  <block id="e91bdd645f7798803bc207638d6d3c27" category="paragraph">La pianificazione del ciclo di vita ti aiuta a ottimizzare i costi di archiviazione identificando le risorse inutilizzate e sottoutilizzate.</block>
+  <block id="c9bd396dd578097c35b3241940da1230" category="paragraph">Accedi alla pianificazione del ciclo di vita dal menu *Archiviazione &gt; Pianificazione del ciclo di vita*.</block>
+  <block id="7b432de78427e2c7ffdddf3f0a09ce52" category="cell">BlueXP digital wallet</block>
+  <block id="ed953e52298021637dc37dfec02d9323" category="paragraph">Accedi alle tue licenze e abbonamenti dal menu *Amministrazione &gt; Licenze e abbonamenti*.</block>
+  <block id="033ce09819d553e6a77430de2f0cc899" category="section-title">Agenti della console</block>
+  <block id="d2d1eb94e91e72bdca67bd206b054558" category="inline-image-macro">icona dell'agente</block>
+  <block id="7773425689d5ab5b9a1be7e31c52c4a7" category="paragraph">Accedi e gestisci i tuoi agenti della Console dal menu *Amministrazione &gt; Agenti*. NetApp ha modificato la modalità di selezione di un agente Console per la pagina *Sistemi* (in precedenza Canvas). NetApp ha sostituito il nome del menu Connector con un'icona<block ref="93f7aa9936b9725d0b2b0bfbfa2fc281" category="inline-image-macro-rx" type="image"></block> , consentendo di selezionare l'agente della console per il quale si desidera visualizzare i sistemi.</block>
+  <block id="43155746ba0b5973d604a490f600c989" category="inline-image-macro">Uno screenshot che mostra l'icona per selezionare un agente della console.</block>
+  <block id="d3a37486dd13699585fc59edd97919c4" category="paragraph"><block ref="d3a37486dd13699585fc59edd97919c4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bb03cbb803285b4d26cf9d785c0ae5e9" category="paragraph">Puoi anche gestire i tuoi agenti dal menu *Amministrazione &gt; Agenti*.</block>
+  <block id="cfde44a1d64ad07d145912a2754ce1b8" category="section-title">Agente console 4.0.0</block>
+  <block id="cf7d8a05b87bc06aab139657051d5069" category="paragraph">Questa versione dell'agente Console include miglioramenti della sicurezza, correzioni di bug e le seguenti nuove funzionalità.</block>
+  <block id="e95d0df05962f4456b8b569c54b396c6" category="paragraph">La versione 4.0.0 è disponibile per la modalità standard e la modalità limitata.</block>
+  <block id="5412276bd0dd11677309c5862e9a5a84" category="section-title">Consolidamento e riduzione degli endpoint di rete richiesti</block>
+  <block id="d0994d4e248da3f28077f3de0aa07b31" category="paragraph">NetApp ha ridotto gli endpoint di rete richiesti per la Console e gli agenti della Console, migliorando la sicurezza e semplificando la distribuzione. È importante sottolineare che tutte le distribuzioni precedenti alla versione 4.0.0 continuano a essere pienamente supportate. Sebbene gli endpoint precedenti rimangano disponibili per gli agenti esistenti, NetApp consiglia vivamente di aggiornare le regole del firewall agli endpoint correnti dopo aver confermato il corretto aggiornamento degli agenti.</block>
+  <block id="4691a33bfa50c006ca907ff0f1c2ff22" category="inline-link-macro">Scopri come aggiornare l'elenco degli endpoint</block>
+  <block id="cca12c7916c4a96b099460567ed56f7b" category="list-text"><block ref="8aad0fd6d4c3bc8fa0ee8715b00de090" category="inline-link-macro-rx"></block> .</block>
+  <block id="8880ac717c8ca7c5aacda1dbf0aa76b4" category="inline-link-macro">Scopri di più sugli endpoint richiesti.</block>
+  <block id="a65e1c365f170de138a296cb93571b83" category="list-text"><block ref="a65e1c365f170de138a296cb93571b83" category="inline-link-macro-rx"></block></block>
+  <block id="dcd681e02807cfe12b61283485a64b57" category="section-title">Supporto per la distribuzione VCenter degli agenti della console</block>
+  <block id="9b0a2c601e03439be1fe2b9ef880e127" category="inline-link-macro">Scopri come distribuire un agente Console negli ambienti VMware.</block>
+  <block id="cffe1fd68203e313454b85ae5856ae08" category="paragraph">È possibile distribuire gli agenti Console negli ambienti VMware utilizzando un file OVA. Il file OVA include un'immagine VM preconfigurata con il software agente della console e le impostazioni per connettersi alla console NetApp . È possibile scaricare un file o distribuire un URL direttamente dalla console NetApp .<block ref="33dab07da8bdaaae6d651edc484f67e5" category="inline-link-macro-rx"></block></block>
+  <block id="8bff9036a0e031e7dda95305069dfec1" category="paragraph">L'agente Console OVA per VMware offre un'immagine VM preconfigurata per una rapida distribuzione.</block>
+  <block id="6b82c37590e99efd0ada7e5129dd156b" category="section-title">Report di convalida per distribuzioni di agenti non riuscite</block>
+  <block id="1f07edf6ae5cccdb5dacb637fe693758" category="paragraph">Quando si distribuisce un agente Console dalla console NetApp , ora è possibile convalidare la configurazione dell'agente. Se la Console non riesce a distribuire l'agente, fornisce un report scaricabile per aiutarti a risolvere il problema.</block>
+  <block id="4303212e6f242fe0a301876fa89b9f0b" category="section-title">Risoluzione dei problemi migliorata per gli agenti della console</block>
+  <block id="b9b61d414c60733fb8a9d314eec6960a" category="inline-link-macro">Scopri come risolvere i problemi degli agenti della console.</block>
+  <block id="79ab7cf55c7d04c02a94981a9a1b7b29" category="paragraph">L'agente Console ha migliorato i messaggi di errore che aiutano a comprendere meglio i problemi.<block ref="32afeb8eb0f9a2e606975b6efca2856e" category="inline-link-macro-rx"></block></block>
+  <block id="8fa7eaeb8daf07d8832ec17187b7b40c" category="paragraph">L'amministrazione della console NetApp include le seguenti nuove funzionalità:</block>
+  <block id="bbd516543defb57b86168970a68bacbc" category="section-title">Dashboard della home page</block>
+  <block id="7b8cf2fedf3cca7ede322904788b0cae" category="inline-link-macro">Scopri di più sulla Home page.</block>
+  <block id="0b4ba78ffe7e5b816acd3f4779bf2e31" category="paragraph">La dashboard della home page della console NetApp fornisce visibilità in tempo reale sull'infrastruttura di storage con parametri relativi a integrità, capacità, stato delle licenze e servizi dati.<block ref="a392b25af35cf84f37ebb9f5e7e08c09" category="inline-link-macro-rx"></block></block>
+  <block id="47105d63797f271c2b78d5946c933492" category="section-title">Assistente NetApp</block>
+  <block id="a8861fedd62c54a1b00e477632a5b154" category="inline-link-macro">Scopri di più sull'assistente NetApp .</block>
+  <block id="2c6715c3785597c583154106efeea2e1" category="paragraph">I nuovi utenti con il ruolo di amministratore dell'organizzazione possono utilizzare l'assistente NetApp per configurare la console, ad esempio aggiungendo un agente, collegando un account di supporto NetApp e aggiungendo un sistema di storage.<block ref="cf52c6bc60547e258cd0df64f6aa886e" category="inline-link-macro-rx"></block></block>
+  <block id="a8cf5dcf71de928606099ae1c8d8f013" category="section-title">Autenticazione dell'account di servizio</block>
+  <block id="7aa924231e684379b7afcb9eeb9ad17c" category="inline-link-macro">Scopri come aggiungere un account di servizio.</block>
+  <block id="b129ee41c5f872c46bf7e4db36dc2b80" category="paragraph">NetApp Console supporta l'autenticazione degli account di servizio tramite un ID client generato dal sistema e JWT segreti o gestiti dal cliente, consentendo alle organizzazioni di selezionare l'approccio più adatto ai propri requisiti di sicurezza e flussi di lavoro di integrazione. L'autenticazione client JWT con chiave privata utilizza la crittografia asimmetrica, garantendo una sicurezza più elevata rispetto ai tradizionali metodi basati su ID client e segreti. L'autenticazione client JWT con chiave privata utilizza la crittografia asimmetrica, mantenendo la chiave privata protetta nell'ambiente del cliente, riducendo i rischi di furto di credenziali e migliorando la sicurezza dello stack di automazione e delle applicazioni client.<block ref="7e8dcf3bb388bc5e251dcf07db89a3cb" category="inline-link-macro-rx"></block></block>
+  <block id="11ebae3aeeebe33c4ece3bbbe3f90b11" category="section-title">Timeout della sessione</block>
+  <block id="356b82733b779c0c497e4fc62a110dd6" category="paragraph">Il sistema disconnette gli utenti dopo 24 ore o quando chiudono il browser web.</block>
+  <block id="c7e6ddd86fe4d39f3918f17751cc4ad3" category="section-title">Supporto alle partnership tra organizzazioni</block>
+  <block id="a9ab376a5bad52d7ee221e700506cc9e" category="inline-link-macro">Impara a gestire le partnership</block>
+  <block id="2411f4620b5f32a3acd14ea2fad0ed3e" category="paragraph">Nella console NetApp è possibile creare partnership che consentono ai partner di gestire in modo sicuro le risorse NetApp oltre i confini aziendali, semplificando la collaborazione e rafforzando la sicurezza. <block ref="b8d27297b19f2fe0bb424605051fc774" category="inline-link-macro-rx"></block> .</block>
+  <block id="92f0509fbe9c844ac680a8239b748a5a" category="section-title">Ruoli di Super amministratore e Super visualizzatore</block>
+  <block id="78dc241469129405c4f4b99066b0c5c3" category="inline-link-macro">Scopri di più sui ruoli di accesso.</block>
+  <block id="70a83abfefc3ecf863e8c3f17d519877" category="paragraph">Aggiunti i ruoli di *Super amministratore* e *Super visualizzatore*. *Super amministratore* concede l'accesso completo alla gestione delle funzionalità della Console, all'archiviazione e ai servizi dati. *Super viewer* fornisce visibilità di sola lettura per revisori e stakeholder. Questi ruoli sono utili per team più piccoli composti da membri senior, in cui è comune un ampio accesso. Per una maggiore sicurezza e verificabilità, si consiglia alle organizzazioni di utilizzare con parsimonia l'accesso *Super amministratore* e di assegnare ruoli specifici ove possibile.<block ref="f4af18406bc0e89aecbeeb674238cfbe" category="inline-link-macro-rx"></block></block>
+  <block id="112ab4deb7f2f69c7af42547046b472f" category="section-title">Ruolo aggiuntivo per la resilienza al ransomware</block>
+  <block id="79c16752c4b3871128ff6761df92be41" category="paragraph">Aggiunti i ruoli *Ransomware Resilience user behavior admin* e *Ransomware Resilience user behavior viewer*. Questi ruoli consentono agli utenti di configurare e visualizzare rispettivamente i dati analitici e quelli relativi al comportamento degli utenti.<block ref="f4af18406bc0e89aecbeeb674238cfbe" category="inline-link-macro-rx"></block></block>
+  <block id="9c1c5b1b2bca352ed0ccb3521d870e14" category="section-title">Chat di supporto rimossa</block>
+  <block id="6a6050b7d9c0524d1d41dffdc70d6613" category="paragraph">NetApp ha rimosso la funzionalità di chat di supporto dalla console NetApp . Utilizzare la pagina *Amministrazione &gt; Supporto* per creare e gestire i casi di supporto.</block>
+  <block id="b9d888f58b09c4007db0247286e392b5" category="section-title">11 agosto 2025</block>
+  <block id="b21ef378da4454971a6488eacb2b5c87" category="section-title">Connettore 3.9.55</block>
+  <block id="7c5236578de836eb6dde25bc3e995d02" category="paragraph">Questa versione di BlueXP Connector include miglioramenti della sicurezza e correzioni di bug.</block>
+  <block id="95d98fc23d5487afb84beeeea8decb64" category="paragraph">La versione 3.9.55 è disponibile per la modalità standard e la modalità limitata.</block>
+  <block id="6c88af8a9c03b6578eb8087b3113c649" category="section-title">Supporto per la lingua giapponese</block>
+  <block id="a73649d115bb7a94bbfab3b7d4f15ddf" category="paragraph">L'interfaccia utente BlueXP è ora disponibile in lingua giapponese. Se la lingua del tuo browser è il giapponese, BlueXP verrà visualizzato in giapponese. Per accedere alla documentazione in giapponese, utilizzare il menu della lingua sul sito web della documentazione.</block>
+  <block id="63c109031bd5690629b7c9170bf3f4e8" category="section-title">Funzione di resilienza operativa</block>
+  <block id="873883e64c5f2d509253776eb02b66b4" category="paragraph">La funzionalità di resilienza operativa è stata rimossa da BlueXP. In caso di problemi, contattare l'assistenza NetApp .</block>
+  <block id="5c4a2c71456e5295a9492bb06d95be3d" category="section-title">Gestione dell'identità e degli accessi (IAM) BlueXP</block>
+  <block id="65bb19480004be81c6ef8d7f7ef40e2f" category="paragraph">La gestione delle identità e degli accessi in BlueXP ora offre la seguente funzionalità.</block>
+  <block id="db971a19c27a52f19f1811c52c55dc2d" category="section-title">Nuovo ruolo di accesso per il supporto operativo</block>
+  <block id="9a69bf13bbd4a86f23945e6b153f3913" category="paragraph">BlueXP ora supporta il ruolo di analista di supporto operativo. Questo ruolo concede all'utente le autorizzazioni per monitorare gli avvisi di archiviazione, visualizzare la cronologia degli audit BlueXP e inserire e tenere traccia dei casi di supporto NetApp .</block>
+  <block id="f52cf765b6d2324047bf70dbb3a134b2" category="inline-link-macro">Scopri di più sull'utilizzo dei ruoli di accesso.</block>
+  <block id="fa37736e47ccc44e2228f573f9d2a303" category="paragraph"><block ref="fa37736e47ccc44e2228f573f9d2a303" category="inline-link-macro-rx"></block></block>
+  <block id="328e39c031d3f6a77403904d6dda2377" category="section-title">31 luglio 2025</block>
+  <block id="8ec07d17b9626eed73b7d8c3ecb0e32f" category="section-title">Rilascio della modalità privata (3.9.54)</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">Sito di supporto NetApp</block>
+  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">Una nuova versione in modalità privata è ora disponibile per il download da<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block></block>
+  <block id="e57098a6bb00611fdfd163e39e3448e8" category="paragraph">La versione 3.9.54 include aggiornamenti ai seguenti componenti e servizi BlueXP .</block>
+  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">Componente o servizio</block>
+  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">Versione inclusa in questa versione</block>
+  <block id="5431c829b8b64da3908e102d64527909" category="cell">Modifiche rispetto alla precedente versione della modalità privata</block>
+  <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="cell">Connettore</block>
+  <block id="9cc4b579fbb9d233102b44ff5119e060" category="cell">3.9.54, 3.9.53</block>
+  <block id="4e7c2b7c3f7b00a4db742817336d985b" category="inline-link">novità nella pagina BlueXP</block>
+  <block id="fb973b0a3719c8d26b960aed72e4fe3f" category="cell">Vai al<block ref="f2bb5a2291ad18ff55b18a4b4553234a" category="inline-link-rx"></block> e fare riferimento alle modifiche incluse per le versioni 3.9.54 e 3.9.53.</block>
+  <block id="be062cdcabbb3055334e8f19b4bdf378" category="cell">Backup e ripristino</block>
+  <block id="67c66b3b8df7b2dee0354dd9f9fcec17" category="cell">28 luglio 2025</block>
+  <block id="57d300ca1fdd6058fd2a0882b05ba831" category="inline-link">novità nella pagina BlueXP backup and recovery</block>
+  <block id="72d49cd6d8e65ef0285be68616ea0f51" category="cell">Vai al<block ref="d08346bd70ea49c38d1ac500c69dd11c" category="inline-link-rx"></block> e fare riferimento alle modifiche incluse nella versione di luglio 2025.</block>
+  <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="cell">Classificazione</block>
+  <block id="9285fd96738351d44da30f801dea109b" category="cell">14 luglio 2025 (versione 1.45)</block>
+  <block id="79d6fb7fcd1197d45638c77f96548314" category="inline-link">novità nella pagina BlueXP classification</block>
+  <block id="b3b08e322117d7e66cdd302866bc6d85" category="cell">Vai al<block ref="bb3538c6013ff73961739d7c28fee95d" category="inline-link-rx"></block> .</block>
+  <block id="6aa6935f7c0067aba2624a4ad2862e39" category="paragraph">Per maggiori dettagli sulla modalità privata, incluso come effettuare l'aggiornamento, fare riferimento a quanto segue:</block>
+  <block id="a52b83d1b32a42f8a6aff3771048ba3c" category="inline-link">Scopri di più sulla modalità privata</block>
+  <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
+  <block id="8156defa13b44a36e67cab400c3b8bd4" category="inline-link">Scopri come iniziare a usare BlueXP in modalità privata</block>
+  <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
+  <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">Scopri come aggiornare il connettore quando utilizzi la modalità privata</block>
+  <block id="e5d325f390c70091b07096d63ab8f353" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block></block>
+  <block id="42940073696c6deef8332d7bdf67ab44" category="paragraph">Per i dettagli su cosa è cambiato, vedere il<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block> . == 10 luglio 2023</block>
+  <block id="5a6d96b9a020e520981bf7fe4c7af203" category="section-title">Possibilità di aggiungere nuovi bucket e gestire quelli esistenti da BlueXP</block>
+  <block id="2706c3785e1f78099c28d555600c918b" category="inline-link">Scopri come aggiungere nuovi bucket di Google Cloud Storage</block>
+  <block id="00079c5af8b652f708d4b2d3c217dce6" category="paragraph">È possibile visualizzare i bucket di Google Cloud Storage su BlueXP Canvas per un bel po' di tempo. Ora puoi aggiungere nuovi bucket e modificare le proprietà di quelli esistenti direttamente da BlueXP.<block ref="493cc79f245c411ab616a87cbaf9a9f5" category="inline-link-rx"></block> .</block>
+  <block id="2ef72cc8a56fc5999e258b450b9fca24" category="paragraph">Per i dettagli su cosa è cambiato, vedere<block ref="06d876b9fcdfcba8772d93beac1ca38b" category="inline-link-macro-rx"></block> .</block>
+  <block id="800c173937521899b70a4ab5d735d3d7" category="paragraph">Per i dettagli su cosa è cambiato, vedere il<block ref="b78e17cf58c4e309929c8d6a69594c7d" category="inline-link-macro-rx"></block> .</block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">12 maggio 2025</block>
+  <block id="1da5a40083bd16c3443e7eda42875506" category="section-title">Ruolo di accesso BlueXP richiesto</block>
+  <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">Scopri di più sui ruoli di accesso.</block>
+  <block id="c33f8c65624465d916ec23f462428c02" category="paragraph">Per visualizzare, individuare o gestire i cluster ONTAP locali, ora è necessario uno dei seguenti ruoli di accesso: amministratore dell'organizzazione, amministratore di cartelle o progetti, amministratore di archiviazione o specialista dell'integrità del sistema. <block ref="77eb7cc86be774e9cb4fdfac100bd232" category="inline-link-macro-rx"></block></block>
+  <block id="d415b73567ff8e090cdf21c20afeaa64" category="section-title">26 novembre 2024</block>
+  <block id="613fbbb3f2dbf238c8527a537252e8ed" category="section-title">Supporto per sistemi ASA r2 con modalità privata</block>
+  <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">Ora è possibile individuare i sistemi NetApp ASA r2 quando si utilizza BlueXP in modalità privata. Questo supporto è disponibile a partire dalla versione 3.9.46 in modalità privata di BlueXP.</block>
+  <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">Scopri di più sui sistemi ASA r2</block>
+  <block id="a7c7539e11570decc041c60258667032" category="list-text"><block ref="a7c7539e11570decc041c60258667032" category="inline-link-rx"></block></block>
+  <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">Scopri di più sulle modalità di distribuzione di BlueXP</block>
+  <block id="1fbeb219941cbb548a79e88d779ddaeb" category="list-text"><block ref="1fbeb219941cbb548a79e88d779ddaeb" category="inline-link-rx"></block></block>
+  <block id="cd3f28b2e598d8cf73182a1f91e56bd2" category="section-title">Gli BlueXP software updates sono ora aggiornamenti software</block>
+  <block id="c427d923073409f1bf94d8ce5a7ec6e8" category="paragraph">Gli BlueXP software updates sono stati rinominati aggiornamenti software.</block>
+  <block id="6054363caf6b8dcd4fa522e9440e82cd" category="paragraph">È possibile accedervi dalla barra di navigazione sinistra della console NetApp selezionando *Integrità* &gt; *Aggiornamenti software*.</block>
+  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link-macro">Scopri di più sui ruoli di accesso BlueXP .</block>
+  <block id="0ba1431a5e1efd67eb75f1a5872b7907" category="paragraph">Per installare gli aggiornamenti software, ora è necessario uno dei seguenti ruoli di accesso: *Amministratore organizzazione*, *Amministratore cartella o progetto*, *Amministratore archiviazione*, *Visualizzatore archiviazione* o *Specialista integrità archiviazione*. Gli utenti con il ruolo di visualizzatore di archiviazione dispongono di varie autorizzazioni relative agli aggiornamenti software, ma non possono installare aggiornamenti software.<block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="47388f68695ab5799ff2adfb33bca00d" category="section-title">02 aprile 2025</block>
+  <block id="f50a226c5a51111405309ae78236d95d" category="section-title">Rischi mitigati</block>
+  <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">Nella sezione riepilogativa degli BlueXP software updates, ora è possibile visualizzare il numero totale di rischi che possono essere mitigati dall'aggiornamento del sistema operativo. Ciò consente agli utenti di valutare i miglioramenti in termini di sicurezza e stabilità della propria base di installazione.</block>
 </blocks>

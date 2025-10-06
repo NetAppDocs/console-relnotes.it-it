@@ -1,0 +1,33 @@
+= Nuova gestione delle policy per i dati ONTAP
+:allow-uri-read: 
+
+
+
+
+=== Nuova gestione delle policy per i dati ONTAP
+
+Questa versione include la possibilità all'interno dell'interfaccia utente di creare policy Snapshot personalizzate, policy di replica e policy per i backup nell'archiviazione di oggetti per i dati ONTAP .
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["Scopri di più sulle politiche"] .
+
+
+
+=== Supporto per il ripristino di file e cartelle da volumi nell'archiviazione di oggetti ONTAP S3
+
+In precedenza, non era possibile ripristinare file e cartelle utilizzando la funzionalità "Sfoglia e ripristina" quando i volumi venivano sottoposti a backup nell'archiviazione di oggetti ONTAP S3.  Questa versione rimuove tale restrizione.
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["Scopri di più sul ripristino dei dati"] .
+
+
+
+=== Possibilità di archiviare immediatamente i dati di backup anziché scriverli prima sullo storage standard
+
+Ora puoi inviare immediatamente i tuoi file di backup all'archivio anziché scrivere i dati nell'archiviazione cloud standard.  Ciò può essere particolarmente utile per gli utenti che hanno raramente bisogno di accedere ai dati dai backup su cloud o per gli utenti che stanno sostituendo un ambiente di backup su nastro.
+
+
+
+=== Supporto aggiuntivo per il backup e il ripristino dei volumi SnapLock
+
+Il backup e il ripristino ora possono eseguire il backup dei volumi FlexVol e FlexGroup configurati utilizzando le modalità di protezione SnapLock Compliance o SnapLock Enterprise .  Per usufruire di questo supporto, i cluster devono eseguire ONTAP 9.14 o versione successiva.  Il backup dei volumi FlexVol mediante la modalità SnapLock Enterprise è supportato a partire dalla versione 9.11.1 ONTAP .  Le versioni precedenti ONTAP non forniscono alcun supporto per il backup dei volumi di protezione SnapLock .
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["Scopri di più sulla protezione dei dati ONTAP"] .

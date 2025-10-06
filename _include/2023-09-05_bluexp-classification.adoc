@@ -1,0 +1,21 @@
+= Piccole e medie implementazioni temporaneamente non disponibili
+:allow-uri-read: 
+
+
+
+
+=== Piccole e medie implementazioni temporaneamente non disponibili
+
+Quando si distribuisce un'istanza di BlueXP classification in AWS, l'opzione per selezionare *Distribuisci > Configurazione* e scegliere un'istanza di piccole o medie dimensioni non è al momento disponibile.  È comunque possibile distribuire l'istanza utilizzando le dimensioni dell'istanza di grandi dimensioni selezionando *Distribuisci > Distribuisci*.
+
+
+
+=== Applica tag a un massimo di 100.000 elementi dalla pagina Risultati dell'indagine
+
+In passato era possibile applicare i tag solo a una pagina alla volta nella pagina Risultati dell'indagine (20 elementi).  Ora puoi selezionare *tutti* gli elementi nelle pagine dei risultati dell'indagine e applicare tag a tutti gli elementi, fino a 100.000 elementi alla volta. https://docs.netapp.com/us-en/bluexp-classification/task-org-private-data.html#assigning-tags-to-files["Guarda come"] .
+
+
+
+=== Identifica i file duplicati con una dimensione minima di 1 MB
+
+La BlueXP classification veniva utilizzata per identificare i file duplicati solo quando i file erano di 50 MB o più grandi.  Ora è possibile identificare i file duplicati che iniziano con 1 MB.  È possibile utilizzare i filtri "Dimensioni file" insieme a "Duplicati" della pagina Indagine per vedere quali file di una determinata dimensione sono duplicati nel proprio ambiente.

@@ -1,0 +1,7 @@
+= 
+:allow-uri-read: 
+
+
+* Puoi accedere alla pagina Upgrade Advisor per la tua watchlist predefinita utilizzandolink:https://activeiq.netapp.com/redirect/upgrade-advisor["Consulente per l'aggiornamento"^] collegamento.
+* Il piano di aggiornamento è ottimizzato per eliminare i passaggi di aggiornamento ridondanti e semplificare il piano di backout.  I passaggi comuni a tutti i nodi di un cluster sono consolidati e disponibili nella sezione delle informazioni generali all'interno del piano di aggiornamento. link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["Scopri come generare e visualizzare il piano di aggiornamento"] .
+

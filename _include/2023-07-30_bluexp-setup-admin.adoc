@@ -1,0 +1,21 @@
+= 
+:allow-uri-read: 
+
+
+* Ora è possibile utilizzare l'API del servizio di audit BlueXP per esportare i registri di audit.
++
+Il servizio di audit registra le informazioni sulle operazioni eseguite dai servizi BlueXP .  Ciò include spazi di lavoro, connettori utilizzati e altri dati di telemetria.  È possibile utilizzare questi dati per determinare quali azioni sono state eseguite, chi le ha eseguite e quando si sono verificate.
+
++
+https://docs.netapp.com/us-en/bluexp-automation/audit/overview.html["Scopri di più sull'utilizzo dell'API del servizio di audit"^]
+
++
+Si noti che questo collegamento è accessibile anche dall'interfaccia utente BlueXP nella pagina Timeline.
+
+* Questa versione del connettore include anche miglioramenti Cloud Volumes ONTAP e miglioramenti del cluster ONTAP on-prem.
++
+** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#30-july-2023["Scopri i miglioramenti Cloud Volumes ONTAP"^]
+** https://docs.netapp.com/us-en/bluexp-ontap-onprem/whats-new.html#30-july-2023["Scopri i miglioramenti del cluster ONTAP on-prem"^]
+
+
+

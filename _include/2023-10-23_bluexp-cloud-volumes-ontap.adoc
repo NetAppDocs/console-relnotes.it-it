@@ -1,0 +1,23 @@
+= Nuove regioni supportate per distribuzioni HA con più zone di disponibilità in Azure
+:allow-uri-read: 
+
+
+Con la versione 3.9.34 del Connector sono state introdotte le seguenti modifiche.
+
+
+
+=== Nuove regioni supportate per distribuzioni HA con più zone di disponibilità in Azure
+
+Le seguenti regioni di Azure ora supportano distribuzioni con più zone di disponibilità ad alta disponibilità per Cloud Volumes ONTAP 9.14.0 e versioni successive:
+
+* Australia orientale
+* Asia orientale
+* Francia Centrale
+* Nord Europa
+* Qatar Centrale
+* Svezia centrale
+* Europa occidentale
+* Stati Uniti occidentali 2
+
+
+Per un elenco di tutte le regioni che supportano più zone di disponibilità, vedere https://bluexp.netapp.com/cloud-volumes-global-regions["Mappa delle regioni globali in Azure"^] .

@@ -1105,4 +1105,5 @@
   <block id="5b6034f39325a10d9f5315c86847a208" category="list-text">Se nel piano di replica è stato utilizzato l'FQDN NFS, NetApp Disaster Recovery ora lo risolve in un indirizzo IP. Questo aggiornamento è utile se il nome di dominio completo (FQDN) non è risolvibile nel sito di ripristino di emergenza.</block>
   <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">Miglioramenti dell'allineamento dell'interfaccia utente</block>
   <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">Miglioramenti del registro per acquisire i dettagli delle dimensioni di vCenter dopo la corretta individuazione</block>
+  <block id="33b87914ae72ad3c394fc1f941a94c8c" category="list-text">Cerca e ripristina i backup delle VM da storage primario, secondario e di oggetti</block>
 </blocks>

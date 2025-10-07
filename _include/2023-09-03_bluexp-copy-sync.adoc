@@ -14,6 +14,6 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 === Aggiungere chiavi S3 durante la creazione di Azure Data Broker
 
-Gli utenti possono ora aggiungere chiavi di accesso e chiavi segrete AWS S3 durante la creazione di un broker di dati Azure.
+Gli utenti possono ora aggiungere chiavi di accesso e chiavi segrete AWS S3 durante la creazione di un broker di dati di Azure.
 
 https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#creating-the-data-broker["Scopri di più sulla creazione di un broker di dati in Azure."]

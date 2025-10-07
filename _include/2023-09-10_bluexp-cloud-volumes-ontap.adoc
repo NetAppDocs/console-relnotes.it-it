@@ -8,6 +8,6 @@ Con la versione 3.9.33 del Connector sono state introdotte le seguenti modifiche
 
 === Supporto per VM serie Lsv3 in Azure
 
-I tipi di istanza L48s_v3 e L64s_v3 sono ora supportati con Cloud Volumes ONTAP in Azure per distribuzioni a nodo singolo e a coppie ad alta disponibilità con dischi gestiti condivisi in zone di disponibilità singole e multiple, a partire dalla versione 9.13.1.  Questi tipi di istanza supportano Flash Cache.
+I tipi di istanza L48s_v3 e L64s_v3 sono ora supportati con Cloud Volumes ONTAP in Azure per distribuzioni a nodo singolo e a coppie ad alta disponibilità con dischi gestiti condivisi in zone di disponibilità singole e multiple, a partire dalla versione 9.13.1. Questi tipi di istanza supportano Flash Cache.
 
 link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Visualizza le configurazioni supportate per Cloud Volumes ONTAP in Azure"^] link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-limits-azure.html["Visualizza i limiti di archiviazione per Cloud Volumes ONTAP in Azure"^]

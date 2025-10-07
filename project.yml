@@ -10,7 +10,7 @@ settings:
   langs: it-it,us-en,de-de,es-es,fr-fr,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: Note sulla versione della console NetApp
+  - title: Note sulla versione NetApp Console
     url: "/index.html"
   - title: Modifiche recenti
     url: "/whats-new.html"

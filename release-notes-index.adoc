@@ -25,7 +25,7 @@ Visualizza il set completo di note di rilascio per le funzionalità NetApp Conso
 * https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["Hub di automazione"^]
 * https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["Consulente digitale"^]
 * https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["Efficienza economica"^]
-* https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["Licenze e abbonamenti"^]
+* https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["Licenses and subscriptions"^]
 * https://docs.netapp.com/us-en/console-software-updates/release-notes/whats-new.html["Aggiornamenti software"^]
 
 
@@ -38,7 +38,7 @@ Visualizza il set completo di note di rilascio per le funzionalità NetApp Conso
 * https://docs.netapp.com/us-en/storage-management-blob-storage/index.html["Archiviazione BLOB di Azure"^]
 * https://docs.netapp.com/us-en/storage-management-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
 * https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["Gestione di Cloud Volumes ONTAP nella console NetApp"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["Gestione di Cloud Volumes ONTAP nella NetApp Console"^]
 * https://docs.netapp.com/us-en/storage-management-e-series/whats-new.html["Sistemi della serie E"^]
 * https://docs.netapp.com/us-en/storage-management-google-cloud-netapp-volumes/whats-new.html["Google Cloud NetApp Volumes"^]
 * https://docs.netapp.com/us-en/storage-management-google-cloud-storage/whats-new.html["Google Cloud Storage"^]

@@ -568,7 +568,6 @@
   <block id="58770c745f8af8b420df40e44a144c15" category="section-title">05 giugno 2023</block>
   <block id="f9037e3eb23130835367334e3aa5a34b" category="section-title">Possibilità di aggiungere nuovi account di archiviazione da BlueXP</block>
   <block id="7e4c7c60d975edb27a163364c9868139" category="inline-xref-macro">Scopri come aggiungere nuovi account di archiviazione BLOB di Azure</block>
-  <block id="f85f92208aecee0545b9eedb64b14672" category="paragraph">È da un po' che hai la possibilità di visualizzare Azure Blob Storage su BlueXP Canvas. Ora puoi aggiungere nuovi account di archiviazione e modificare le proprietà degli account di archiviazione esistenti direttamente da BlueXP. <block ref="127c39654391bed812f2268282064990" category="inline-xref-macro-rx"></block> .</block>
   <block id="745be0d280d894f70c3f88e76f519456" category="paragraph">BlueXP è stato rinominato e riprogettato per riflettere meglio il suo ruolo nella gestione dell'infrastruttura dati.</block>
   <block id="7e4f7c37590688c797d9b40e3a3423e3" category="paragraph">NetApp Console offre una gestione centralizzata dei servizi di storage e dati in ambienti on-premise e cloud di livello aziendale, offrendo informazioni in tempo reale, flussi di lavoro più rapidi e amministrazione semplificata.</block>
   <block id="9d88b780dd182bc558e5dd7624d35838" category="paragraph">Per i dettagli su cosa è cambiato, vedere il<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> .</block>
@@ -1106,4 +1105,5 @@
   <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">Miglioramenti dell'allineamento dell'interfaccia utente</block>
   <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">Miglioramenti del registro per acquisire i dettagli delle dimensioni di vCenter dopo la corretta individuazione</block>
   <block id="33b87914ae72ad3c394fc1f941a94c8c" category="list-text">Cerca e ripristina i backup delle VM da storage primario, secondario e di oggetti</block>
+  <block id="986ddb500dcbfc5d9995ab28bc27a477" category="paragraph">È da un po' che hai la possibilità di visualizzare Azure Blob Storage su BlueXP Canvas. Ora puoi aggiungere nuovi account di archiviazione e modificare le proprietà degli account di archiviazione esistenti direttamente da BlueXP. <block ref="da5959ee38843473d9246184c88364f6" category="inline-link-macro-rx"></block> .</block>
 </blocks>

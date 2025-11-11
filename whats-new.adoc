@@ -32,47 +32,6 @@ Questa sezione descrive le nuove funzionalità relative alle funzionalità di am
 
 
 
-=== 06 ottobre 2025
-
-
-
-==== BlueXP è ora NetApp Console
-
-NetApp Console, basata sulle fondamenta BlueXP migliorate e ristrutturate, offre una gestione centralizzata dello storage NetApp e NetApp Data Services in ambienti on-premise e cloud di livello aziendale, offrendo informazioni in tempo reale, flussi di lavoro più rapidi e un'amministrazione semplificata, il tutto in modo altamente sicuro e conforme.
-
-Per i dettagli su cosa è cambiato, vederelink:https://docs.netapp.com/us-en/console-relnotes/index.html["Note sulla versione NetApp Console ."^]
-
-
-
-=== 03 agosto 2025
-
-
-
-==== Miglioramenti alla scheda Relazioni di replicazione
-
-Abbiamo aggiunto diverse nuove colonne alla tabella delle relazioni di replicazione per fornirti maggiori informazioni sulle relazioni di replicazione nella scheda *Relazioni di replicazione*. La tabella ora include le seguenti colonne:
-
-* Politica SnapMirror
-* File system sorgente
-* File system di destinazione
-* Stato della relazione
-* Ultimo orario di trasferimento
-
-
-
-
-=== 14 luglio 2025
-
-
-
-==== Supporto per la replica dei dati tra due file system FSx per ONTAP
-
-La replica dei dati è ora disponibile tra due file system FSx per ONTAP dalla canvas nella console BlueXP .
-
-link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-manage-fsx-systems.html#replicate-data["Replicare i dati"]
-
-
-
 == Archiviazione Amazon S3
 
 
@@ -222,24 +181,6 @@ Il servizio di edge caching è stato rimosso il 7 agosto 2024.
 
 
 == Google Cloud Storage
-
-
-
-=== 06 ottobre 2025
-
-
-
-==== BlueXP è ora NetApp Console
-
-NetApp Console, basata sulle fondamenta BlueXP migliorate e ristrutturate, offre una gestione centralizzata dello storage NetApp e NetApp Data Services in ambienti on-premise e cloud di livello aziendale, offrendo informazioni in tempo reale, flussi di lavoro più rapidi e un'amministrazione semplificata, il tutto in modo altamente sicuro e conforme.
-
-Per i dettagli su cosa è cambiato, vedere illink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Note sulla versione NetApp Console"] . == 10 luglio 2023
-
-
-
-==== Possibilità di aggiungere nuovi bucket e gestire quelli esistenti da BlueXP
-
-È possibile visualizzare i bucket di Google Cloud Storage su BlueXP Canvas per un bel po' di tempo. Ora puoi aggiungere nuovi bucket e modificare le proprietà di quelli esistenti direttamente da BlueXP. https://docs.netapp.com/us-en/storage-management-google-cloud-storage/task-add-gcp-bucket.html["Scopri come aggiungere nuovi bucket di Google Cloud Storage"] .
 
 
 

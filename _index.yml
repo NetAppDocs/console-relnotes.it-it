@@ -1,13 +1,13 @@
 ---
 indexpage:
   title: Note sulla versione NetApp Console
-  summary: Queste note di rilascio descrivono i recenti miglioramenti apportati a
-    NetApp Console e ai servizi dati da essa supportati.  Sono disponibili link al
-    set completo di note di rilascio per ogni singolo servizio.
+  summary: Scopri le modifiche più recenti apportate alle funzionalità e ai servizi
+    dati che fanno parte della NetApp Console. Per una cronologia completa delle versioni,
+    consultare il set completo di note di rilascio per ogni singolo servizio.
   keywords: release notes, enhancements, bluexp, what's new, netapp console, console
   lead: Queste note di rilascio descrivono i recenti miglioramenti apportati a NetApp
-    Console e ai servizi dati da essa supportati.  Sono disponibili link al set completo
-    di note di rilascio per ogni singolo servizio.
+    Console e ai servizi dati da essa supportati. Link al set completo di note di
+    rilascio per ogni singolo servizio.
   tiles:
   - title: Cosa c'è di nuovo
     links:

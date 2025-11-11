@@ -22,7 +22,7 @@ Visualizza il set completo di note di rilascio per le funzionalità NetApp Conso
 
 * https://docs.netapp.com/us-en/console-setup-admin/whats-new.html["Configurazione e amministrazione"^]
 * https://docs.netapp.com/us-en/console-alerts/whats-new.html["Avvisi"^]
-* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["Hub di automazione"^]
+* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["Catalogo di automazione"^]
 * https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["Consulente digitale"^]
 * https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["Efficienza economica"^]
 * https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["Licenses and subscriptions"^]

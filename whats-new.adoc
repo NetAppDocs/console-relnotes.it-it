@@ -72,6 +72,18 @@ link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-manage-
 
 
 
+=== Licenses and subscriptions
+
+
+
+==== Gestisci le preferenze di fatturazione
+
+Ora puoi configurare e gestire le *Preferenze di fatturazione* direttamente nella NetApp Console. Questo miglioramento consente agli amministratori di definire e visualizzare come l'utilizzo della capacità, i rinnovi e i costi vengono fatturati tra le licenze NetApp dirette, gli abbonamenti al cloud marketplace e l'accordo Keystone .
+
+Per ulteriori informazioni, vedere il .link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentazione sulle preferenze di fatturazione"]
+
+
+
 === Configurazione e amministrazione della console
 
 
@@ -143,6 +155,12 @@ Disaster Recovery ora arresta correttamente le VM anziché spegnerle. Se una det
 Ora è possibile inserire script personalizzati nel flusso di lavoro di failover da eseguire prima di creare un backup. Gli script di pre-backup consentono di controllare lo stato della VM prima che venga replicato uno snapshot e di preparare una VM per una transizione. Ad esempio, è possibile inserire uno script che smonta un mount NFS che verrà rimontato utilizzando uno script diverso dopo il failover.
 
 Per maggiori informazioni, vedere xref:drplan-create.html#map-resources-virtual-machines-section[Creare un piano di replica in NetApp Disaster Recovery].
+
+
+
+=== Resilienza al ransomware
+
+Questa versione include miglioramenti e miglioramenti generali.
 
 
 

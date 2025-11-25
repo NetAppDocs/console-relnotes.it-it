@@ -124,21 +124,6 @@
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">Amazon FSX per ONTAP</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">Cluster ONTAP on-premise</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
-  <block id="f7919ff057187672b74306b219aadaa0" category="doc">Supporto per la protezione dei carichi di lavoro VMware in anteprima</block>
-  <block id="5e8801556a1a15a279f09b79ad9c4141" category="paragraph">Questa versione aggiunge il supporto in anteprima per la protezione dei carichi di lavoro VMware. Esegui il backup di VM VMware e datastore dai sistemi ONTAP locali ad Amazon Web Services e StorageGRID.</block>
-  <block id="b7aad0efced7f2a5664d2d5fcafeac91" category="admonition">La documentazione sulla protezione dei carichi di lavoro VMware viene fornita come anteprima tecnologica. Con questa offerta di anteprima, NetApp si riserva il diritto di modificare i dettagli, i contenuti e la tempistica dell'offerta prima della disponibilità generale.</block>
-  <block id="5b3ee7a2b0e2cc1719a9dc8c2b849352" category="inline-link-macro">Scopri di più sulla protezione dei carichi di lavoro VMware con NetApp Backup and Recovery</block>
-  <block id="a4604657c4916d399ee4757122138b92" category="paragraph"><block ref="d36db2686cf22b4733dc580e6187e664" category="inline-link-macro-rx"></block>.</block>
-  <block id="e4fadb4a8e44a20b9cae72da5f43dd1c" category="section-title">L'indicizzazione ad alte prestazioni per AWS, Azure e GCP è generalmente disponibile</block>
-  <block id="d2437297e3bf3cd7adfa86f57b8629f0" category="paragraph">A febbraio 2025 abbiamo annunciato l'anteprima dell'indicizzazione ad alte prestazioni (Indexed Catalog v2) per AWS, Azure e GCP. Questa funzionalità è ora generalmente disponibile (GA). Nel giugno 2025 lo abbiamo fornito di default a tutti i _nuovi_ clienti. Con questa versione, il supporto è disponibile per _tutti_ i clienti. L'indicizzazione ad alte prestazioni migliora le prestazioni delle operazioni di backup e ripristino per i carichi di lavoro protetti nell'archiviazione di oggetti.</block>
-  <block id="5ced283cbe92781b3a48240fd1fde5cd" category="paragraph">Abilitato per impostazione predefinita:</block>
-  <block id="234f6b906c6e6adf3ab5f1a4906d5366" category="list-text">Se sei un nuovo cliente, l'indicizzazione ad alte prestazioni è abilitata per impostazione predefinita.</block>
-  <block id="3b98c4910d4638f409d4421b51847611" category="list-text">Se sei un cliente esistente, puoi abilitare la reindicizzazione andando alla sezione Ripristina dell'interfaccia utente.</block>
-  <block id="7e8fe67b005603b496012796735f2d36" category="doc">Monitoraggio dell'utilizzo logico migliorato con una nuova colonna</block>
-  <block id="b79d3069a7b9ca9140a5c9b1bf2f8d81" category="paragraph">È stata aggiunta una nuova colonna, Impronta totale, per migliorare il monitoraggio del consumo Keystone per i volumi FabricPool :</block>
-  <block id="729a65ff91860ad65935d125d788f643" category="list-text">* Dashboard Keystone in BlueXP*: puoi visualizzare la colonna *Impronta totale* nella scheda *Volumi nei cluster* all'interno della scheda *Risorse*.</block>
-  <block id="61f4e69294ec080e5cb7bce32f2f8b99" category="list-text">* Digital Advisor*: puoi visualizzare la colonna *Impronta totale* nella scheda *Dettagli volume* all'interno della scheda *Volumi e oggetti*.</block>
-  <block id="610355e82f0e7cf01bdfa1df13985f3f" category="paragraph">Questa colonna visualizza l'ingombro logico totale per i volumi che utilizzano la suddivisione in livelli FabricPool , inclusi i dati provenienti sia dai livelli di prestazioni che da quelli di cold, in modo da poter calcolare con precisione il consumo Keystone .</block>
   <block id="e83b5a250e0912f549b3d3758e90e680" category="doc">Aggiunta del monitoraggio degli avvisi</block>
   <block id="eff9717b3e6b80befe3a05db7b3e6a1d" category="paragraph">La dashboard Keystone in BlueXP ora include una scheda *Monitoraggio* per gestire avvisi e monitoraggi in tutti i tuoi abbonamenti. Questa nuova scheda ti consente di:</block>
   <block id="d540a0a7aa0f09414e542ffabc6300c6" category="list-text">Visualizza e risolvi gli avvisi attivi, inclusi quelli generati dal sistema e definiti dall'utente, relativi all'utilizzo della capacità e alla scadenza dell'abbonamento.</block>
@@ -440,7 +425,6 @@
   <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">Replicazione :leveloffset: +1</block>
   <block id="2c1993b83ed7d4c19e4b372af7179590" category="paragraph">Serie E :leveloffset: +1</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">22 settembre 2025</block>
-  <block id="0428e48e7f58929099e52febd0558232" category="section-title">25 agosto 2025</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">La replica dei dati è disponibile tra un sistema ONTAP locale e un file system FSx for ONTAP dalla pagina Sistemi NetApp Console .</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Gestisci le preferenze di fatturazione</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Ora puoi configurare e gestire le *Preferenze di fatturazione* direttamente nella NetApp Console. Questo miglioramento consente agli amministratori di definire e visualizzare come l'utilizzo della capacità, i rinnovi e i costi vengono fatturati tra le licenze NetApp dirette, gli abbonamenti al cloud marketplace e l'accordo Keystone .</block>
@@ -454,4 +438,7 @@
   <block id="b3df2aaed88f61f572a7284cb28844ec" category="inline-link-macro">Visualizza i requisiti del sistema operativo</block>
   <block id="43a9602052a44f890e2bbc95a0205a46" category="paragraph">Quando si installa manualmente un agente Console, l'agente ora supporta RHEL 9.6 con Podman 5.4.0. Inoltre, quando si utilizza RHEL 9 e versioni successive, NetApp supporta podman-compose 1.5.0. <block ref="dd394ea917033ddbf269729b5d828637" category="inline-link-macro-rx"></block>.</block>
   <block id="11decf8e913c8fbeb5d947338d43e3b0" category="paragraph">Per maggiori informazioni, vedere <block ref="bf6dbdf786c7323ca961bfd2e12103c6" category="inline-link-macro-rx"></block>.</block>
+  <block id="18b429fb243989438d2e534cfa60ad10" category="doc">ID di tracciamento per abbonamenti con copertura gap</block>
+  <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">Nella casella di notifica *Completa la tua copertura* in *Monitoraggio &gt; Monitor avvisi*, ogni abbonamento ora visualizza il proprio ID di monitoraggio accanto al numero di abbonamento.</block>
+  <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">24 novembre 2025</block>
 </blocks>

@@ -52,6 +52,22 @@ Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 
 
 
+== 24 novembre 2025
+
+
+
+=== Keystone
+
+Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
+
+
+
+==== ID di tracciamento per abbonamenti con copertura gap
+
+Nella casella di notifica *Completa la tua copertura* in *Monitoraggio > Monitor avvisi*, ogni abbonamento ora visualizza il proprio ID di monitoraggio accanto al numero di abbonamento.
+
+
+
 == 17 novembre 2025
 
 

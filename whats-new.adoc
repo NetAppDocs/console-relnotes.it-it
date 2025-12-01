@@ -52,6 +52,22 @@ Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 
 
 
+== 01 dicembre 2025
+
+
+
+=== Ripristino dopo un disastro
+
+
+
+==== Supporto per Google Cloud VMware Engine tramite Google Cloud NetApp Volumes
+
+NetApp Disaster Recovery ora supporta Google Cloud VMware Engine utilizzando Google Cloud NetApp Volumes per le operazioni di migrazione, failover, failback e test. Questa integrazione consente flussi di lavoro di disaster recovery senza interruzioni tra ambienti on-premise e Google Cloud.
+
+Assicurati di rivedere illink:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-prerequisites.html["prerequisiti"] Elink:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.adoc["limitazioni"] per Google Cloud.
+
+
+
 == 27 novembre 2025
 
 
@@ -794,7 +810,7 @@ Il BlueXP disaster recovery è stato rinominato NetApp Disaster Recovery.
 
 NetApp Console, basata sulle fondamenta BlueXP migliorate e ristrutturate, offre una gestione centralizzata dello storage NetApp e NetApp Data Services in ambienti on-premise e cloud di livello aziendale, offrendo informazioni in tempo reale, flussi di lavoro più rapidi e un'amministrazione semplificata, il tutto in modo altamente sicuro e conforme.
 
-Per i dettagli su cosa è cambiato, vedere illink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Note sulla versione NetApp Console"] .
+Per i dettagli su cosa è cambiato, vedere il link:https://docs.netapp.com/us-en/console-relnotes/index.html["Note sulla versione NetApp Console"].
 
 
 

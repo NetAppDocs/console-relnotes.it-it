@@ -462,8 +462,6 @@
   <block id="063090df0880212c0ba8eec878096a21" category="doc">Miglioramenti dell'anteprima dei carichi di lavoro VMware</block>
   <block id="24936fb650df7af8295e75a3667becef" category="list-text">Ora puoi ripristinare backup e snapshot in una posizione alternativa. Questa funzionalità è utile se si desidera gestire le versioni di una VM su diverse distribuzioni VMware vCenter, host VMware ESXi o datastore VMware.</block>
   <block id="99ee61e75520f174d08caa35e0ad294d" category="list-text">Ora è possibile ripristinare specifici dischi virtuali VMware (immagini VMDK) da una posizione primaria o secondaria, consentendo un controllo più granulare sul ripristino dei dati della VM.</block>
-  <block id="814957340a966bc73ff87feca2905da9" category="inline-link-macro">Scopri di più sul ripristino dei carichi di lavoro VMware con NetApp Backup and Recovery</block>
-  <block id="8b8a6f71e41f04ff546fb14f0800f38f" category="paragraph"><block ref="9f09945a70747c90951b9e96b5ea16be" category="inline-link-macro-rx"></block>.</block>
   <block id="236430e108e8394ac19913076b10fb55" category="doc">Etichetta di capacità di burst accumulata rinominata</block>
   <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">L'etichetta *Capacità burst accumulata* viene rinominata in *Burst accumulato*.</block>
   <block id="8a9b2764802b622f9894a669a606f74f" category="doc">Il blocco delle estensioni è abilitato a livello di carico di lavoro</block>
@@ -486,4 +484,8 @@
   <block id="869c8807275d576171cb34b892652da6" category="paragraph">Per maggiori informazioni, vedere <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>.</block>
   <block id="98ade846ffa73dc9c6bcd3e3e84c38b7" category="paragraph">Per maggiori informazioni, vedere <block ref="1762f821178ef43810c03e86465a946d" category="inline-link-macro-rx"></block>.</block>
   <block id="1df351797bd2540f3ec41bc24e67bf1f" category="paragraph">Per maggiori informazioni, vedere <block ref="2631c62a2ac2ec2e6a0ebc0352319a2c" category="inline-link-macro-rx"></block>.</block>
+  <block id="14a4fd4957d1a547c2b4ccadbaed0a90" category="inline-link-macro">Scopri di più sul ripristino delle VM VMware con NetApp Backup and Recovery</block>
+  <block id="6dc955af209317a9d714156228721ed4" category="paragraph"><block ref="dd7466c8c4dbfb4163f16106a1d7f80c" category="inline-link-macro-rx"></block>.</block>
+  <block id="01f07264521662850e2d8465c322c978" category="inline-link-macro">Scopri di più sul ripristino dei dischi virtuali VMware con NetApp Backup and Recovery</block>
+  <block id="61b4efc27d21705d0d4d56786ccc1f78" category="paragraph"><block ref="78a5fc4b6640a61792f9693d7c0f443b" category="inline-link-macro-rx"></block>.</block>
 </blocks>

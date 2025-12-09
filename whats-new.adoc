@@ -90,6 +90,18 @@ Le prestazioni di caricamento di tutte le pagine in Data Classification sono sta
 
 
 
+=== Keystone
+
+Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
+
+
+
+==== Etichetta di capacità di burst accumulata rinominata
+
+L'etichetta *Capacità burst accumulata* viene rinominata in *Burst accumulato*.
+
+
+
 == 01 dicembre 2025
 
 

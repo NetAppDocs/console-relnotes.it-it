@@ -119,7 +119,6 @@
   <block id="d6ed17e8c2c2f9cf01a28c13cefcce71" category="doc">Catalogo di automazione</block>
   <block id="4de4864129b65c6c45ee2b81509978d3" category="doc">Configurazione e amministrazione della console</block>
   <block id="082a2f81a104214877c2e8d8e3c568c0" category="doc">Caching del volume</block>
-  <block id="a15e83f7a8ba3a867bcba3be7736978e" category="doc">Classificazione dei dati</block>
   <block id="4a17f9505c41e2b9d2fdf8e21809e428" category="paragraph">Serie E</block>
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">Amazon FSX per ONTAP</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">Cluster ONTAP on-premise</block>
@@ -470,7 +469,6 @@
   <block id="8a9b2764802b622f9894a669a606f74f" category="doc">Il blocco delle estensioni è abilitato a livello di carico di lavoro</block>
   <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">Quando si abilita il blocco delle estensioni, ora viene abilitato a livello di carico di lavoro anziché a livello di VM di archiviazione.</block>
   <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">Modifica lo stato dell'avviso sul comportamento dell'utente</block>
-  <block id="f143f02b29819ec9e761d9f292dea42c" category="paragraph">Ransomware Resilience ora consente di modificare lo stato degli avvisi sul comportamento degli utenti. È possibile ignorare e risolvere manualmente gli avvisi. Ora puoi anche contrassegnare gli avvisi come "In revisione".</block>
   <block id="685b0f2db45e4fc09a06ccb4695806de" category="inline-xref-macro">Gestisci gli avvisi</block>
   <block id="30acfc7aa0f5ff9593d73e769de766c0" category="paragraph">Per maggiori informazioni, vedere <block ref="32161c93f86d45672d8429d13ea78e6b" category="inline-xref-macro-rx"></block>.</block>
   <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">Supporto per più agenti della console</block>
@@ -487,4 +485,5 @@
   <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">Agenti della console Switch</block>
   <block id="8c3cfaa540744075b83a947ed57c6f60" category="paragraph">Per maggiori informazioni, vedere <block ref="0905281a07a8919c4c92242f0cf75d65" category="inline-link-macro-rx"></block>.</block>
   <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">09 dicembre 2025</block>
+  <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">Ransomware Resilience ora consente di modificare lo stato degli avvisi sul comportamento degli utenti. È possibile ignorare e risolvere manualmente gli avvisi.</block>
 </blocks>

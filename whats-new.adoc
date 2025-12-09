@@ -52,6 +52,32 @@ Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 
 
 
+== 09 dicembre 2025
+
+
+
+=== Ripristino dopo un disastro
+
+
+
+==== Conservazione della gerarchia delle cartelle
+
+Per impostazione predefinita, Disaster Recovery mantiene la gerarchia dell'inventario delle VM (struttura delle cartelle) durante il failover. Se la destinazione di ripristino non dispone della cartella richiesta, Disaster Recovery la crea.
+
+Ora è possibile ignorare questa impostazione designando una nuova cartella VM padre o deselezionando l'opzione **Mantieni gerarchia cartelle originale**.
+
+Per maggiori informazioni, vedere link:../use/drplan-create.adoc["Creare un piano di replicazione"].
+
+
+
+==== Aggiornamento semplificato dell'agente della console
+
+Disaster Recovery ora supporta un processo semplificato per l'utilizzo di più agenti Console in un ambiente di lavoro. Per passare da un agente Console all'altro, è necessario modificare la configurazione di vCenter, riscoprire le credenziali e aggiornare i piani di replica per utilizzare il nuovo agente Console.
+
+Per maggiori informazioni, vedere link:../reference/switch-console-agent.html["Agenti della console Switch"].
+
+
+
 == 08 dicembre 2025
 
 
@@ -87,6 +113,32 @@ Per maggiori informazioni, vedere link:https://docs.netapp.com/us-en/data-servic
 
 .Prestazioni di caricamento migliorate
 Le prestazioni di caricamento di tutte le pagine in Data Classification sono state migliorate per creare un'esperienza utente più efficiente.
+
+
+
+=== Resilienza al ransomware
+
+
+
+==== Il blocco delle estensioni è abilitato a livello di carico di lavoro
+
+Quando si abilita il blocco delle estensioni, ora viene abilitato a livello di carico di lavoro anziché a livello di VM di archiviazione.
+
+
+
+==== Modifica lo stato dell'avviso sul comportamento dell'utente
+
+Ransomware Resilience ora consente di modificare lo stato degli avvisi sul comportamento degli utenti. È possibile ignorare e risolvere manualmente gli avvisi. Ora puoi anche contrassegnare gli avvisi come "In revisione".
+
+Per maggiori informazioni, vedere xref:rp-use-alert.html[Gestisci gli avvisi].
+
+
+
+==== Supporto per più agenti della console
+
+Ransomware Resilience ora supporta l'utilizzo di più agenti Console per gestire gli stessi sistemi.
+
+Per ulteriori informazioni sugli agenti della console, vederelink:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-setup.html["Creare un agente Console"] .
 
 
 

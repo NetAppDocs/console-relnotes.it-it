@@ -528,4 +528,12 @@
   <block id="e8f9974435fe7b24ffa11827d0104693" category="paragraph">Le informazioni dettagliate sui sistemi ONTAP on-premise (e FSx per ONTAP) sono ora più facili da visualizzare e gestire dalle pagine di gestione dell'archiviazione.</block>
   <block id="c513928c0b95afec773bd29d135d4632" category="list-text">La pagina * Discoverable systems* separa le informazioni riepilogative dalla visualizzazione a schede dei sistemi disponibili, semplificando la visualizzazione di informazioni complete sui sistemi rilevabili.</block>
   <block id="174dd97dd1f160583ac76fa482fa6a5e" category="section-title">10 dicembre 2025</block>
+  <block id="b5f5c102d46ada8d7cc41dab03033769" category="doc">Miglioramenti dell'usabilità durante la visualizzazione dei sistemi ONTAP dalla NetApp Console (solo modalità standard)</block>
+  <block id="ecf08ccb0621d66d3cd08f6e278423f6" category="paragraph">La pagina *Sistemi* nella NetApp Console presenta miglioramenti per chiarezza e usabilità nella gestione di volumi e cluster. Questi aggiornamenti allineano maggiormente l'esperienza con System Manager per le versioni ONTAP più recenti e semplificano la navigazione.</block>
+  <block id="ff6644b2d87a60757e2ed06cac2ef1c5" category="paragraph-title">Capacità del cluster inclusa per le versioni ONTAP 9.5 e successive (solo modalità standard della console)</block>
+  <block id="e20de5b140eba87d0cc368f44348842a" category="paragraph">La pagina *Sistemi &gt; Panoramica* mostra le dimensioni del cluster insieme alla versione ONTAP per i cluster che eseguono ONTAP 9.5 e versioni successive.</block>
+  <block id="0c0228fc4907ab7d926a830e9cb7e6a9" category="paragraph">Per NetApp Console in modalità limitata o per le versioni ONTAP 9.5 e precedenti, le informazioni sul volume fornito rimangono invariate.</block>
+  <block id="e499e5b4086ee6929a42eacc5a3b18c3" category="paragraph-title">La scheda Volumi nella pagina Sistemi è impostata per impostazione predefinita sulla visualizzazione griglia se si dispone di più di 20 cluster ONTAP locali</block>
+  <block id="342a527e4cea581e64e32f6e8b40d64a" category="paragraph">Se nella NetApp Console sono gestiti più di 20 cluster ONTAP locali, la scheda *Volume* utilizza per impostazione predefinita la visualizzazione griglia per una navigazione più semplice. La visualizzazione delle schede è disabilitata.</block>
+  <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">Questa modifica si applica solo alla modalità standard e alle versioni ONTAP 9.6 e successive.</block>
 </blocks>

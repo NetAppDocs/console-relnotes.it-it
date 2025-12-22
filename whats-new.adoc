@@ -1232,29 +1232,3 @@ Per i dettagli su cosa è cambiato, vedere https://docs.netapp.com/us-en/bluexp-
 NetApp Console, basata sulle fondamenta BlueXP migliorate e ristrutturate, offre una gestione centralizzata dello storage NetApp e NetApp Data Services in ambienti on-premise e cloud di livello aziendale, offrendo informazioni in tempo reale, flussi di lavoro più rapidi e un'amministrazione semplificata, il tutto in modo altamente sicuro e conforme.
 
 Per i dettagli su cosa è cambiato, vederelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Note sulla versione NetApp Console"^] .
-
-
-
-== 22 settembre 2025
-
-
-
-=== Keystone
-
-
-
-==== Aggiunta del monitoraggio degli avvisi
-
-La dashboard Keystone in BlueXP ora include una scheda *Monitoraggio* per gestire avvisi e monitoraggi in tutti i tuoi abbonamenti. Questa nuova scheda ti consente di:
-
-* Visualizza e risolvi gli avvisi attivi, inclusi quelli generati dal sistema e definiti dall'utente, relativi all'utilizzo della capacità e alla scadenza dell'abbonamento.
-* Crea monitor di avviso per monitorare l'utilizzo della capacità e gli eventi di scadenza degli abbonamenti.
-
-
-Per saperne di più, fare riferimento a link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alerts.html["Visualizza e gestisci avvisi e monitor"].
-
-
-
-==== Visualizzazione semplificata dei livelli di servizio delle prestazioni
-
-È possibile visualizzare le informazioni sui livelli di servizio delle prestazioni, ora spostate da una scheda separata a una vista espandibile, all'interno della scheda *Abbonamenti*. Fare clic sulla freccia rivolta verso il basso accanto alla colonna *Data di scadenza* per visualizzarle per ciascun abbonamento. Per saperne di più, fare riferimento a link:https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Visualizza i dettagli sui tuoi abbonamenti Keystone"].

@@ -116,13 +116,7 @@
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">Cluster ONTAP on-premise</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">La versione di anteprima dei carichi di lavoro VMware introduce le seguenti funzionalità avanzate:</block>
-  <block id="13f711a55db449e74aa63517fe680750" category="doc">Colonna di override della policy QoS nella scheda Risorse</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:</block>
-  <block id="c6276ebcdb23205ceaed5fbf4249ea31" category="paragraph">La scheda *Volumi nei cluster* all'interno della scheda *Risorse* ora include una colonna *Override policy QoS* che indica se le regole QoS vengono ignorate per i volumi di backup e mirror, visualizzando *true* (regole ignorate), *false* (regole applicate) o *N/D* (per i volumi mirror).</block>
-  <block id="11a43b8d2f9eca6ac1fbd015814f99f3" category="admonition">Per gli abbonamenti Keystone v3, questa colonna visualizza *N/D* poiché i criteri QoS non sono applicabili nell'offerta v3.</block>
-  <block id="b953e2efb9e42549a0a1a0948af92e84" category="section-title">Visibilità degli avvisi migliorata nella pagina Panoramica</block>
-  <block id="ccb709a27cabd8f47e223efe2e7e0976" category="inline-link-macro">Dashboard Keystone nella NetApp Console</block>
-  <block id="2236517eb263ad0757df75dbb425c588" category="paragraph">La pagina *Panoramica* ora include due nuove sezioni di avviso denominate *Avvisi non risolti per gravità* e *Avvisi Keystone non risolti più vecchi*. Per saperne di più, fare riferimento a <block ref="a7e79568e4aab3fed7388da5f153bdec" category="inline-link-macro-rx"></block>.</block>
   <block id="7b6830c2d647bfeae537b084a1bc4c97" category="doc">Cloud Volumes ONTAP in Azure ora è limitato alle ultime versioni supportate</block>
   <block id="0e627d1b98c5809f132bf109fa4041d3" category="paragraph">Le distribuzioni e gli aggiornamenti Cloud Volumes ONTAP in Azure tramite la NetApp Console sono ora limitati alle versioni più recenti supportate. Ciò garantisce la compatibilità con l'hardware di ultima generazione supportato da Microsoft e fornisce le funzionalità più recenti e i miglioramenti della sicurezza. La Console ti chiederà di effettuare l'aggiornamento alle versioni supportate.</block>
   <block id="9ca9f40464321b098a9b31a750f1e5ce" category="paragraph">Per maggiori dettagli, fare riferimento a:</block>
@@ -168,7 +162,6 @@
   <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">11 novembre 2025</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10 novembre 2025</block>
   <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">17 ottobre 2025</block>
-  <block id="44758d2951f923446ffff8310f8ac382" category="section-title">13 ottobre 2025</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">La replica dei dati è disponibile tra un sistema ONTAP locale e un file system FSx for ONTAP dalla pagina Sistemi NetApp Console .</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Gestisci le preferenze di fatturazione</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Ora puoi configurare e gestire le *Preferenze di fatturazione* direttamente nella NetApp Console. Questo miglioramento consente agli amministratori di definire e visualizzare come l'utilizzo della capacità, i rinnovi e i costi vengono fatturati tra le licenze NetApp dirette, gli abbonamenti al cloud marketplace e l'accordo Keystone .</block>
@@ -283,4 +276,28 @@
   <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">Questa modifica si applica solo alla modalità standard e alle versioni ONTAP 9.6 e successive.</block>
   <block id="ad4891bd95428a3a61372e6cb7c1e8db" category="paragraph">Per maggiori informazioni, vedere <block ref="46afb87ea9ab52c50c55f4a3ee88e9ae" category="inline-link-macro-rx"></block>.</block>
   <block id="8b398f79cbc8bafdd3d60b15c90e7f01" category="paragraph">Per maggiori informazioni, vedere <block ref="9816d86fb07a6c2043bc508d566ad539" category="inline-link-macro-rx"></block>.</block>
+  <block id="6da53899225555a506524070f96e33df" category="doc">Supporto per più agenti Console in ambienti on-premise</block>
+  <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">Se utilizzi il Disaster Recovery in locale, ora puoi distribuire un agente Console per ogni istanza di vCenter, migliorando la resilienza.</block>
+  <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">Ad esempio, se si dispone di due siti (siti A e B), il sito A può avere l'agente console A collegato a vCenter 1, distribuzione ONTAP 1 e distribuzione ONTAP 2. Il sito B può avere l'agente Console B collegato alle distribuzioni vCenter 2 e ONTAP 3 e 4.</block>
+  <block id="0382d445298ad46bfe9bb89d2b1bbc4a" category="inline-link-macro">Creare l'agente della console</block>
+  <block id="31f61ac5920cfdf4b1428392c106e013" category="paragraph">Per informazioni sull'agente Console in Disaster Recovery, vedere <block ref="c6314de739d0ca77819b65e8d83a54dc" category="inline-link-macro-rx"></block>.</block>
+  <block id="4de9da4a5acec3c25ad553d7f1a89484" category="section-title">Aggiungere VM dopo il failover per i piani di replicazione utilizzando la protezione basata su datastore</block>
+  <block id="31c59621442d91b173b5c05f7fe7f5ba" category="paragraph">Quando viene attivato il failover, qualsiasi piano di replica che utilizza la protezione basata su datastore include le VM aggiunte al datastore, a condizione che siano state rilevate. È necessario fornire i dettagli di mappatura per le VM aggiunte prima del completamento del failover.</block>
+  <block id="01808e57843d81464069fd6222b42dc5" category="inline-link-macro">Failover delle applicazioni</block>
+  <block id="210c07d14f371d34616f90780c809d7d" category="paragraph">Per maggiori informazioni, vedere <block ref="10ad778ec26a5abb07ecd723807494c7" category="inline-link-macro-rx"></block>.</block>
+  <block id="0fdf1f7467d148d6f8e6edea53e3bba1" category="section-title">Nuove notifiche e-mail</block>
+  <block id="f3815b37b633b3691ad8c2d3a2aeec1b" category="paragraph">Disaster Recovery ora fornisce notifiche e-mail per i seguenti eventi:</block>
+  <block id="92522c3fbfb92373bdaceab2b1ec2db4" category="list-text">Avvicinamento al limite di utilizzo della capacità</block>
+  <block id="722ef45b415368a656fe90463206ae2e" category="list-text">Generazione del report completata</block>
+  <block id="3097f5b876f89e830b96175a17c6ee35" category="list-text">Fallimenti lavorativi</block>
+  <block id="8d6a4ba10a10e8034a89ce1a5220c738" category="list-text">Scadenza o violazioni della licenza</block>
+  <block id="489ad675e0724931adc834fbc59bdeec" category="section-title">Miglioramenti di Swagger</block>
+  <block id="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-macro"><block ref="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-rx"></block></block>
+  <block id="0a476aea9bd42d70a5e646a38f779187" category="paragraph">Ora è possibile accedere alla documentazione di Swagger dall'interno di Disaster Recovery. In Disaster Recovery, seleziona **Impostazioni**, quindi **Documentazione API** per collegarti a Swagger oppure visita questo URL nella modalità di navigazione in incognito/privata del tuo browser: <block ref="dcecb9493ce135a9d2a96f8693efd425" category="inline-link-macro-rx"></block>.</block>
+  <block id="df6f21ef230478b0b817e1303ba53264" category="section-title">Interfacce utente migliorate</block>
+  <block id="ce620672d96c9599e9bfaa409968c7a6" category="paragraph">Disaster Recovery ora fornisce avvisi e risoluzioni degli errori migliorati. Questa versione corregge un errore che impediva la visualizzazione dei lavori annullati nell'interfaccia utente. Ora i lavori annullati sono visibili. È presente anche un nuovo avviso quando la stessa rete di destinazione viene mappata su più reti di origine diverse.</block>
+  <block id="edd2f7fa340d3324747878ea3a531288" category="section-title">Mantieni la struttura delle cartelle della VM aggiunta come predefinita nei piani di replica</block>
+  <block id="2295e48d8abb5539689fac23d785e1cd" category="paragraph">Quando si crea una replica, la nuova impostazione predefinita è quella di mantenere la struttura delle cartelle della VM. Se la destinazione di ripristino non dispone della gerarchia di cartelle originale, Disaster Recovery la crea. È possibile deselezionare questa opzione per ignorare la gerarchia delle cartelle originale.</block>
+  <block id="2ab0f27f92b633596464651c85366a28" category="paragraph">Per maggiori informazioni, vedere <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>.</block>
+  <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">12 gennaio 2026</block>
 </blocks>

@@ -52,6 +52,22 @@ Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 
 
 
+== 19 gennaio 2026
+
+
+
+=== Keystone
+
+Aggiornamenti nella dashboard Keystone nella NetApp Console:
+
+
+
+==== Modifica abbonamento non disponibile
+
+L'opzione per modificare la capacità impegnata per gli abbonamenti Keystone non è attualmente disponibile. Questa funzionalità verrà reintrodotta in una versione futura.
+
+
+
 == 14 gennaio 2026
 
 

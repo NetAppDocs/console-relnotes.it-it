@@ -303,8 +303,6 @@
   <block id="79af92d05f2b214eab2c765e215beb6b" category="doc">Agente console 4.3.0</block>
   <block id="6f1b51eea64496510e6cf5a5a2d57d29" category="paragraph">La versione 4.3.0 supporta sia la modalità standard che quella limitata.</block>
   <block id="664a9e1da962d9131b0a035da50bbcc7" category="paragraph-title">Capacità di convalidare le connessioni di rete degli agenti della console</block>
-  <block id="81cc16a2354d8ec80802e2e4ac22f15a" category="paragraph">Ora è possibile convalidare le connessioni di rete degli agenti Console connessi direttamente dalla NetApp Console. Questa funzionalità consente di verificare la connettività e di risolvere i problemi relativi agli agenti della console.</block>
-  <block id="65ce32eae3a28c0b24f8cc33c345ab84" category="paragraph"><block ref="65ce32eae3a28c0b24f8cc33c345ab84" category="inline-link-macro-rx"></block></block>
   <block id="8b71edf4fd7d99d72da1d37de5e154b7" category="paragraph-title">Supporto per la federazione quando NetApp Console è in modalità limitata</block>
   <block id="58bbe2cc0931c12594be1bafb70597fb" category="paragraph">Ora puoi abilitare la federazione per un'organizzazione NetApp Console in modalità limitata. Ciò consente agli utenti di accedere alla Console utilizzando le proprie credenziali aziendali, mantenendo al contempo i vantaggi di sicurezza della modalità con restrizioni.</block>
   <block id="ac811c471ef716f9c8a3865d7f14caa3" category="paragraph-title">Modalità di sola lettura</block>
@@ -364,4 +362,7 @@
   <block id="f411222cfe4404b6e0b3d9790460b804" category="list-text">Ora puoi ripristinare backup e snapshot delle VM Hyper-V in una posizione alternativa. Utilizza questa funzionalità per gestire le versioni delle VM su diversi host Hyper-V.</block>
   <block id="83de53928b74eea738d883969ca231fa" category="list-text">NetApp Backup and Recovery ora supporta le macchine virtuali Hyper-V fornite da System Center Virtual Machine Manager (SCVMM) e ospitate su una CIFS share.</block>
   <block id="fe3a06f4a23ebd296fcaecd751b29ac6" category="paragraph">L'anteprima dei carichi di lavoro KVM ora protegge gli host KVM e le macchine virtuali gestite da Apache CloudStack.</block>
+  <block id="3a78a8ea0b02debae5e6b16cc1929cb5" category="paragraph">Ora è possibile convalidare le connessioni di rete degli agenti Console connessi direttamente dalla NetApp Console. Questa funzionalità aiuta a verificare la connettività e a risolvere i problemi con gli agenti Console. Questa funzionalità si aggiunge alla possibilità già esistente di eseguire la diagnostica di rete dalla riga di comando (CLI) della console di manutenzione degli agenti Console.</block>
+  <block id="16e0d5a8229f3c0136c12aa9def60bb1" category="inline-link-macro">Scopri come eseguire la configurazione dalla NetApp Console.</block>
+  <block id="3cb937c3382e580784aa7486c365ec19" category="paragraph"><block ref="3cb937c3382e580784aa7486c365ec19" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -88,7 +88,6 @@
   <block id="e5edd9b09362e413b0820d9a92c20456" category="paragraph">Scopri le modifiche più recenti apportate alle funzionalità e ai servizi dati che fanno parte della NetApp Console.  Per una cronologia completa delle versioni, vai a<block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> per ogni singolo servizio.</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">NetApp Console</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">Note sulla versione NetApp Console</block>
-  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">Replicare i dati</block>
   <block id="6fe4264e25ab7d4538e3cd8b851adfcf" category="section-title">Copia e sincronizza</block>
   <block id="6b0a74cb89aaf10fdf1c70bfd9bd78e2" category="section-title">Pianificazione del ciclo di vita</block>
   <block id="ba695b3cf8b635f89946173735838948" category="section-title">Caching dei bordi</block>
@@ -107,7 +106,6 @@
   <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunità NetApp</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">Modifiche recenti</block>
-  <block id="f6c0c8f8ded4c6640c1e912821c43739" category="paragraph"><block ref="f6c0c8f8ded4c6640c1e912821c43739" category="inline-link-macro-rx"></block></block>
   <block id="d6ed17e8c2c2f9cf01a28c13cefcce71" category="doc">Catalogo di automazione</block>
   <block id="4de4864129b65c6c45ee2b81509978d3" category="doc">Configurazione e amministrazione della console</block>
   <block id="082a2f81a104214877c2e8d8e3c568c0" category="doc">Caching del volume</block>
@@ -117,55 +115,16 @@
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">La versione di anteprima dei carichi di lavoro VMware introduce le seguenti funzionalità avanzate:</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:</block>
-  <block id="9c1b6a208384484254769349d91e3af9" category="doc">Agente console 4.1.0</block>
   <block id="e8cdaf5bab63b64f0740dc40a9389ed9" category="paragraph">Questa versione dell'agente Console include miglioramenti della sicurezza, correzioni di bug e le seguenti funzionalità:</block>
-  <block id="e32e1b9613d2e086e1fc46ae7489620c" category="paragraph">La versione 4.1.0 è disponibile per la modalità standard e la modalità limitata.</block>
-  <block id="650940dddaeb353d547fc2674ba4d35b" category="paragraph-title">Indicatori di stato dell'agente rinominati</block>
-  <block id="9722491a4236a9be86f414fa5b3eebb8" category="paragraph">Gli indicatori di stato per l'agente della console sono stati rinominati da *Attivo* e *Inattivo* a *Connesso* e *Disconnesso* per renderne più chiaro lo scopo.</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">Amministrazione NetApp Console</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">Questa versione include quanto segue:</block>
-  <block id="ac740509743c941164fb7e88fc8b768e" category="paragraph-title">Nuovo indirizzo email per le notifiche NetApp Console</block>
-  <block id="73bb8d1c85014ba6981a002bd9fc9364" category="doc">Versione 1.48</block>
-  <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">Questa versione di Data Classification include correzioni di bug, miglioramenti della sicurezza e delle prestazioni.</block>
-  <block id="8905ad2fb9f028e6bd28666015b4b50a" category="paragraph-title">Maggiore chiarezza nell'avanzamento della scansione</block>
-  <block id="206c07a2ed5644be711186a00b2c6ae2" category="paragraph">Le configurazioni di scansione ora includono informazioni più approfondite sul completamento della scansione. In precedenza, la barra di avanzamento veniva visualizzata solo durante l'esecuzione della scansione. Ora la barra di avanzamento rimane visibile anche dopo il completamento per confermare che le scansioni sono state completate correttamente. È anche possibile visualizzare il numero di file mappati e scansionati.</block>
-  <block id="de10ad3938875667137fa1bd63542e62" category="inline-link-macro">Modifica le impostazioni di scansione NetApp Data Classification per i tuoi repository</block>
-  <block id="5b5de768a01e088dbab56f46d97b5a38" category="doc">Supporto failover a cascata</block>
-  <block id="8115dd8449bd907d08f3347f6d04324a" category="paragraph">Ora è possibile configurare una relazione a cascata in ONTAP e utilizzare qualsiasi parte di tale relazione di replica per il ripristino di emergenza.</block>
-  <block id="eb2fa9dcb8eaa46c82c070f8bbe8418a" category="section-title">Ridurre il supporto hardware VMware durante la registrazione</block>
-  <block id="f83d7a6597b186db7483e2f478aeb8fa" category="paragraph">Disaster Recovery ora supporta il downgrade dell'hardware VMware a una versione precedente di vSphere durante la registrazione. Questa funzionalità è utile quando l'host ESX di origine esegue una versione successiva a quella del sito di ripristino di emergenza.</block>
-  <block id="d15994bcf2411bb66762cdf4c58704b3" category="inline-xref-macro">Creare un piano di replica in NetApp Disaster Recovery</block>
-  <block id="bcf697aa5ef7fc37fba63ce6d2bf0e43" category="section-title">Arresto graduale</block>
-  <block id="9437b903cdafc2fdfce3c66af80b97f0" category="paragraph">Disaster Recovery ora arresta correttamente le VM anziché spegnerle. Se una determinata VM impiega più di dieci minuti per spegnersi, Disaster Recovery la spegne.</block>
-  <block id="9b9e3165f7ecae3e2e3b2c795e562976" category="section-title">Supporto per script pre-backup</block>
-  <block id="bb05f5a972177b632dbf8088c480f305" category="paragraph">Ora è possibile inserire script personalizzati nel flusso di lavoro di failover da eseguire prima di creare un backup. Gli script di pre-backup consentono di controllare lo stato della VM prima che venga replicato uno snapshot e di preparare una VM per una transizione. Ad esempio, è possibile inserire uno script che smonta un mount NFS che verrà rimontato utilizzando uno script diverso dopo il failover.</block>
-  <block id="6df7635d9934b92e0bdbe5e5a544fccb" category="doc">Completa la casella di notifica della tua copertura</block>
-  <block id="8583cba6ee38a66f6e19ca7c15a5c1ed" category="inline-link-macro">Gestire le lacune di copertura per i monitor di allerta</block>
-  <block id="a60761706ec1d12934bfc1dd049da2df" category="paragraph">La scheda *Monitoraggio avvisi* nella pagina *Monitoraggio* include una casella di notifica *Completa la copertura* che appare quando ci sono lacune nella copertura. In questa casella sono elencati gli abbonamenti per i quali mancano i monitor di capacità o scadenza e i monitor senza abbonamenti. È possibile colmare le lacune aggiungendo abbonamenti ai monitor esistenti, creando nuovi monitor o eliminando quelli non utilizzati. Per saperne di più, fare riferimento a <block ref="1ef75ae1f09bcc7a95c6bbe07a54229c" category="inline-link-macro-rx"></block>.</block>
-  <block id="6e4298fbeec2cc865308057fb6986a86" category="doc">Supporto NVMe-TCP migliorato</block>
-  <block id="84b4c7fa59d88db266b9be7eb3cff08e" category="paragraph">In precedenza, quando si distribuivano istanze Cloud Volumes ONTAP su NVMe-TCP, era necessario ottenere e applicare manualmente le licenze NVMe prima della distribuzione. Con questo aggiornamento, Cloud Volumes ONTAP ora installa automaticamente le licenze NVMe richieste durante la distribuzione, semplificando il processo di configurazione.</block>
-  <block id="14579d19ae9f1a43eae607d4450c7546" category="paragraph">Per le distribuzioni NVMe-TCP esistenti prive di licenze, Cloud Volumes ONTAP applica le licenze automaticamente. È necessario riavviare il sistema affinché le licenze abbiano effetto.</block>
-  <block id="b3a4d40f62316bd15534c438b8057c89" category="inline-link">Protocolli client supportati per Cloud Volumes ONTAP: NVMe-TCP</block>
-  <block id="748f500c59212ec947a9dc03913e95cb" category="paragraph">Per maggiori informazioni, vedere<block ref="b12aae47ee00e2542df4c8a098a5e7ff" category="inline-link-rx"></block> .</block>
-  <block id="fbbad2021b0a185cdad950acc088e8d4" category="doc">Supporto per la replica tra sistemi ONTAP locali e file system FSx per ONTAP</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Queste note di rilascio descrivono i recenti miglioramenti apportati a NetApp Console e ai servizi dati da essa supportati. Link al set completo di note di rilascio per ogni singolo servizio.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Scopri le modifiche più recenti apportate alle funzionalità e ai servizi dati che fanno parte della NetApp Console. Per una cronologia completa delle versioni, consultare il set completo di note di rilascio per ogni singolo servizio.</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">Servizi deprecati</block>
-  <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">11 novembre 2025</block>
-  <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10 novembre 2025</block>
-  <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">La replica dei dati è disponibile tra un sistema ONTAP locale e un file system FSx for ONTAP dalla pagina Sistemi NetApp Console .</block>
-  <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Gestisci le preferenze di fatturazione</block>
-  <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Ora puoi configurare e gestire le *Preferenze di fatturazione* direttamente nella NetApp Console. Questo miglioramento consente agli amministratori di definire e visualizzare come l'utilizzo della capacità, i rinnovi e i costi vengono fatturati tra le licenze NetApp dirette, gli abbonamenti al cloud marketplace e l'accordo Keystone .</block>
-  <block id="4b7bb7f3cdde9d3c96c7125f6fc305e3" category="inline-link-macro">Documentazione sulle preferenze di fatturazione</block>
-  <block id="3662750346c2942117b5e1492f2bdcd4" category="paragraph">Questa versione include miglioramenti e miglioramenti generali.</block>
-  <block id="3c3236b09e81f9868cfa639ca1fbe105" category="paragraph">Per maggiori informazioni, vedere il<block ref="5cdc12ff92d7ca20af8e5de10fe76183" category="inline-link-macro-rx"></block> .</block>
   <block id="f3bb71c095338a2af8e23c9ae07072bf" category="doc">System Manager disponibile quando si utilizza un collegamento AWS Lambda</block>
   <block id="b8cda09456e64356f2c1763e3e53d0af" category="inline-link-macro">Scopri come utilizzare i collegamenti per operazioni ONTAP avanzate</block>
   <block id="8a730f2606f493b8d797f6c96c460037" category="paragraph">L'interfaccia ONTAP System Manager può essere utilizzata con un collegamento AWS Lambda per eseguire operazioni ONTAP avanzate. Ciò fornisce un'alternativa all'utilizzo di un agente Console con System Manager per la gestione di un file system FSx for ONTAP direttamente dalla Console. <block ref="3b6bcb03237efb7ff1ce82387184b37d" category="inline-link-macro-rx"></block></block>
   <block id="b566b4df138c2254f68b7631cba29c1d" category="section-title">17 novembre 2025</block>
-  <block id="b3df2aaed88f61f572a7284cb28844ec" category="inline-link-macro">Visualizza i requisiti del sistema operativo</block>
-  <block id="43a9602052a44f890e2bbc95a0205a46" category="paragraph">Quando si installa manualmente un agente Console, l'agente ora supporta RHEL 9.6 con Podman 5.4.0. Inoltre, quando si utilizza RHEL 9 e versioni successive, NetApp supporta podman-compose 1.5.0. <block ref="dd394ea917033ddbf269729b5d828637" category="inline-link-macro-rx"></block>.</block>
-  <block id="11decf8e913c8fbeb5d947338d43e3b0" category="paragraph">Per maggiori informazioni, vedere <block ref="bf6dbdf786c7323ca961bfd2e12103c6" category="inline-link-macro-rx"></block>.</block>
   <block id="18b429fb243989438d2e534cfa60ad10" category="doc">ID di tracciamento per abbonamenti con copertura gap</block>
   <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">Nella casella di notifica *Completa la tua copertura* in *Monitoraggio &gt; Monitor avvisi*, ogni abbonamento ora visualizza il proprio ID di monitoraggio accanto al numero di abbonamento.</block>
   <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">24 novembre 2025</block>
@@ -228,8 +187,6 @@
   <block id="d8beaaedd77c0be2c1275fe4d8a5685b" category="paragraph">A partire da Cloud Volumes ONTAP 9.17.1, è possibile distribuire VM della serie Azure Edsv6 tramite la NetApp Console per le nuove istanze Cloud Volumes ONTAP . Cloud Volumes ONTAP 9.17.1 e versioni successive supporteranno solo le VM di seconda generazione per le nuove distribuzioni. Queste macchine di seconda generazione sono compatibili con le tecnologie più recenti, come Unified Extensible Firmware Interface (UEFI), sistemi Azure Boost e NVMe. Sono ideali per sistemi e applicazioni ad alta intensità di memoria che necessitano di un'archiviazione locale veloce, come server di database e motori di analisi.</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Configurazioni supportate per Cloud Volumes ONTAP in Azure</block>
   <block id="500f1b766be55ca965db592552bfe05e" category="paragraph"><block ref="500f1b766be55ca965db592552bfe05e" category="inline-link-rx"></block></block>
-  <block id="6f111d20190d5490668e3e0ac2cad5d2" category="paragraph-title">Supporto per Red Hat Enterprise Linux (RHEL) 9.6 e Podman 5.4.0</block>
-  <block id="db70fced03768e8735fbdebf7ea67e66" category="paragraph">L'indirizzo email che invia le notifiche NetApp Console è cambiato da *service@console.bluexp.netapp.com* a *service@console.netapp.com*. NetApp consiglia di aggiornare tutte le regole e-mail per consentire *service@console.netapp.com*, per essere certi di continuare a ricevere le notifiche e-mail NetApp Console .</block>
   <block id="026970f0ac157044199489d6744c2491" category="doc">Agente console 4.2.0</block>
   <block id="7051fe17573689080a1f11b0e88a8603" category="paragraph">La versione 4.2.0 supporta sia la modalità standard che quella limitata.</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Supporto per Google Cloud Infrastructure Manager</block>
@@ -310,7 +267,6 @@
   <block id="c7c19a46289db74512cc747670442409" category="inline-link-macro">Scopri come abilitare la modalità di sola lettura per un'organizzazione Console.</block>
   <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
   <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">Scopri come valorizzare il tuo ruolo quando la tua organizzazione è in modalità di sola lettura.</block>
-  <block id="9f4066a8aad2a422e68c5b69dd9472f8" category="paragraph">Per ulteriori informazioni sulle impostazioni di scansione, vedere <block ref="26da27bca2c7e859f7f769768b8a4285" category="inline-link-macro-rx"></block>.</block>
   <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">Versione 1.50</block>
   <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">Miglioramenti della classificazione personalizzata</block>
   <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">Data Classification ora supporta la creazione di categorie personalizzate per i tuoi dati. È possibile caricare file per perfezionare un modello di intelligenza artificiale che Data Classification utilizza per applicare il marcatore di categoria ai dati. L'interfaccia per tutte le classificazioni personalizzate è stata migliorata.</block>
@@ -380,4 +336,19 @@
   <block id="07fc7b1ed8439edcf0a98beca0a29711" category="section-title">Supporto esteso per le versioni ONTAP fuori dal supporto limitato</block>
   <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor ora supporta la generazione di piani di aggiornamento per le versioni di ONTAP che hanno raggiunto la fine del supporto limitato, con un grace period di 9 mesi. Questa funzionalità aiuta i clienti a intervenire tempestivamente ed evitare interruzioni negli aggiornamenti, fornendo indicazioni chiare durante il periodo di transizione.</block>
   <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">04 febbraio 2026</block>
+  <block id="ed5b5006125f27aac08e98fe5c365d46" category="inline-link">Google Cloud Infrastructure Manager</block>
+  <block id="055d81bf5e86c650f524ba8578595b0e" category="paragraph">Cloud Volumes ONTAP 9.16.1 e versioni successive ora supportano <block ref="d6072c82cbcda01fbac85ce6d2b2ba66" category="inline-link-rx"></block> (IM) invece di <block ref="15f2e159f639573aa2393f20aa6d5e11" category="inline-link-rx"></block> (DM) per le nuove distribuzioni in Google Cloud. Google ritirerà Deployment Manager come servizio di infrastruttura nel prossimo futuro a favore di Infrastructure Manager, più avanzato.</block>
+  <block id="66243a4b72870642e35fa6b52e50a63b" category="inline-link">Configura le distribuzioni Cloud Volumes ONTAP esistenti per Google Cloud Infrastructure Manager</block>
+  <block id="aa51ff66cac4f14d899d7f563f8f476a" category="paragraph">Ora distribuisci automaticamente Cloud Volumes ONTAP per utilizzare Infrastructure Manager oppure passa le tue distribuzioni esistenti in Deployment Manager a Infrastructure Manager eseguendo uno strumento di conversione. La conversione è un processo una tantum, dopo il quale i tuoi sistemi inizieranno automaticamente a utilizzare Infrastructure Manager. Consulta <block ref="5621b7ac255bff00b9e8610ec0606935" category="inline-link-rx"></block> per le istruzioni su come eseguire lo strumento di transizione.</block>
+  <block id="492eb9196f4c5211832a66df9ce6230b" category="paragraph">I sistemi Cloud Volumes ONTAP che utilizzano Infrastructure Manager utilizzano i bucket di Google Cloud Storage per archiviare dati e record nella zona del primo deployment per archiviare i record di deployment, che vengono riutilizzati per i deployment successivi. Potresti incorrere in costi aggiuntivi per questi bucket, ma non modificare o eliminare i bucket o il loro contenuto:</block>
+  <block id="c63b3118890326f42e936277c83db3b6" category="list-text"><block ref="9d4c46381bcc7ebe4bf02a7fd0ac5b6f" prefix="" category="inline-code"></block>: per archiviare i file Terraform di Cloud Volumes ONTAP</block>
+  <block id="aaa460fe2e0e39c5d509b26ad876baf8" category="list-text"><block ref="6ec9e5b046607d57923aee80f990225d" prefix="" category="inline-code"></block>: per l'archiviazione degli artefatti di Google Cloud Terraform</block>
+  <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">Link correlati</block>
+  <block id="73c696c58c9e62731e855a0bf47853e1" category="inline-link">Introduzione a Cloud Volumes ONTAP in Google Cloud</block>
+  <block id="f80ae1b8de03cd56e51dbe8e44bf284f" category="list-text"><block ref="f80ae1b8de03cd56e51dbe8e44bf284f" category="inline-link-rx"></block></block>
+  <block id="ccc8cedaac96382fa4e8c01b8e53646d" category="inline-link">NetApp Console Agent 4.2.0 Note sulla versione</block>
+  <block id="9039c72d9261ecd88329c5e8d1a4172d" category="list-text"><block ref="9039c72d9261ecd88329c5e8d1a4172d" category="inline-link-rx"></block></block>
+  <block id="6e6cddfac74a82983c3905af5c6e5b98" category="inline-link">Autorizzazioni richieste per Google Cloud Infrastructure Manager</block>
+  <block id="98244417f1eb666b345ad436d51edece" category="list-text"><block ref="98244417f1eb666b345ad436d51edece" category="inline-link-rx"></block></block>
+  <block id="c9d872b23d54864ab58551a55106a3db" category="section-title">09 febbraio 2026</block>
 </blocks>

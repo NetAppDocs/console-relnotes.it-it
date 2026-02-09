@@ -393,4 +393,11 @@
   <block id="c5db154b8366e71dcf87e4624b1a0112" category="paragraph">Il supporto per i carichi di lavoro Microsoft Hyper-V è ora generalmente disponibile (GA) in NetApp Backup and Recovery.</block>
   <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="section-title">Carichi di lavoro KVM supportati in General Availability (GA)</block>
   <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">Il supporto del carico di lavoro KVM è ora generalmente disponibile (GA) in NetApp Backup and Recovery.</block>
+  <block id="1076db915b54c5214ad7cd6d4bac394d" category="doc">Console agent 4.4.0</block>
+  <block id="19ddf31000061ed231618214ee45c8af" category="paragraph">La versione 4.4.0 supporta sia la modalità standard che la modalità limitata.</block>
+  <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">Questa versione dell'agente Console include miglioramenti della sicurezza e correzioni di bug.</block>
+  <block id="83d800fe01b0b9d8ce89e835fc6accad" category="paragraph-title">Supporto per l'accesso in base al ruolo per i carichi di lavoro di NetApp Backup and Recovery (Oracle e Microsoft SQL Server)</block>
+  <block id="06ee57c0bd0d81d8eb2d33f86f1d8a97" category="paragraph">È possibile associare carichi di lavoro di Backup and Recovery (Oracle e Microsoft SQL Server) ai progetti. Dopo l'assegnazione a un progetto, gli utenti a cui è assegnato un ruolo di Backup and Recovery per il progetto possono lavorare con i carichi di lavoro. Al momento, altri carichi di lavoro non sono supportati con accesso in base al ruolo.</block>
+  <block id="55791ddd61c5fe5bce016bba04360146" category="inline-link-macro">Scopri di più sulla configurazione in base al ruolo per i carichi di lavoro di Backup and Recovery.</block>
+  <block id="15346ab7cdfe10fa94df581d10043017" category="paragraph"><block ref="15346ab7cdfe10fa94df581d10043017" category="inline-link-macro-rx"></block></block>
 </blocks>

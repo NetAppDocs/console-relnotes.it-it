@@ -363,4 +363,32 @@
   <block id="401f234e1c84943381dd951c39f2ce3c" category="paragraph">Quando si copiano o si spostano file, ora è possibile copiare o spostare file fino a 250 MB, un aumento rispetto al limite precedente di 50 MB.</block>
   <block id="244d30ed7d7da13b1f80f1fa008af700" category="paragraph-title">Visualizzazione migliorata per schermi a bassa risoluzione</block>
   <block id="80bb2719fe9feeb03d5cc88bd71e8a81" category="paragraph">Data Classification ha migliorato le prestazioni di visualizzazione sugli schermi a bassa risoluzione, migliorando l'esperienza utente.</block>
+  <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Miglioramenti dei carichi di lavoro Kubernetes</block>
+  <block id="de8616724d177017abdd720d7365feff" category="paragraph">Questa versione dei carichi di lavoro Kubernetes introduce le seguenti funzionalità migliorate:</block>
+  <block id="e83849cb5376223ea17f24fcaf9756e4" category="list-text">*Supporto del flusso di lavoro CR*: ora è possibile eseguire attività di protezione comuni utilizzando i CR e l'interfaccia utente web di NetApp Backup and Recovery.</block>
+  <block id="e572a091207dcc253fde964cd9d716cb" category="list-text">*Migrazione cluster*: ora puoi aggiungere i cluster Kubernetes esistenti protetti con Trident Protect a NetApp Backup and Recovery.</block>
+  <block id="9674b909ef82dfe8331f77d84e878c04" category="list-text">*Supporto del framework di alerting*: ora puoi ricevere avvisi tramite e-mail e interfaccia utente per determinati eventi del carico di lavoro Kubernetes.</block>
+  <block id="ea6aa972206a8b460e06b79e84a9211b" category="list-text">*Integrazione della scheda Ripristina*: ora puoi accedere alle azioni di ripristino del workload Kubernetes dal menu Ripristina.</block>
+  <block id="bf72fb868ac644263293cb0c5ccc59c1" category="list-text">*Supporto per l'architettura di backup fanout 3-2-1*: ora puoi utilizzare un'architettura fanout 3-2-1 nella tua policy di protezione quando proteggi i workload Kubernetes.</block>
+  <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Panoramica sulla protezione dei carichi di lavoro Kubernetes</block>
+  <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Per dettagli sulla protezione dei carichi di lavoro Kubernetes, fare riferimento a<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>.</block>
+  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Miglioramenti dei carichi di lavoro Oracle Database</block>
+  <block id="b663bfd2f714b44e458d15bb1e6002bc" category="paragraph">Questa versione dei carichi di lavoro Oracle Database introduce le seguenti funzionalità migliorate:</block>
+  <block id="c1cb9a739430571a50b81bf3a48a1ab8" category="list-text">*Supporto per utenti non root*: Gli utenti non root possono ora eseguire operazioni di backup, ripristino e clonazione, migliorando la sicurezza e la conformità.</block>
+  <block id="2b8a690a9b9248405fb6bba05b997f16" category="list-text">*Supporto clone*: le funzionalità di clonazione sono ora supportate negli ambienti NAS, SAN e ASM primari e secondari utilizzando ASM library v2, consentendo flussi di lavoro di protezione coordinati.</block>
+  <block id="8ff8833aaf25d3ffbe1942bc11221a77" category="list-text">*Supporto per la suddivisione dei cloni*: ora puoi suddividere gli snapshot scrivibili (cloni) dai volumi padre, liberando spazio di storage e consentendo operazioni indipendenti.</block>
+  <block id="de315feba3cc97f871a801444cebe8a8" category="list-text">*Backup e ripristino per archivio di oggetti*: Le funzionalità native di backup e ripristino sono ora supportate per le destinazioni di storage a oggetti compatibili con S3.</block>
+  <block id="ffb4de355aa6d4aa7e8805128e9c2860" category="list-text">*Clone Lifecycle Management (CLM)*: le operazioni di aggiornamento dei cloni sono supportate sullo storage primario.</block>
+  <block id="bb34df9f9d35ad561edcc8780a11b63c" category="list-text">*Clona su host alternativo*: ora puoi clonare i database su un host diverso (a scopo di test o analisi) sia dallo storage primario che dallo storage secondario.</block>
+  <block id="ec76c85c764d367b1028b426d5aaa897" category="list-text">*Supporto per i gruppi di coerenza ONTAP*: Ora sono supportati i gruppi di coerenza ONTAP, garantendo snapshot coerenti con l'applicazione su più volumi.</block>
+  <block id="07bac542633034a121251f74bf3c7880" category="list-text">NetApp Backup and Recovery ora supporta le seguenti architetture di policy di protezione per i carichi di lavoro di Oracle Database:</block>
+  <block id="8f8f2fbe982fd62b69f6aa2faf0d46da" category="list-text">Fanout 3-2-1</block>
+  <block id="55cf8812c6c22803ddfa5fd41279187d" category="list-text">Da disco a disco</block>
+  <block id="0f6d38819f95da81f8bc80258fee7071" category="list-text">Da disco a storage a oggetti</block>
+  <block id="e3b858c29172bddae0dbb7e461b2f7df" category="list-text">A cascata</block>
+  <block id="a3ea5994e4599e8634011a1c5ba8a9ed" category="list-text">Istantanea locale</block>
+  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Panoramica sulla protezione dei carichi di lavoro Oracle Database</block>
+  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Per informazioni dettagliate sulla protezione dei carichi di lavoro Oracle Database, fare riferimento a<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>.</block>
+  <block id="cc5d8c9d6668803b438b03567e08b611" category="section-title">Altri miglioramenti</block>
+  <block id="6ec61dc6a9b7787975d159ba164424f9" category="paragraph">I carichi di lavoro Hyper-V, KVM e VMware sono ora generalmente disponibili (GA) in NetApp Backup e ripristino.</block>
 </blocks>

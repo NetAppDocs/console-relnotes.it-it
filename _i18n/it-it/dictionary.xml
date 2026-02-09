@@ -351,4 +351,16 @@
   <block id="6e6cddfac74a82983c3905af5c6e5b98" category="inline-link">Autorizzazioni richieste per Google Cloud Infrastructure Manager</block>
   <block id="98244417f1eb666b345ad436d51edece" category="list-text"><block ref="98244417f1eb666b345ad436d51edece" category="inline-link-rx"></block></block>
   <block id="c9d872b23d54864ab58551a55106a3db" category="section-title">09 febbraio 2026</block>
+  <block id="9f8adb7ebffc39f306c40ef2d6a377b1" category="paragraph-title">Attiva la classificazione dei dati con Amazon FSxN per ONTAP direttamente dal canvas della NetApp Console</block>
+  <block id="880dc0b44905babcfa6685da86ba8117" category="paragraph">Ora puoi abilitare Amazon FSxN per i sistemi ONTAP direttamente dal canvas della NetApp Console, consentendoti di avviare più rapidamente la Data Classification per i tuoi sistemi FSxN.</block>
+  <block id="dd8a2d3b3415c2980790a672dff3757f" category="inline-link-macro">Scansiona i volumi Amazon FSxN per ONTAP</block>
+  <block id="db8b5cff328cee1f4914855b931bae02" category="paragraph">Per ulteriori informazioni sull'utilizzo della classificazione dei dati con Amazon FSxN per ONTAP, vedere <block ref="48a47292b9e31aff1079bbdaa3cd4739" category="inline-link-macro-rx"></block>.</block>
+  <block id="3ee3e594e3bac0471e4cda35acc3588a" category="paragraph-title">Limite di esportazione aumentato per l'investigazione delle directory</block>
+  <block id="45f99b8f539f37cc0379b65d3ddafbbf" category="paragraph">Quando si esporta un report di indagine sulle directory dalla dashboard di indagine, ora è possibile includere 10.000 righe. Questo aumento rispetto al precedente limite di 5.000 righe supporta indagini su larga scala relative alla governance dei dati e alla conformità.</block>
+  <block id="1cbaf70f8f4340f5a7ef57a023be3309" category="inline-link-macro">Esaminare i dati</block>
+  <block id="e733aab9ce2fc5320fbdd563cba5e12b" category="paragraph">Per ulteriori informazioni, consultare <block ref="d8b3109a5818cc0f43ade4650ffede11" category="inline-link-macro-rx"></block>.</block>
+  <block id="80f498ef50d7bad5da9acf441b502c0f" category="paragraph-title">Limite aumentato per copia e spostamento</block>
+  <block id="401f234e1c84943381dd951c39f2ce3c" category="paragraph">Quando si copiano o si spostano file, ora è possibile copiare o spostare file fino a 250 MB, un aumento rispetto al limite precedente di 50 MB.</block>
+  <block id="244d30ed7d7da13b1f80f1fa008af700" category="paragraph-title">Visualizzazione migliorata per schermi a bassa risoluzione</block>
+  <block id="80bb2719fe9feeb03d5cc88bd71e8a81" category="paragraph">Data Classification ha migliorato le prestazioni di visualizzazione sugli schermi a bassa risoluzione, migliorando l'esperienza utente.</block>
 </blocks>

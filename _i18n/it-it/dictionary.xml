@@ -443,4 +443,10 @@
   <block id="718285f559bff92f1fc2fb988df3fabe" category="doc">Console agent 4.4.1</block>
   <block id="3ffe5c6490eae7ac4252c8efb9559119" category="paragraph-title">Accedi a NetApp Data Infrastructure Insights dalla NetApp Console</block>
   <block id="0597e1be82ceeb01b40b4706c1dc68e1" category="paragraph">Puoi accedere a una prova gratuita di NetApp Data Infrastructure Insights da NetApp Console. Vai su *Governance* &gt; *Data Infrastructure Insights* per registrarti ed esplorare insight e analisi sul tuo ambiente dati.</block>
+  <block id="83babe62c403f56e76ef6809d4508f91" category="doc">Interfaccia utente migliorata</block>
+  <block id="438ce765c897095715b03fca4b860a61" category="paragraph">L'interfaccia utente di Disaster Recovery è stata aggiornata per migliorare le prestazioni e l'esperienza utente in base al feedback.</block>
+  <block id="c99f25325f86d3f0c79c43f7e35c908e" category="section-title">Documentazione Swagger API</block>
+  <block id="4dc69d78f0442e6b664baa4e0d9bd594" category="inline-image-macro">Icona azione</block>
+  <block id="c75d11eee9117155e14ba1fe4d4e9609" category="inline-link-macro">aggiungi l'URL ai preferiti</block>
+  <block id="1ed2e3ee9da6a94c882b1fde4a104444" category="paragraph">La documentazione dell'API Swagger per il Disaster Recovery è ora accessibile tramite un normale browser; la modalità di navigazione in incognito non è più necessaria. Per accedere alla documentazione dell'API, accedi alla dashboard di Disaster Recovery, seleziona il menu contestuale in alto a destra <block ref="9bb01c837d73cae62964f6b5d76c3c64" category="inline-image-macro-rx" type="image"></block> quindi **API Documentation** per aprire la documentazione Swagger. Puoi anche <block ref="1a92440ed6b8c60f65d4cdda7009f427" category="inline-link-macro-rx"></block>.</block>
 </blocks>

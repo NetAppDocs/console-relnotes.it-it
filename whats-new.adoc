@@ -56,33 +56,6 @@ Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 
 
 
-=== Configurazione e amministrazione della console
-
-
-
-==== Console agent 4.4.1
-
-La versione 4.4.0 supporta sia la modalità standard che la modalità limitata.
-
-Questa versione dell'agente Console include miglioramenti della sicurezza e correzioni di bug.
-
-
-
-==== Amministrazione NetApp Console
-
-Questa versione include quanto segue:
-
-
-
-==== Amministrazione NetApp Console
-
-Questa versione include quanto segue:
-
-.Accedi a NetApp Data Infrastructure Insights dalla NetApp Console
-Puoi accedere a una prova gratuita di NetApp Data Infrastructure Insights da NetApp Console. Vai su *Governance* > *Data Infrastructure Insights* per registrarti ed esplorare insight e analisi sul tuo ambiente dati.
-
-
-
 === Cloud Volumes ONTAP
 
 
@@ -113,22 +86,6 @@ https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_gcp-
 
 
 == 16 febbraio 2026
-
-
-
-=== Ripristino dopo un disastro
-
-
-
-==== Interfaccia utente migliorata
-
-L'interfaccia utente di Disaster Recovery è stata aggiornata per migliorare le prestazioni e l'esperienza utente in base al feedback.
-
-
-
-==== Documentazione Swagger API
-
-La documentazione dell'API Swagger per il Disaster Recovery è ora accessibile tramite un normale browser; la modalità di navigazione in incognito non è più necessaria. Per accedere alla documentazione dell'API, accedi alla dashboard di Disaster Recovery, seleziona il menu contestuale in alto a destra image:../media/use/icon-vertical-dots.png["Icona azione"] quindi **API Documentation** per aprire la documentazione Swagger. Puoi anche link:https://api.bluexp.netapp.com/v1/services/draas/api/api-doc/draas["aggiungi l'URL ai preferiti"^].
 
 
 

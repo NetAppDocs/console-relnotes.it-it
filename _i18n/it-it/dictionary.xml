@@ -422,4 +422,10 @@
   <block id="472b8c31c7082d1e8c4c46bb6921f950" category="inline-link">Networking per la crittografia di Azure VNet</block>
   <block id="2f932ac183ffb505894bacafe67a78d0" category="paragraph"><block ref="2f932ac183ffb505894bacafe67a78d0" category="inline-link-rx"></block></block>
   <block id="d71e7e243c134c41083284d79bb58c37" category="section-title">17 febbraio 2026</block>
+  <block id="5d8caeaede63e2cdba6715a163d09892" category="doc">Supporto per la migrazione delle storage VM</block>
+  <block id="353d7ff4a3d58ad1fe8ef0ad6acab574" category="paragraph">NetApp Workload Factory ora supporta la migrazione per le storage VM. Questa funzionalità consente la migrazione dei dati e delle configurazioni del sistema storage ONTAP da sistemi ONTAP on-premises o da file system FSx for ONTAP di prima generazione a file system FSx for ONTAP di seconda generazione. È possibile replicare i dati e le impostazioni di configurazione delle storage VM per spostarsi nel nuovo file system con tempi di inattività e interruzioni minimi per utenti e applicazioni.</block>
+  <block id="fb2a77c6756f10fcc139a51a83349d7f" category="inline-link-macro">creare una relazione di replicazione</block>
+  <block id="33039f37667143e740ae3514cd2b2eea" category="inline-link-macro">cutover della storage VM e dei suoi volumi replicati</block>
+  <block id="e6dbc21f7dea944e6aaaaa4c0d56159d" category="paragraph">Per utilizzare questa funzionalità, <block ref="a00423c4266b8832da7ddbc75235d0cb" category="inline-link-macro-rx"></block> e selezionare *Migrazione* come caso d'uso. Per completare il processo di migrazione, è necessario <block ref="4fbf2906eb98c7c630a3491ffc2b8863" category="inline-link-macro-rx"></block> immediatamente per migrare in modo permanente i dati e le impostazioni di configurazione della storage VM nel file system FSx for ONTAP di destinazione.</block>
+  <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">16 febbraio 2026</block>
 </blocks>

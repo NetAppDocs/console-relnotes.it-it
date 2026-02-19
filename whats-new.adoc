@@ -52,6 +52,26 @@ Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 
 
 
+== 19 febbraio 2026
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== Nuove regioni supportate in Azure
+
+È ora possibile distribuire Cloud Volumes ONTAP 9.12.1 GA e versioni successive in zone di disponibilità singole e multiple in Azure nelle seguenti regioni. Questo include il supporto per distribuzioni sia a nodo singolo che ad alta disponibilità (HA).
+
+* Giappone occidentale (japanwest)
+* Indonesia centrale (indonesiacentral)
+
+
+Per un elenco di tutte le regioni, fare riferimento al https://bluexp.netapp.com/cloud-volumes-global-regions["Mappa delle regioni globali sotto Azure"^].
+
+
+
 == 17 febbraio 2026
 
 

@@ -52,6 +52,32 @@ Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 
 
 
+== 23 febbraio 2026
+
+
+
+=== Backup e ripristino
+
+
+
+==== Carichi di lavoro KVM supportati in General Availability (GA)
+
+Il supporto per i carichi di lavoro Microsoft Hyper-V è ora generalmente disponibile (GA) in NetApp Backup and Recovery.
+
+Per i dettagli sulla protezione dei carichi di lavoro KVM, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro KVM"] .
+
+
+
+==== Kubernetes supportato in General Availability (GA)
+
+Il supporto per i carichi di lavoro Kubernetes è ora generalmente disponibile (GA) in NetApp Backup and Recovery. Questa versione dei carichi di lavoro Kubernetes introduce anche le seguenti funzionalità avanzate:
+
+*Supporto per la creazione di report*: ora è possibile generare report sulle attività di protezione per i cluster Kubernetes e le applicazioni protette da NetApp Backup and Recovery.
+
+Per dettagli sulla protezione dei carichi di lavoro Kubernetes, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro Kubernetes"].
+
+
+
 == 19 febbraio 2026
 
 
@@ -898,19 +924,3 @@ Assicurati di rivedere illink:https://docs.netapp.com/us-en/data-services-disast
 Man mano che i clienti configurano e autorizzano più sistemi Google Cloud NetApp Volumes , il modo in cui vengono gestite le credenziali è cambiato.
 
 Le credenziali dei sistemi NetApp Volumes sono ora archiviate su un backend cloud di Google, come il servizio Cloud Key Management o simile, e le credenziali di rappresentazione dell'account di servizio vengono utilizzate durante la creazione di un nuovo sistema.
-
-
-
-== 24 novembre 2025
-
-
-
-=== Keystone
-
-Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
-
-
-
-==== ID di tracciamento per abbonamenti con copertura gap
-
-Nella casella di notifica *Completa la tua copertura* in *Monitoraggio > Monitor avvisi*, ogni abbonamento ora visualizza il proprio ID di monitoraggio accanto al numero di abbonamento.

@@ -62,13 +62,13 @@ Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 
 ==== Carichi di lavoro KVM supportati in General Availability (GA)
 
-Il supporto per i carichi di lavoro Microsoft Hyper-V è ora generalmente disponibile (GA) in NetApp Backup and Recovery.
+Il supporto del carico di lavoro KVM è ora generalmente disponibile (GA) in NetApp Backup and Recovery.
 
 Per i dettagli sulla protezione dei carichi di lavoro KVM, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro KVM"] .
 
 
 
-==== Kubernetes supportato in General Availability (GA)
+==== Carichi di lavoro Kubernetes supportati in General Availability (GA)
 
 Il supporto per i carichi di lavoro Kubernetes è ora generalmente disponibile (GA) in NetApp Backup and Recovery. Questa versione dei carichi di lavoro Kubernetes introduce anche le seguenti funzionalità avanzate:
 
@@ -908,19 +908,3 @@ L'etichetta *Capacità burst accumulata* viene rinominata in *Burst accumulato*.
 NetApp Disaster Recovery ora supporta Google Cloud VMware Engine utilizzando Google Cloud NetApp Volumes per le operazioni di migrazione, failover, failback e test. Questa integrazione consente flussi di lavoro di disaster recovery senza interruzioni tra ambienti on-premise e Google Cloud.
 
 Assicurati di rivedere illink:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-prerequisites.html["prerequisiti"] Elink:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["limitazioni"] per Google Cloud.
-
-
-
-== 27 novembre 2025
-
-
-
-=== Google Cloud NetApp Volumes
-
-
-
-==== Modifiche alle credenziali di Google Cloud Platform
-
-Man mano che i clienti configurano e autorizzano più sistemi Google Cloud NetApp Volumes , il modo in cui vengono gestite le credenziali è cambiato.
-
-Le credenziali dei sistemi NetApp Volumes sono ora archiviate su un backend cloud di Google, come il servizio Cloud Key Management o simile, e le credenziali di rappresentazione dell'account di servizio vengono utilizzate durante la creazione di un nuovo sistema.

@@ -498,4 +498,29 @@
   <block id="4caab03d94f5f056dee76ac3abd4066d" category="inline-link">Configurazione di Infrastructure Manager per distribuzioni in modalità privata</block>
   <block id="d79d7aeb01a8087d8ac3417a9437a457" category="paragraph">Nelle distribuzioni in modalità privata, sono necessarie alcune modifiche alla configurazione affinché Cloud Volumes ONTAP possa iniziare a utilizzare Infrastructure Manager. Fare riferimento a <block ref="a3ca45cd087005e24df23da60619241b" category="inline-link-rx"></block>.</block>
   <block id="56a5c925d77740ea69d50272863f3f75" category="section-title">26 febbraio 2026</block>
+  <block id="e2a0e249f352de2ea956157df300d5c0" category="paragraph">La versione 4.4.1 supporta sia la modalità standard che la modalità limitata.</block>
+  <block id="b7c3f162d94516a17d91ff328463e7b2" category="doc">Rilascio modalità privata (4.4.0)</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">Sito di supporto NetApp</block>
+  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">Una nuova versione in modalità privata è ora disponibile per il download da<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block></block>
+  <block id="81ce971f80b475d475c24a4e44ada4e1" category="section-title">La modalità privata di BlueXP è ora la modalità privata di NetApp Console</block>
+  <block id="9c787f49c95453f81615500fc040c752" category="paragraph">NetApp Console 4.4.0 è la prima versione di NetApp Console in modalità privata.</block>
+  <block id="56ed5396ea479b4ed31e75f97a4377c7" category="paragraph">La NetApp Console, basata sulle fondamenta BlueXP migliorate e ristrutturate, offre una gestione centralizzata dello storage NetApp e dei NetApp Data Services in ambienti on-premises e cloud di livello enterprise, offrendo real-time insight, flussi di lavoro più rapidi e un'amministrazione semplificata, altamente sicura e conforme.</block>
+  <block id="7aced523efa2e35884ba6dffbc655f83" category="inline-link">novità nella pagina NetApp Console</block>
+  <block id="214ce822f9505ec8f305259fe07864a2" category="paragraph">Scopri di più sulla nuova NetApp Console nella <block ref="cad102c2112bf216811c7b6bb8f99baa" category="inline-link-rx"></block>.</block>
+  <block id="0dbaa5b0eedf75058865e2b0994d5a8f" category="paragraph">La versione 4.4.0 include aggiornamenti ai seguenti componenti e servizi della NetApp Console.</block>
+  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">Componente o servizio</block>
+  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">Versione inclusa in questa release</block>
+  <block id="5431c829b8b64da3908e102d64527909" category="cell">Modifiche rispetto alla precedente release della modalità privata</block>
+  <block id="e76758412e5a64841b8710e5fb81ab0c" category="cell">Agente Console</block>
+  <block id="9b4bffa460105781f82b1d463bde8200" category="cell">4.4.0</block>
+  <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">Novità nella pagina NetApp Console</block>
+  <block id="d9546787b8341bfee8dbbe4f87c60436" category="cell">Vai su <block ref="9edfdcbb835e82f6dae46ac911dcb157" category="inline-link-rx"></block> e fai riferimento alle modifiche incluse per le versioni 4.4.0.</block>
+  <block id="be062cdcabbb3055334e8f19b4bdf378" category="cell">Backup e ripristino</block>
+  <block id="380c830a3c13f16e4d36530d1de2be47" category="cell">5.0.2 (9 febbraio 2026)</block>
+  <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">novità nella pagina NetApp Backup and Recovery</block>
+  <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">Vai al<block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>.</block>
+  <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="cell">Classificazione</block>
+  <block id="0ab04d2bfcc6d88bde2adee5587eeb44" category="cell">1.5.1 (9 febbraio 2026)</block>
+  <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">novità nella pagina Classificazione di NetApp</block>
+  <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">Vai al<block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>.</block>
 </blocks>

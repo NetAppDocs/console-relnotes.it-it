@@ -16,40 +16,18 @@ summary: Scopri le modifiche più recenti apportate alle funzionalità e ai serv
 [role="lead"]
 Scopri le modifiche più recenti apportate alle funzionalità e ai servizi dati che fanno parte della NetApp Console.  Per una cronologia completa delle versioni, vai alink:release-notes-index.html["set completo di note di rilascio"] per ogni singolo servizio.
 
+[NOTE]
+====
+I seguenti servizi sono stati deprecati:
+
+Caching dei bordi:: Il servizio di edge caching è stato rimosso il 7 agosto 2024.
+Kubernetes:: Il supporto per l'individuazione e la gestione dei cluster Kubernetes è stato rimosso il 7 agosto 2024.
+Rapporti di migrazione:: Il servizio di segnalazione delle migrazioni è stato rimosso il 7 agosto 2024.
+Resilienza operativa:: Le funzionalità di resilienza operativa sono state rimosse il 22 agosto 2025.
+Bonifica:: Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 
 
-== Servizi deprecati
-
-
-
-=== Caching dei bordi
-
-Il servizio di edge caching è stato rimosso il 7 agosto 2024.
-
-
-
-=== Kubernetes
-
-Il supporto per l'individuazione e la gestione dei cluster Kubernetes è stato rimosso il 7 agosto 2024.
-
-
-
-=== Rapporti di migrazione
-
-Il servizio di segnalazione delle migrazioni è stato rimosso il 7 agosto 2024.
-
-
-
-=== Resilienza operativa
-
-Le funzionalità di resilienza operativa sono state rimosse il 22 agosto 2025.
-
-
-
-=== Bonifica
-
-Il servizio di bonifica è stato rimosso il 22 aprile 2024.
-
+====
 
 
 == 26 febbraio 2026

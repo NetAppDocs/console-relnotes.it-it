@@ -520,4 +520,19 @@
   <block id="5088f4e07e6650891b34cd38ec19877b" category="paragraph">NetApp Console ora mostra lo stato dell'agente Console per i file system FSx for ONTAP in Workloads. Lo stato indica se l'agente è in esecuzione e in grado di comunicare con il file system FSx for ONTAP. Queste informazioni possono aiutarti a risolvere i problemi di connettività.</block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">01 marzo 2026</block>
   <block id="68874f436c529f1931417d4bdfb1c183" category="cell">5.0.3 (2 marzo 2026)</block>
+  <block id="3006a02699b8df924e1d005be208a0d9" category="doc">Nuove colonne nella scheda Volumes in clusters</block>
+  <block id="c270abc6d843162d4ce7721540f24540" category="inline-link-macro">Visualizza le risorse associate a un abbonamento Keystone</block>
+  <block id="56ba911e47b6675e519daaae8a0c4ab8" category="inline-link-macro">Visualizza le risorse tra i tuoi abbonamenti Keystone</block>
+  <block id="0d7094993a6b3f640bb98a53fea4c3fe" category="paragraph">Tre nuove colonne, *Dati attivi*, *Livello freddo (%)* e *Livello attivo (%)*, sono state aggiunte alla scheda *Volumi nei cluster* in *Risorse*. Per saperne di più, fare riferimento a <block ref="7a83cbc726dfc64910620370804f995c" category="inline-link-macro-rx"></block> e <block ref="4baf769758bbb5f82afb8a6245e88ae4" category="inline-link-macro-rx"></block>.</block>
+  <block id="c9a8bf8065acc2e0c13bda0c7508bd25" category="section-title">Utilizzo fatturato, non fatturato e burst provvisorio in Consumption trend</block>
+  <block id="c64fb9a67c48390567fbdf3b620843a4" category="inline-link-macro">Visualizza burst accumulato</block>
+  <block id="d2de7b158906998c4520b48e1e885356" category="paragraph">Il grafico della fatturazione dei consumi a raffica accumulati nella scheda *Andamento dei consumi* ora mostra i consumi fatturati, non fatturati e provvisori. Per ulteriori informazioni, consultare <block ref="ac1214b73681d020aa16f3f415bc4e23" category="inline-link-macro-rx"></block>.</block>
+  <block id="96d0cd446eb21b1af6c182f7aae637fc" category="section-title">Miglioramenti alla vista Monitoring</block>
+  <block id="4195f4a8e15a8ca8892e6bf2c9328dfc" category="paragraph">La vista *Monitoring* include i seguenti aggiornamenti:</block>
+  <block id="fdfe720b9ab3394f0dd5d8f33c28b35e" category="list-text">*Scheda Alerts*: la colonna *Alert* è stata rinominata *Alert type &amp; condition*. Ora puoi anche utilizzare l'icona con i puntini di sospensione accanto alla colonna *Status* per modificare un alert, aggiungere una nota o visualizzare i dettagli dell'alert.</block>
+  <block id="358e8af2cd36faf26c9af8949d13a966" category="list-text">*Scheda Monitor avvisi*: la colonna *Condizione* è stata rinominata *Tipo di monitor e condizione*.</block>
+  <block id="0ebc03672fcf3b001eb123454c829481" category="inline-link-macro">Visualizza e gestisci gli avvisi per gli abbonamenti Keystone</block>
+  <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">Visualizza e crea monitor di avviso per gli abbonamenti Keystone</block>
+  <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">Per saperne di più, fare riferimento a <block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block> e <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>.</block>
+  <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">02 marzo 2026</block>
 </blocks>

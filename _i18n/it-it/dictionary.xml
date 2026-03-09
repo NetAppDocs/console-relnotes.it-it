@@ -113,62 +113,18 @@
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">Amazon FSX per ONTAP</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">Cluster ONTAP on-premise</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
-  <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">La versione di anteprima dei carichi di lavoro VMware introduce le seguenti funzionalità avanzate:</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:</block>
   <block id="e8cdaf5bab63b64f0740dc40a9389ed9" category="paragraph">Questa versione dell'agente Console include miglioramenti della sicurezza, correzioni di bug e le seguenti funzionalità:</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">Amministrazione NetApp Console</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">Questa versione include quanto segue:</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Queste note di rilascio descrivono i recenti miglioramenti apportati a NetApp Console e ai servizi dati da essa supportati. Link al set completo di note di rilascio per ogni singolo servizio.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Scopri le modifiche più recenti apportate alle funzionalità e ai servizi dati che fanno parte della NetApp Console. Per una cronologia completa delle versioni, consultare il set completo di note di rilascio per ogni singolo servizio.</block>
-  <block id="6a6493990827c82055e808631b52c236" category="doc">Versione 1.49</block>
   <block id="640602402999fbf572de482a35f449bc" category="paragraph">Questa versione di Data Classification include correzioni di bug e i seguenti aggiornamenti:</block>
-  <block id="c257ad0ab1dd1ba68f40f6d92155f5dd" category="paragraph-title">Monitora le metriche e le prestazioni nella dashboard di monitoraggio dello stato</block>
-  <block id="d62744b30354624c6087760cfd47ae58" category="paragraph">Data Classification ora fornisce una dashboard di monitoraggio dello stato di salute, che fornisce un monitoraggio in tempo reale delle risorse e informazioni dettagliate sull'utilizzo della memoria, sull'utilizzo del disco, sull'utilizzo del disco e altro ancora. Grazie alle informazioni fornite dalla dashboard di monitoraggio dello stato, puoi esaminare l'infrastruttura della tua distribuzione e ottenere informazioni utili per ottimizzare storage e prestazioni.</block>
-  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">Monitorare lo stato di salute della classificazione dei dati</block>
-  <block id="699330677c1a0f32d795bf5b4ef62c06" category="paragraph">Per maggiori informazioni, vedere <block ref="47a26f0a929ccc455d276fcbc1329665" category="inline-link-macro-rx"></block>.</block>
-  <block id="bf17c0b6bb3350440ee2a9bb4f2c9d89" category="paragraph-title">Prestazioni di caricamento migliorate</block>
-  <block id="b6a3c9ea2c8f586e05010be520e7c46c" category="paragraph">Le prestazioni di caricamento di tutte le pagine in Data Classification sono state migliorate per creare un'esperienza utente più efficiente.</block>
-  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">08 dicembre 2025</block>
-  <block id="063090df0880212c0ba8eec878096a21" category="doc">Miglioramenti dell'anteprima dei carichi di lavoro VMware</block>
-  <block id="24936fb650df7af8295e75a3667becef" category="list-text">Ora puoi ripristinare backup e snapshot in una posizione alternativa. Questa funzionalità è utile se si desidera gestire le versioni di una VM su diverse distribuzioni VMware vCenter, host VMware ESXi o datastore VMware.</block>
-  <block id="99ee61e75520f174d08caa35e0ad294d" category="list-text">Ora è possibile ripristinare specifici dischi virtuali VMware (immagini VMDK) da una posizione primaria o secondaria, consentendo un controllo più granulare sul ripristino dei dati della VM.</block>
-  <block id="236430e108e8394ac19913076b10fb55" category="doc">Etichetta di capacità di burst accumulata rinominata</block>
-  <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">L'etichetta *Capacità burst accumulata* viene rinominata in *Burst accumulato*.</block>
-  <block id="8a9b2764802b622f9894a669a606f74f" category="doc">Il blocco delle estensioni è abilitato a livello di carico di lavoro</block>
-  <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">Quando si abilita il blocco delle estensioni, ora viene abilitato a livello di carico di lavoro anziché a livello di VM di archiviazione.</block>
-  <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">Modifica lo stato dell'avviso sul comportamento dell'utente</block>
-  <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">Supporto per più agenti della console</block>
-  <block id="1a6a565def701385358a626d6728afd8" category="paragraph">Ransomware Resilience ora supporta l'utilizzo di più agenti Console per gestire gli stessi sistemi.</block>
-  <block id="f3aee30a3a487c746572616e3f53dc9d" category="inline-link-macro">Creare un agente Console</block>
-  <block id="76adc55b5a0beb97a709fbc0c204a3d0" category="paragraph">Per ulteriori informazioni sugli agenti della console, vedere<block ref="c97584494dd542160395e5c607ae4c2c" category="inline-link-macro-rx"></block> .</block>
-  <block id="b706122b5735a672dec906da7d14b15c" category="doc">Conservazione della gerarchia delle cartelle</block>
-  <block id="c8d94434feabcd9486a228e1a7a02882" category="paragraph">Per impostazione predefinita, Disaster Recovery mantiene la gerarchia dell'inventario delle VM (struttura delle cartelle) durante il failover. Se la destinazione di ripristino non dispone della cartella richiesta, Disaster Recovery la crea.</block>
-  <block id="5a54761f5d99470c8137218395b65ca5" category="paragraph">Ora è possibile ignorare questa impostazione designando una nuova cartella VM padre o deselezionando l'opzione **Mantieni gerarchia cartelle originale**.</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">Creare un piano di replicazione</block>
-  <block id="c1bacabdbdc0d5e57b5ead85a617b4b0" category="section-title">Aggiornamento semplificato dell'agente della console</block>
-  <block id="1220fc49240c9d2c58d7490c6c40ac65" category="paragraph">Disaster Recovery ora supporta un processo semplificato per l'utilizzo di più agenti Console in un ambiente di lavoro. Per passare da un agente Console all'altro, è necessario modificare la configurazione di vCenter, riscoprire le credenziali e aggiornare i piani di replica per utilizzare il nuovo agente Console.</block>
-  <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">Agenti della console Switch</block>
-  <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">09 dicembre 2025</block>
-  <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">Ransomware Resilience ora consente di modificare lo stato degli avvisi sul comportamento degli utenti. È possibile ignorare e risolvere manualmente gli avvisi.</block>
   <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">Gestisci gli avvisi in Ransomware Resilience</block>
   <block id="869c8807275d576171cb34b892652da6" category="paragraph">Per maggiori informazioni, vedere <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>.</block>
-  <block id="14a4fd4957d1a547c2b4ccadbaed0a90" category="inline-link-macro">Scopri di più sul ripristino delle VM VMware con NetApp Backup and Recovery</block>
-  <block id="6dc955af209317a9d714156228721ed4" category="paragraph"><block ref="dd7466c8c4dbfb4163f16106a1d7f80c" category="inline-link-macro-rx"></block>.</block>
-  <block id="01f07264521662850e2d8465c322c978" category="inline-link-macro">Scopri di più sul ripristino dei dischi virtuali VMware con NetApp Backup and Recovery</block>
-  <block id="61b4efc27d21705d0d4d56786ccc1f78" category="paragraph"><block ref="78a5fc4b6640a61792f9693d7c0f443b" category="inline-link-macro-rx"></block>.</block>
   <block id="0b7a28160bc4a7ca924f1baa6abb1a57" category="doc">Opzione di fatturazione preferita per Cloud Volumes ONTAP</block>
-  <block id="d32b213fea432905e2b711d0a46055b7" category="doc">Possibilità di migliorare le prestazioni dei dischi Premium SSD v2 in Azure</block>
-  <block id="a5af0d9c3442b63737366fdab958ae5e" category="paragraph">Ora puoi migliorare le prestazioni di Premium SSD v2 Managed Disks in Azure modificando i parametri IOPS e velocità effettiva. Utilizzando questa funzionalità, puoi ottimizzare le prestazioni di archiviazione dei tuoi sistemi in base ai requisiti del carico di lavoro.</block>
-  <block id="77a633073c35402d0ca7d710756aa8bd" category="inline-link">Gestisci le prestazioni del disco Premium SSD v2 per Cloud Volumes ONTAP in Azure</block>
-  <block id="3c82d0e014001e766d893c187798e716" category="paragraph"><block ref="15057e5abc429ba1e00c3e98b4d7cd18" category="inline-link-rx"></block>.</block>
-  <block id="b6dcfe88cad643a44fa48a9db752d75f" category="section-title">Semplificazione della tariffazione eccedente per le licenze Essentials</block>
-  <block id="6390802a077a2b3bba05ed8efad40476" category="paragraph">Per i contratti annuali/offerte private del marketplace Cloud Volumes ONTAP , i calcoli del sovrapprezzo per le licenze Essentials sono ora allineati con i pacchetti Bring Your Own License (BYOL). In precedenza, gli eccessi venivano fatturati in base alle tariffe orarie di mercato per l'esatto pacchetto Essentials. Ora, se il tuo contratto annuale sul marketplace include più pacchetti Essentials, la NetApp Console addebita i costi aggiuntivi per un pacchetto Essentials rispetto alla capacità disponibile di un pacchetto Essentials più costoso nel tuo abbonamento. Ciò semplifica i calcoli del sovrapprezzo per i pacchetti Essentials e garantisce una transizione graduale dalla licenza BYOL a un modello basato su abbonamento.</block>
-  <block id="bf18ec316bd23e84a5bc7f6dfac16e84" category="inline-link">Come vengono addebitati gli eccessi per le licenze Essentials</block>
-  <block id="6aeac3ae6d2c3b06189e7344aee5b1ba" category="paragraph"><block ref="6aeac3ae6d2c3b06189e7344aee5b1ba" category="inline-link-rx"></block></block>
-  <block id="f9af9ade73262337fa8408b3b263a181" category="section-title">Supporto per le serie di dimensioni Azure Edsv6</block>
-  <block id="d8beaaedd77c0be2c1275fe4d8a5685b" category="paragraph">A partire da Cloud Volumes ONTAP 9.17.1, è possibile distribuire VM della serie Azure Edsv6 tramite la NetApp Console per le nuove istanze Cloud Volumes ONTAP . Cloud Volumes ONTAP 9.17.1 e versioni successive supporteranno solo le VM di seconda generazione per le nuove distribuzioni. Queste macchine di seconda generazione sono compatibili con le tecnologie più recenti, come Unified Extensible Firmware Interface (UEFI), sistemi Azure Boost e NVMe. Sono ideali per sistemi e applicazioni ad alta intensità di memoria che necessitano di un'archiviazione locale veloce, come server di database e motori di analisi.</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Configurazioni supportate per Cloud Volumes ONTAP in Azure</block>
-  <block id="500f1b766be55ca965db592552bfe05e" category="paragraph"><block ref="500f1b766be55ca965db592552bfe05e" category="inline-link-rx"></block></block>
   <block id="026970f0ac157044199489d6744c2491" category="doc">Agente console 4.2.0</block>
   <block id="7051fe17573689080a1f11b0e88a8603" category="paragraph">La versione 4.2.0 supporta sia la modalità standard che quella limitata.</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Supporto per Google Cloud Infrastructure Manager</block>
@@ -201,8 +157,6 @@
   <block id="e499e5b4086ee6929a42eacc5a3b18c3" category="paragraph-title">La scheda Volumi nella pagina Sistemi è impostata per impostazione predefinita sulla visualizzazione griglia se si dispone di più di 20 cluster ONTAP locali</block>
   <block id="342a527e4cea581e64e32f6e8b40d64a" category="paragraph">Se nella NetApp Console sono gestiti più di 20 cluster ONTAP locali, la scheda *Volume* utilizza per impostazione predefinita la visualizzazione griglia per una navigazione più semplice. La visualizzazione delle schede è disabilitata.</block>
   <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">Questa modifica si applica solo alla modalità standard e alle versioni ONTAP 9.6 e successive.</block>
-  <block id="ad4891bd95428a3a61372e6cb7c1e8db" category="paragraph">Per maggiori informazioni, vedere <block ref="46afb87ea9ab52c50c55f4a3ee88e9ae" category="inline-link-macro-rx"></block>.</block>
-  <block id="8b398f79cbc8bafdd3d60b15c90e7f01" category="paragraph">Per maggiori informazioni, vedere <block ref="9816d86fb07a6c2043bc508d566ad539" category="inline-link-macro-rx"></block>.</block>
   <block id="6da53899225555a506524070f96e33df" category="doc">Supporto per più agenti Console in ambienti on-premise</block>
   <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">Se utilizzi il Disaster Recovery in locale, ora puoi distribuire un agente Console per ogni istanza di vCenter, migliorando la resilienza.</block>
   <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">Ad esempio, se si dispone di due siti (siti A e B), il sito A può avere l'agente console A collegato a vCenter 1, distribuzione ONTAP 1 e distribuzione ONTAP 2. Il sito B può avere l'agente Console B collegato alle distribuzioni vCenter 2 e ONTAP 3 e 4.</block>
@@ -535,4 +489,21 @@
   <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">Visualizza e crea monitor di avviso per gli abbonamenti Keystone</block>
   <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">Per saperne di più, fare riferimento a <block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block> e <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>.</block>
   <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">02 marzo 2026</block>
+  <block id="76c3536921b70f0616becde2e9340a54" category="doc">Miglioramenti dei carichi di lavoro di ONTAP Volumes</block>
+  <block id="78b068f24da5a7e17080acceea02e506" category="paragraph">In questa versione, i carichi di lavoro ONTAP Volumes introducono le seguenti funzionalità migliorate:</block>
+  <block id="61f251cc47dddbc52bddd098d342b6d5" category="list-text">*Ripristina nella posizione di origine*: ora puoi ripristinare i file dagli snapshot locali e dagli snapshot replicati nella posizione di origine e anche in una posizione alternativa.</block>
+  <block id="b64975edc0e1d4d2b77bbc09821fe6c1" category="list-text">*Rilevamento del volume orario*: la Dashboard ora scopre e aggiorna i nuovi volumi più rapidamente.</block>
+  <block id="8f504b1c826d739819c7ea02c4fd893f" category="list-text">*Supporto per dark sites*: ora puoi scaricare Backup and Recovery per dark sites da <block ref="e2fed6b5af5d107fdef5614adaedfcef" category="inline-link-rx"></block>. Al momento, NetApp Backup and Recovery per dark sites supporta solo ONTAP Volumes workloads.</block>
+  <block id="ccf9e1de6190057c9e2e1a10c6b8f07f" category="list-text">*Miglioramenti della compatibilità Unicode*: l'indicizzazione del catalogo ora gestisce meglio i caratteri Unicode.</block>
+  <block id="a173f0fc9f4786dd11c96099dd446ec8" category="list-text">*Compatibilità FlexGroup migliorata*: quando si converte un volume ONTAP FlexVol in un volume FlexGroup, ora è possibile ripristinare i backup eseguiti prima della conversione.</block>
+  <block id="f32d4e838dfc925da7a940c6e55acf8c" category="list-text">*Supporto multi-bucket*: ora puoi proteggere i volumi all'interno di un sistema con un massimo di 6 bucket per sistema su diversi cloud provider.</block>
+  <block id="e32587f34260a350a3a49e3604fb2a4c" category="inline-link">Panoramica dei carichi di lavoro di ONTAP Volume Protect</block>
+  <block id="db44a854b206d5d90008224f3bb5b2da" category="paragraph">Per dettagli sulla protezione dei carichi di lavoro ONTAP Volume, fare riferimento a <block ref="660ec036763d30562702201a56aaa402" category="inline-link-rx"></block>.</block>
+  <block id="f154c542c430b30dc73d2d3e87fd6f65" category="paragraph">In questa release, VMware workloads introduce le seguenti funzionalità migliorate:</block>
+  <block id="63eb1b3f5c128e6460c85c7b6e5d2bb9" category="list-text">*Ripristina i dati guest da archivio di oggetti*: ora puoi ripristinare i file e le cartelle guest da storage a oggetti.</block>
+  <block id="7d88c93c0ec65e1bcc3564692a490a5b" category="list-text">*Ripristino rapido per VMFS/NFS*: ora è possibile abilitare l'opzione di ripristino rapido durante il ripristino in una posizione alternativa. Se abilitata, solo i metadati delle VM (file, LUN e namespace) vengono recuperati dall'object store, rendendo i volumi disponibili più rapidamente rispetto a un ripristino completo.</block>
+  <block id="ba95b1986315d65e4bb0f2dcb924f870" category="list-text">*Supporto per Amazon FSx for NetApp ONTAP*: i carichi di lavoro VMware ora supportano i sistemi di storage Amazon FSx for NetApp ONTAP che eseguono la versione 9.13.1 o successiva.</block>
+  <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">Panoramica sulla protezione dei carichi di lavoro VMware</block>
+  <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">Per dettagli sulla protezione dei carichi di lavoro VMware, fare riferimento a<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>.</block>
+  <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">09 marzo 2026</block>
 </blocks>

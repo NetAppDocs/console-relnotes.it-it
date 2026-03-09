@@ -506,4 +506,17 @@
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">Panoramica sulla protezione dei carichi di lavoro VMware</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">Per dettagli sulla protezione dei carichi di lavoro VMware, fare riferimento a<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>.</block>
   <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">09 marzo 2026</block>
+  <block id="b57381f68dbba13b31fa8aa68f6b0b91" category="doc">Escludere un datastore dai piani di replicazione</block>
+  <block id="97a6d5c9da6b211dcdf5d581e247e960" category="paragraph">Quando si crea un piano di replica in Disaster, è ora possibile escludere specifici datastore dalla replica. Per le situazioni in cui una VM è configurata per utilizzare più datastore, questo consente di limitare quali vengono replicati.</block>
+  <block id="1783ee76cf8532a6df415b4e239a23d9" category="paragraph">Per i dettagli, vedere <block ref="c2741b2e4bc1013bb2e1908f9c4eb243" category="inline-link-macro-rx"></block>.</block>
+  <block id="ec6c483e852913b786ae872f19efd121" category="section-title">Rimossa la convalida della password dalla password vCenter</block>
+  <block id="8cca1120916820e14384f393325831ff" category="paragraph">Disaster Recovery ha rimosso le restrizioni sulle password di vCenter per consentire password che contengono spazi.</block>
+  <block id="c0b13507b7c62a7122f6d5ccf83fd444" category="inline-link-macro">Aggiungi cluster vCenter on-premises e Amazon EVS in NetApp Disaster Recovery</block>
+  <block id="32530c1a1edb0706f8c34b61bf263957" category="paragraph">Per ulteriori informazioni, vedere <block ref="0d43ad8ffb310486762e1912aeac4ebc" category="inline-link-macro-rx"></block>.</block>
+  <block id="d7861bc1dada29d20aea81705aca4684" category="section-title">Nuovo sottomenu del piano di replicazione</block>
+  <block id="92902e0b7c7f7c58edcfa55410a2eb18" category="paragraph">Disaster Recover ora include nuove opzioni di menu per attivare gli aggiornamenti di vCenter dalla dashboard del piano di replica. Puoi accedere al sottomenu dal menu azioni della dashboard del piano di replica: seleziona **Plan Health** quindi **Refresh Source vCenter / Refresh Target vCenter**.</block>
+  <block id="8bad83affac335130776761407726ea6" category="inline-link-macro">Modificare un piano di replicazione</block>
+  <block id="95036acb74478cad3d04125e4993251b" category="paragraph">Per ulteriori informazioni, vedere <block ref="ef769a112a3ec5265cbcfd525103b93a" category="inline-link-macro-rx"></block>.</block>
+  <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">Scoperta della rete migliorata</block>
+  <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">Disaster Recovery ora include un miglior rilevamento della rete per supportare una gamma più ampia di configurazioni di rete.</block>
 </blocks>

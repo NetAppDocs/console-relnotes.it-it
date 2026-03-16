@@ -30,6 +30,24 @@ Bonifica:: Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 ====
 
 
+== 16 marzo 2026
+
+
+
+=== Backup e ripristino
+
+
+
+==== Miglioramenti dei carichi di lavoro VMware
+
+In questa versione, VMware workloads introduce i seguenti miglioramenti:
+
+*Supporto per la coerenza delle VM per livello di pianificazione*: ora puoi abilitare backup coerenti con le VM e con le applicazioni per livelli di pianificazione specifici durante la configurazione delle policy di protezione per i carichi di lavoro VMware. I livelli annuale, mensile e settimanale sono supportati.
+
+Per dettagli sulla protezione dei carichi di lavoro VMware, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro VMware"].
+
+
+
 == 12 marzo 2026
 
 

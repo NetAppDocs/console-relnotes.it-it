@@ -564,5 +564,5 @@
   <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">30 marzo 2026</block>
   <block id="ed300adca180c1e33d800707367434a6" category="doc">Manuale SOAR per Google SecOps</block>
   <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
-  <block id="6e9577ca2ef4afc51475afb9c4855a58" category="paragraph">Ransomware Resilience offre ora un playbook di orchestrazione, automazione e risposta alla sicurezza (SOAR) per <block ref="a0b16504c1687e5508c034346a32796a" category="inline-link-macro-rx"></block>. Il playbook semplifica la gestione della risposta alle minacce, automatizzando le attività di test e gli sforzi essenziali di risposta al ransomware, tra cui la creazione di snapshot e la messa offline di un volume.</block>
+  <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilience offre ora un playbook di orchestrazione, automazione e risposta alla sicurezza (SOAR) <block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block>. Il playbook semplifica la gestione della risposta alle minacce, automatizza attività e test e supporta le attività essenziali di risposta al ransomware, tra cui la creazione di snapshot e la messa offline di un volume.</block>
 </blocks>

@@ -34,150 +34,21 @@ Bonifica:: Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 
 
 
-=== Configurazione e amministrazione della console
-
-
-
-==== Console agent 4.6.0
-
-La versione 4.6.0 supporta sia la modalità standard che la modalità limitata.
-
-Questa versione dell'agente Console include miglioramenti della sicurezza e correzioni di bug, oltre alla seguente nuova funzionalità.
-
-.Supporto per i controlli di configurazione dello spazio su disco richiesto
-È possibile verificare che lo spazio su disco necessario per l'agente della Console sia disponibile utilizzando i controlli di configurazione. È possibile eseguire i controlli di configurazione dalla Console o dalla console di manutenzione dell'agente. link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["Scopri di più sull'esecuzione dei controlli di configurazione sull'agente della console"^]
-
-.Aggiornare un agente Console distribuito da vCenter utilizzando un ISO
-Se hai distribuito un agente Console in vCenter utilizzando un OVA, ora puoi aggiornarlo a una nuova versione montando un ISO sulla macchina virtuale ed eseguendo l'aggiornamento dalla console di manutenzione della macchina virtuale. link:https://docs.netapp.com/us-en/console-setup-admin/task-upgrade-agent.html["Scopri come aggiornare un agente Console distribuito da vCenter"^]
-
-
-
-=== Backup e ripristino
-
-
-
-==== Miglioramenti dei carichi di lavoro di ONTAP Volumes
-
-In questa versione, i carichi di lavoro ONTAP Volumes introducono il seguente miglioramento:
-
-*NetApp MetroCluster configurazioni attivo/attivo supportate*: NetApp Backup e ripristino per i carichi di lavoro dei volumi ora supporta MetroCluster nella configurazione attivo-attivo.
-
-Per informazioni dettagliate sulla protezione dei carichi di lavoro di ONTAP Volumes, fare riferimento a  https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Panoramica dei carichi di lavoro di Protect ONTAP Volumes"].
-
-
-
-==== Miglioramenti dei carichi di lavoro Kubernetes
-
-In questa versione, Kubernetes workloads introduce i seguenti miglioramenti alle policy di protezione:
-
-* *Modifica le policy di protezione*: Ora puoi modificare le policy di protezione dei carichi di lavoro Kubernetes se hai bisogno di cambiare
-* *Supporto da disco a disco*: ora è possibile configurare le policy di protezione di Kubernetes con un'architettura di backup da disco a disco.
-* *Supporto per i bucket di storage di Google Cloud Platform*: ora è possibile configurare le policy di protezione di Kubernetes per eseguire il backup nei bucket di storage di Google Cloud Platform.
-
-
-Per ulteriori informazioni sulle policy di protezione, consultare  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-policies-create.html["Creare e gestire le policy di protezione in NetApp Backup e ripristino"].
-
-Per dettagli sulla protezione dei carichi di lavoro Kubernetes, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro Kubernetes"].
-
-
-
-==== Miglioramenti ai carichi di lavoro Hyper-V
-
-In questa versione, Hyper-V workloads introduce i seguenti miglioramenti:
-
-* *Gestione dei job migliorata*: NetApp Backup and Recovery ora gestisce più job simultanei in modo più efficiente.
-* *Supporto SAN (anteprima)*: Backup e ripristino ora supporta la protezione delle macchine virtuali Hyper-V archiviate su storage SAN.
-
-
-Per informazioni dettagliate sulla protezione dei carichi di lavoro Hyper-V, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro Hyper-V"].
-
-
-
-==== Miglioramenti ai carichi di lavoro KVM
-
-In questa versione, i carichi di lavoro KVM introducono i seguenti miglioramenti:
-
-* *Gestione dei job migliorata*: NetApp Backup and Recovery ora gestisce più job simultanei in modo più efficiente.
-* *Ripristino in una posizione alternativa (anteprima)*: Ora è possibile ripristinare le VM KVM in una destinazione alternativa. Per ulteriori informazioni, consultare  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-restore.html["Ripristina le macchine virtuali KVM con NetApp Backup and Recovery"].
-
-
-Per i dettagli sulla protezione dei carichi di lavoro KVM, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro KVM"] .
-
-
-
-==== Miglioramenti dei carichi di lavoro VMware
-
-In questa versione, VMware workloads introduce i seguenti miglioramenti:
-
-* *Protezione basata su tag*: Backup e ripristino per i carichi di lavoro VMware ora supporta la protezione basata su tag per le VM archiviate su volumi NFS e VMFS, consentendo di creare gruppi di protezione dai tag di vCenter invece che da singole VM o datastore. Quando si assegnano tag a VM e datastore in vCenter, Backup e ripristino li rileva e li include automaticamente nei backup futuri senza alcuna manutenzione manuale dei gruppi. Per ulteriori informazioni, consultare  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protection-groups.html["Creare e gestire gruppi di protezione"].
-* *Ripristino su sistema storage alternativo*: Ora è possibile ripristinare le macchine virtuali su un sistema storage alternativo anche quando il sistema storage originale (primario) non è completamente disponibile. Per ulteriori informazioni, consultare  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["Ripristina i carichi di lavoro VMware"].
-* *Ripristino dei file nelle macchine virtuali Linux*: Ora è possibile ripristinare file e cartelle delle macchine virtuali nelle macchine virtuali Linux. Per ulteriori informazioni, consultare  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["Ripristina file e cartelle"].
-* *Supporto per VM proxy durante il ripristino di file e cartelle* - Ora è possibile ripristinare file e cartelle su altre VM ospitate sulla sorgente vCenter. Per ulteriori informazioni, consultare  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["Ripristina i carichi di lavoro VMware"].
-* *Ricerca ricorsiva di file e cartelle* - Ora è possibile cercare un file o una cartella specifici all'interno di un intero file VMDK. Per ulteriori informazioni, consultare  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["Ripristina i carichi di lavoro VMware"].
-* *Gestione dei job migliorata*: NetApp Backup and Recovery ora gestisce più job simultanei in modo più efficiente.
-
-
-Per dettagli sulla protezione dei carichi di lavoro VMware, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro VMware"].
-
-
-
-=== Classificazione dei dati
-
-
-
-==== Versione 1.53
-
-Questa versione di Data Classification include correzioni di bug, miglioramenti della sicurezza e ottimizzazioni delle prestazioni.
-
-Cloud Tiering :leveloffset: +1
-
-Direttiva non risolta in _whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]
-
-
-
 === Ripristino dopo un disastro
 
 
 
 ==== Il supporto per Google Cloud VMware Engine (GCVE) è ora generalmente disponibile (GA)
 
-NetApp Disaster Recovery per GCVE è ora generalmente disponibile (GA). Con il supporto GA, Disaster Recovery per GCVE ora supporta:
+NetApp Disaster Recovery support per GCVE è ora disponibile a livello generale (GA). Con il supporto GA, Disaster Recovery per GCVE ora supporta:
 
 * *Snapshot gestiti dalla piattaforma:* Gestisci backup e criteri di conservazione in modo semplice tramite ONTAP o Google Cloud Platform (GCP).
 * *Più datastore per piano di replica:* Semplifica i tuoi piani di Disaster Recovery consolidando più datastore in un'unica strategia di replica.
 * *Failover forzato per siti di origine non disponibili:* Passa a un sito di disaster recovery se l'origine non è disponibile.
-* *Rimanda la risincronizzazione di SnapMirror e ripristina la replica su richiesta:* Rimanda le risincronizzazioni di SnapMirror per evitare un impatto sui carichi di lavoro di produzione durante i periodi di picco operativo utilizzando l'opzione "skip protect" e successivamente ripristina la replica su richiesta con l'opzione re-protect.
+* *Rimanda la risincronizzazione di SnapMirror e ripristina la replica su richiesta:* Rimanda le risincronizzazioni di SnapMirror per evitare un impatto sui carichi di lavoro di produzione durante i periodi di picco operativo utilizzando l'opzione "skip protect" e successivamente ripristina la replica su richiesta con l'opzione re-protect
 
 
 Per ulteriori informazioni sul supporto per GCVE, consultare link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["configurazioni supportate per NetApp Disaster Recovery"^].
-
-
-
-=== Resilienza al ransomware
-
-
-
-==== Ripristino pulito
-
-Ransomware Resilience ora supporta i ripristini puliti, una nuova opzione di ripristino che consente di recuperare rapidamente e facilmente dagli attacchi ransomware. I ripristini puliti offrono flussi di lavoro guidati che identificano i punti di ripristino ottimali per riavviare i carichi di lavoro riducendo al minimo i tempi di inattività. I flussi di lavoro di ripristino pulito forniscono anche informazioni dettagliate a livello di file sui dati, garantendo il ripristino di carichi di lavoro privi di malware, prevenendo la reinfezione e riducendo al minimo la perdita di dati.
-
-Per informazioni sulle configurazioni supportate e su come configurare il sistema per un ripristino pulito, vedere link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["Creare un ambiente di ripristino isolato"^]. Per informazioni su come eseguire un ripristino pulito, vedere link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover.html["Recupera i carichi di lavoro con un ripristino pulito"^].
-
-
-
-==== Supporto SIEM per Splunk Enterprise
-
-Ransomware Resilience ora offre il supporto per la gestione degli eventi e delle informazioni di sicurezza (SIEM) per Splunk Enterprise, consentendo di centralizzare i dati di log e degli eventi e di semplificare l'analisi e il rilevamento delle minacce.
-
-Per ulteriori informazioni, consultare link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["Collega NetApp Ransomware Resilience a un SIEM"^].
-
-
-
-==== Miglioramento delle attività di comportamento degli utenti
-
-Le informazioni relative alle violazioni dei dati vengono ora conservate per 13 mesi dopo un incidente, consentendo una conservazione dei record più lunga per le vostre esigenze di reporting.
-
-Per ulteriori informazioni, consultare link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["Scopri il rilevamento delle attività degli utenti"^].
 
 
 
@@ -323,14 +194,14 @@ La versione 4.5.0 supporta sia la modalità standard che la modalità limitata.
 
 Questa versione dell'agente Console include miglioramenti della sicurezza e correzioni di bug, oltre alla seguente nuova funzionalità.
 
-.Supporto per i controlli di configurazione delle porte richieste
-È possibile verificare che le porte richieste per l'agente della Console siano aperte utilizzando i controlli di configurazione. È possibile eseguire i controlli di configurazione dalla Console o dalla console di manutenzione dell'agente. link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["Scopri di più sull'esecuzione dei controlli di configurazione sull'agente Console."]
+.b8ea9a14287592fd39444f5f11f22b28
+8fab8f63a86cd4593eb84501e6b42574
 
 
 
 ==== Amministrazione della console
 
-È possibile assegnare ruoli Keystone agli utenti partner per consentire loro di gestire le risorse Keystone in un'organizzazione partner. link:https://docs.netapp.com/us-en/console-setup-admin/task-partnerships-assign-users.html["Scopri di più sull'assegnazione dei ruoli Keystone agli utenti partner."]
+f932e5731af0b28e3d04131c77f23704
 
 
 

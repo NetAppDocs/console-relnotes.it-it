@@ -129,6 +129,10 @@ Per dettagli sulla protezione dei carichi di lavoro VMware, fare riferimento a h
 
 Questa versione di Data Classification include correzioni di bug, miglioramenti della sicurezza e ottimizzazioni delle prestazioni.
 
+Cloud Tiering :leveloffset: +1
+
+Direttiva non risolta in _whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]
+
 
 
 === Ripristino dopo un disastro

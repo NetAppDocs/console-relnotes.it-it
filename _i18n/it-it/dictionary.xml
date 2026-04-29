@@ -533,7 +533,6 @@
   <block id="03fe422ae9ed1fe4cea49e5cfeeac9b8" category="list-text">Sulle tue VM C3, ora puoi aggiungere volumi sia ad aggregati nuovi che esistenti.</block>
   <block id="5aaea3e4d288404c9e29a557265127f4" category="list-text">È possibile modificare le impostazioni di IOPS e throughput durante l'aggiunta di volumi tramite la NetApp Console o utilizzando l'<block ref="a27faf3e52367bc8d4429006be3dde82" prefix=" " category="inline-code"></block>API.</block>
   <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
-  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Cloud Tiering :leveloffset: +1</block>
   <block id="12dc36f8332118bd4fe7f1b4633c0a17" category="list-text">*Supporto per proxy VM durante il ripristino di file e cartelle* - Ora è possibile ripristinare file e cartelle da dischi virtuali utilizzando una proxy VM quando si preferisce non collegare il disco virtuale alla VM originale. Per ulteriori informazioni, consultare <block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>.</block>
   <block id="ddd4881e88c799f792de41fafe0a11d7" category="list-text">*Ricerca ricorsiva di file e cartelle* - Ora è possibile cercare un file o una cartella specifici in un intero disco virtuale. Per ulteriori informazioni, consultare <block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>.</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">In questa versione, VMware workloads introduce il seguente miglioramento:</block>
@@ -548,4 +547,9 @@
   <block id="3c1b98a4347b1e75ca57e51e43e141b2" category="list-text"><block ref="bc9f3746ee1a6c6e91093bc2b9ff13fb" category="inline-link-macro-rx"></block></block>
   <block id="65afa52dc402fa4f804d1fad742f5b32" category="inline-link-macro">NetApp Cloud Tiering Domande frequenti sulla fine della disponibilità</block>
   <block id="91140b6bf054d442adb9178830663a05" category="list-text"><block ref="317d9243bec15035f876da17dbcf900e" category="inline-link-macro-rx"></block></block>
+  <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">Etichetta Provisioned capacity rinominata</block>
+  <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">L'etichetta *Provisioned capacity* è stata rinominata in *Provisioned volume capacity*. L'etichetta aggiornata è riportata anche nei relativi report in formato CSV ed Excel.</block>
+  <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">Interruttore di previsione per il burst accumulato</block>
+  <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">Ora è possibile utilizzare l'interruttore *Previsione* nella vista *Consumo massimo accumulato* della scheda *Andamento dei consumi* per proiettare il consumo massimo accumulato per i prossimi 120 giorni a partire dalla data corrente. Per ulteriori informazioni, consultare <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>.</block>
+  <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">27 aprile 2026</block>
 </blocks>

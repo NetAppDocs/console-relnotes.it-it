@@ -488,7 +488,6 @@
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">Panoramica dei carichi di lavoro di Protect ONTAP Volumes</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">Per informazioni dettagliate sulla protezione dei carichi di lavoro di ONTAP Volumes, fare riferimento a <block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>.</block>
   <block id="19455401d550e37f86235df1de2da367" category="paragraph">In questa versione, Kubernetes workloads introduce i seguenti miglioramenti alle policy di protezione:</block>
-  <block id="8832a3317e409faa663d5b3be7a37383" category="list-text">*Modifica le policy di protezione*: Ora puoi modificare le policy di protezione dei carichi di lavoro Kubernetes se hai bisogno di cambiare</block>
   <block id="67c0c04b74d317df3fb38678dfce9d57" category="list-text">*Supporto da disco a disco*: ora è possibile configurare le policy di protezione di Kubernetes con un'architettura di backup da disco a disco.</block>
   <block id="1f22edbdac095058ea8301cd1b0fa03f" category="list-text">*Supporto per i bucket di storage di Google Cloud Platform*: ora è possibile configurare le policy di protezione di Kubernetes per eseguire il backup nei bucket di storage di Google Cloud Platform.</block>
   <block id="55dcb475c806e158ae812c3e721ff829" category="inline-link">Creare e gestire le policy di protezione in NetApp Backup e ripristino</block>
@@ -552,4 +551,5 @@
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">Interruttore di previsione per il burst accumulato</block>
   <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">Ora è possibile utilizzare l'interruttore *Previsione* nella vista *Consumo massimo accumulato* della scheda *Andamento dei consumi* per proiettare il consumo massimo accumulato per i prossimi 120 giorni a partire dalla data corrente. Per ulteriori informazioni, consultare <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>.</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">27 aprile 2026</block>
+  <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*Modifica le policy di protezione*: Ora puoi modificare le policy di protezione dei carichi di lavoro Kubernetes, se necessario.</block>
 </blocks>

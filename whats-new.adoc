@@ -49,7 +49,32 @@ Caratteristiche principali del supporto per i carichi di lavoro basati su Kubern
 * **Orchestrazione semplificata**: Disaster Recovery offre flussi di lavoro intuitivi per automatizzare il backup e la replica dei carichi di lavoro Kubernetes, sfruttando la stessa efficiente tecnologia SnapMirror utilizzata per gli ambienti VMware.
 
 
-Il supporto per i carichi di lavoro basati su Kubernetes è attualmente in anteprima. Per iniziare a proteggere i carichi di lavoro basati su Kubernetes, consultare link:https://docs.netapp.com/us-en/data-services-disaster-recovery/task-kubernetes-requirements.html["Requisiti di Kubernetes per NetApp Disaster Recovery"^].
+Il supporto per i carichi di lavoro basati su Kubernetes è attualmente in anteprima. Per iniziare a proteggere i carichi di lavoro basati su Kubernetes, consultare link:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/task-kubernetes-requirements.html["Requisiti di Kubernetes per NetApp Disaster Recovery"^].
+
+
+
+== 11 maggio 2026
+
+
+
+=== Configurazione e amministrazione della console
+
+
+
+==== Console agent 4.7.0
+
+La versione 4.7.0 supporta sia la modalità standard che la modalità limitata.
+
+Questa versione dell'agente Console include miglioramenti della sicurezza e correzioni di bug.
+
+
+
+==== Amministrazione NetApp Console
+
+Questa versione include la seguente nuova funzionalità.
+
+.Verifica l'organizzazione della tua Console
+Per impostazione predefinita, Digital Advisor mostra tutti gli account NetApp associati alla tua azienda, anziché solo quelli della tua organizzazione Console. Per limitare la visualizzazione in Digital Advisor a un account specifico, verifica l'account aziendale che desideri utilizzare con la tua organizzazione Console. link:https://docs.netapp.com/us-en/console-setup-admin/task-iam-organization-verify.html["Scopri come verificare l'organizzazione della tua Console"^]
 
 
 
@@ -469,7 +494,7 @@ Questa versione dell'agente Console include miglioramenti della sicurezza e corr
 
 
 
-==== Amministrazione della console
+==== Amministrazione NetApp Console
 
 È possibile assegnare ruoli Keystone agli utenti partner per consentire loro di gestire le risorse Keystone in un'organizzazione partner. link:https://docs.netapp.com/us-en/console-setup-admin/task-partnerships-assign-users.html["Scopri di più sull'assegnazione dei ruoli Keystone agli utenti partner."]
 

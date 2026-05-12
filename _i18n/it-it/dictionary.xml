@@ -505,8 +505,6 @@
   <block id="fe5aa0dbf25e183784fa7cd2b595be46" category="list-text">*Supporto per datastore estesi per i gruppi di protezione*: Ora è possibile scegliere il comportamento dei gruppi di protezione quando si proteggono macchine virtuali i cui dischi virtuali si estendono su più datastore.</block>
   <block id="ab186862b28de3aad826b26d80e3eb96" category="list-text">*Supporto per la clonazione*: ora è possibile creare cloni di snapshot di macchine virtuali da storage primario e secondario.</block>
   <block id="9a9dd7aacb2ac352c55dbbc5bc460b94" category="doc">Miglioramenti al ripristino pulito</block>
-  <block id="5214cc2b554214c44574918df0ce4dd1" category="paragraph">Il ripristino pulito ora supporta il ripristino su cluster alternativi e l'analisi oltre sette giorni.</block>
-  <block id="b3b5d3c0c3eb03018f8b168331bf449f" category="paragraph"><block ref="b1b57aeec3a947615fddf0610c8788f4" category="inline-link-macro-rx"></block>.</block>
   <block id="eddd63bd47a99db9ac6b332f06d65b76" category="section-title">Supporto SIEM di Google SecOps</block>
   <block id="4977d1cdc293f17b4b971e00b9010c9d" category="paragraph">Ransomware Resilience ora supporta la gestione delle informazioni e degli eventi di sicurezza (SIEM) con Google SecOps, consentendo di inviare automaticamente i dati a Google SecOps per un'analisi e un rilevamento delle minacce più efficienti.</block>
   <block id="5ef49dc0416f3c817660ec88587d3752" category="paragraph">Per informazioni sulla configurazione, vedere <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>.</block>
@@ -547,4 +545,7 @@
   <block id="d813fcacf432155f3260728eb45bbdba" category="list-text"><block ref="d813fcacf432155f3260728eb45bbdba" category="inline-link-rx"></block></block>
   <block id="4271feea4f5dd0d69f423f75fc48dbde" category="inline-link">Modificare le modalità di addebito per le licenze di capacità</block>
   <block id="9e2298e44558506acec619a75ec64821" category="list-text"><block ref="9e2298e44558506acec619a75ec64821" category="inline-link-rx"></block></block>
+  <block id="5d9344af71b6822a1b2231cd47017aef" category="paragraph">Il ripristino pulito ora supporta il ripristino in una posizione alternativa, consentendo di ripristinare i volumi su sistemi, storage VM e aggregati diversi gestiti dallo stesso Console agent. Inoltre, il ripristino pulito ha rimosso la limitazione di sette giorni nella ricerca di snapshot validi per il ripristino. Il ripristino pulito ora continua a cercare tra gli snapshot disponibili un punto di ripristino valido, indipendentemente dalla distanza dall'evento ransomware.</block>
+  <block id="66599dda2c9083455404f2c8f0bd486b" category="paragraph"><block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
+  <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">12 maggio 2026</block>
 </blocks>

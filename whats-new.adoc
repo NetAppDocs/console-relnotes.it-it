@@ -158,6 +158,26 @@ Per dettagli sulla protezione dei carichi di lavoro VMware, fare riferimento a h
 
 
 
+=== Classificazione dei dati
+
+
+
+==== Pagina di configurazione migliorata
+
+Data Classification ha aggiornato e migliorato la pagina di configurazione, offrendo un'esperienza d'uso ottimizzata per la gestione delle impostazioni, dei sistemi, l'attivazione delle scansioni e il monitoraggio dello stato di salute del sistema. La nuova pagina di configurazione ripropone le funzionalità esistenti in un formato più intuitivo, con l'aggiunta della possibilità di filtrare i sistemi per tipo, stato di errore e stato di scansione. La nuova pagina fornisce inoltre un riepilogo dei sistemi connessi e una panoramica delle scansioni attive e configurate.
+
+Rivedi un link:https://youtu.be/_8YJ3KyZ7nI["video dimostrativo"^]. Per ulteriori informazioni, consulta link:https://docs.netapp.com/us-en/data-services-data-classification/task-scanning-overview.html["Analizza le fonti di dati con Data Classification"^].
+
+
+
+==== Implementa la classificazione dei dati con OVA
+
+NetApp Data Classification ora supporta la distribuzione con VMware Open Virtual Appliance (OVA), offrendo una strategia di distribuzione semplificata per ambienti VMware vSphere on-premises.
+
+Per ulteriori informazioni, consultare link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-ova.html["Implementa la classificazione dei dati con OVA"^].
+
+
+
 === Ripristino dopo un disastro
 
 
@@ -232,22 +252,6 @@ In questa versione, Kubernetes workloads introduce i seguenti miglioramenti:
 
 
 Per dettagli sulla protezione dei carichi di lavoro Kubernetes, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro Kubernetes"].
-
-
-
-== 04 maggio 2026
-
-
-
-=== Classificazione dei dati
-
-
-
-==== Implementa la classificazione dei dati con OVA
-
-NetApp Data Classification ora supporta la distribuzione con VMware Open Virtual Appliance (OVA), offrendo una strategia di distribuzione semplificata per ambienti VMware vSphere on-premises.
-
-Per ulteriori informazioni, consultare link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-ova.html["Implementa la classificazione dei dati con OVA"^].
 
 
 

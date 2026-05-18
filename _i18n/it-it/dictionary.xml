@@ -115,7 +115,6 @@
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">Amministrazione NetApp Console</block>
-  <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">Questa versione include quanto segue:</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Queste note di rilascio descrivono i recenti miglioramenti apportati a NetApp Console e ai servizi dati da essa supportati. Link al set completo di note di rilascio per ogni singolo servizio.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Scopri le modifiche più recenti apportate alle funzionalità e ai servizi dati che fanno parte della NetApp Console. Per una cronologia completa delle versioni, consultare il set completo di note di rilascio per ogni singolo servizio.</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">Creare un piano di replicazione</block>
@@ -140,45 +139,10 @@
   <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Per informazioni dettagliate sulla protezione dei carichi di lavoro Oracle Database, fare riferimento a<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>.</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">Questa versione dell'agente Console include miglioramenti della sicurezza e correzioni di bug.</block>
   <block id="bf89f4b1f72b6398bcca3a3ff4b6f7c1" category="doc">Cloud Volumes ONTAP supporto per le VM Google Cloud di nuova generazione</block>
-  <block id="1a00162d4bdf4a56a4d4efde8a5c2f13" category="paragraph">Con la versione 9.18.1, NetApp passa le nuove distribuzioni di Cloud Volumes ONTAP dalle VM N2 alle VM di nuova generazione Google Cloud serie C3 per un'esperienza più veloce e scalabile. Ora puoi sfruttare le VM della serie C3 durante la distribuzione di Cloud Volumes ONTAP 9.18.1 e versioni successive in Google Cloud. Le macchine della serie C3 offrono prestazioni migliorate e limiti di capacità più elevati grazie all'utilizzo di Google Virtual NIC (gVNIC) e dischi Hyperdisk Balanced che garantiscono prestazioni dinamiche per carichi di lavoro intensivi.</block>
-  <block id="af3ff68729b6eef28a7439636a40000a" category="admonition">Per ora, Cloud Volumes ONTAP supporta la serie C3 solo nelle distribuzioni a nodo singolo.</block>
-  <block id="506a0b7b76d0386b3d56de15882686c0" category="paragraph">Se il tuo sistema Cloud Volumes ONTAP esegue la versione 9.18.1 o successiva, i pacchetti preconfigurati che utilizzi per le distribuzioni semplificate a nodo singolo utilizzano automaticamente le VM C3, consentendoti di personalizzare i parametri IOPS e throughput in base alle esigenze del tuo carico di lavoro. Analogamente, durante la creazione di aggregati, puoi aggiungere dischi Hyperdisk Balanced per ottenere prestazioni e scalabilità migliori in Google Cloud. Inoltre, puoi selezionare le varianti LSSD delle macchine della serie C3 per il supporto predefinito di Flash Cache.</block>
-  <block id="4e97495efaaec030c995f03b84344009" category="paragraph">Non è possibile modificare il tipo di disco per le VM C3 quando si aggiungono volumi agli aggregati perché C3 supporta solo dischi Hyperdisk Balanced. Analogamente, quando si replica un sistema con tipi di VM N2 su una VM C3, il tipo di disco è impostato per impostazione predefinita su Hyperdisk Balanced.</block>
   <block id="8f4e28604a8893d6adb6f9b81569d19b" category="inline-link">Configurazioni supportate per Cloud Volumes ONTAP in Google Cloud</block>
   <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
-  <block id="fe7bf6c599e29ac1b663b6261745a091" category="inline-link">Documenti Google: serie di macchine C3</block>
-  <block id="51f6395b88f3891175360eb16ab814d6" category="paragraph"><block ref="51f6395b88f3891175360eb16ab814d6" category="inline-link-rx"></block></block>
-  <block id="1a7265e4a0716c5c59fbf92d4b2b8f8b" category="section-title">Sicurezza VNet per Cloud Volumes ONTAP in Azure</block>
-  <block id="a128f7270c0bfb9c5f5d16ec39f0d354" category="paragraph">Cloud Volumes ONTAP 9.18.1 e versioni successive distribuite in zone di disponibilità singole e multiple di Azure supportano la crittografia Azure Virtual Network (VNet) come parte della strategia di sicurezza a più livelli per proteggere i dati in transito. Cloud Volumes ONTAP sfrutta il protocollo Datagram Transport Layer Security (DTLS) nativo di Azure per proteggere la comunicazione tra nodi ONTAP, interfacce di gestione e altri servizi Azure, prevenendo intercettazioni e accessi non autorizzati. Questa crittografia a livello di rete integra le protezioni integrate di ONTAP per l'archiviazione e i dati a riposo, offrendo la sicurezza end-to-end dei dati.</block>
-  <block id="472b8c31c7082d1e8c4c46bb6921f950" category="inline-link">Networking per la crittografia di Azure VNet</block>
-  <block id="2f932ac183ffb505894bacafe67a78d0" category="paragraph"><block ref="2f932ac183ffb505894bacafe67a78d0" category="inline-link-rx"></block></block>
-  <block id="d71e7e243c134c41083284d79bb58c37" category="section-title">17 febbraio 2026</block>
-  <block id="5d8caeaede63e2cdba6715a163d09892" category="doc">Supporto per la migrazione delle storage VM</block>
-  <block id="353d7ff4a3d58ad1fe8ef0ad6acab574" category="paragraph">NetApp Workload Factory ora supporta la migrazione per le storage VM. Questa funzionalità consente la migrazione dei dati e delle configurazioni del sistema storage ONTAP da sistemi ONTAP on-premises o da file system FSx for ONTAP di prima generazione a file system FSx for ONTAP di seconda generazione. È possibile replicare i dati e le impostazioni di configurazione delle storage VM per spostarsi nel nuovo file system con tempi di inattività e interruzioni minimi per utenti e applicazioni.</block>
-  <block id="fb2a77c6756f10fcc139a51a83349d7f" category="inline-link-macro">creare una relazione di replicazione</block>
-  <block id="33039f37667143e740ae3514cd2b2eea" category="inline-link-macro">cutover della storage VM e dei suoi volumi replicati</block>
-  <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">16 febbraio 2026</block>
-  <block id="17dfbc312023bdd4da992d8e751e72ac" category="doc">Supporto per Azure NetApp Files</block>
-  <block id="ea2f778dfb597a4b527dac7e944ad95b" category="paragraph">Ransomware Resilience ora supporta i sistemi Azure NetApp Files, consentendo di rilevare e rispondere in modo efficiente alle minacce ransomware in Azure NetApp Files. Quando scopri i carichi di lavoro, Ransomware Resilience ora presenta Azure NetApp Files e li visualizza nella dashboard di protezione. Il supporto di Ransomware Resilience per Azure NetApp Files include strategie di rilevamento e protezione basate solo su snapshot. Il supporto per Azure NetApp Files è attualmente in anteprima.</block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">Scopri la resilienza al ransomware</block>
-  <block id="533173be617e8e70b39c22d6b639f1ef" category="section-title">Escludere gli utenti dagli avvisi sul comportamento degli utenti</block>
-  <block id="34db265ea1c563cd1e8fec4196fdd55a" category="paragraph">Ransomware Resilience ora consente di escludere utenti specifici dagli avvisi sul comportamento utente. L'esclusione di utenti attendibili può prevenire falsi positivi e avvisi non necessari.</block>
   <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">Escludi gli utenti dagli avvisi</block>
-  <block id="628cc6a9c569438d880eccc1e4a778da" category="paragraph">Per ulteriori informazioni, vedere il link:Per ulteriori informazioni, vedere <block ref="dfd47d5e016db97d5fa8c5e4a7bd25f8" category="inline-link-macro-rx"></block>.</block>
-  <block id="366a951452a8cc6f0127d24e9230c837" category="section-title">Supporto del gruppo di protezione per l'attività dell'utente</block>
-  <block id="3393700830226a018a19341bd00d6fa7" category="paragraph">I gruppi di protezione Ransomware Resilience ora supportano policy di rilevamento per il rilevamento di comportamenti sospetti degli utenti. Quando si applica una strategia di protezione ransomware a un gruppo di protezione, viene applicata una policy su tutti i carichi di lavoro, semplificando la gestione della postura di cybersecurity.</block>
-  <block id="d3bc7420d7e89fa51ba74ffa21c65564" category="inline-link-macro">Crea un gruppo di protezione</block>
-  <block id="e37ee5388292007ad9d3935327219122" category="paragraph">Per ulteriori informazioni, vedere <block ref="5988324edfd7d92a7675cb7a08ac2a7e" category="inline-link-macro-rx"></block>.</block>
-  <block id="718285f559bff92f1fc2fb988df3fabe" category="doc">Console agent 4.4.1</block>
-  <block id="3ffe5c6490eae7ac4252c8efb9559119" category="paragraph-title">Accedi a NetApp Data Infrastructure Insights dalla NetApp Console</block>
-  <block id="0597e1be82ceeb01b40b4706c1dc68e1" category="paragraph">Puoi accedere a una prova gratuita di NetApp Data Infrastructure Insights da NetApp Console. Vai su *Governance* &gt; *Data Infrastructure Insights* per registrarti ed esplorare insight e analisi sul tuo ambiente dati.</block>
-  <block id="83babe62c403f56e76ef6809d4508f91" category="doc">Interfaccia utente migliorata</block>
-  <block id="438ce765c897095715b03fca4b860a61" category="paragraph">L'interfaccia utente di Disaster Recovery è stata aggiornata per migliorare le prestazioni e l'esperienza utente in base al feedback.</block>
-  <block id="c99f25325f86d3f0c79c43f7e35c908e" category="section-title">Documentazione Swagger API</block>
-  <block id="4dc69d78f0442e6b664baa4e0d9bd594" category="inline-image-macro">Icona azione</block>
-  <block id="c75d11eee9117155e14ba1fe4d4e9609" category="inline-link-macro">aggiungi l'URL ai preferiti</block>
-  <block id="1ed2e3ee9da6a94c882b1fde4a104444" category="paragraph">La documentazione dell'API Swagger per il Disaster Recovery è ora accessibile tramite un normale browser; la modalità di navigazione in incognito non è più necessaria. Per accedere alla documentazione dell'API, accedi alla dashboard di Disaster Recovery, seleziona il menu contestuale in alto a destra <block ref="9bb01c837d73cae62964f6b5d76c3c64" category="inline-image-macro-rx" type="image"></block> quindi **API Documentation** per aprire la documentazione Swagger. Puoi anche <block ref="1a92440ed6b8c60f65d4cdda7009f427" category="inline-link-macro-rx"></block>.</block>
-  <block id="498aaff0cc400a96455ebb5b21ae7ffa" category="paragraph">Per utilizzare questa funzionalità, <block ref="a00423c4266b8832da7ddbc75235d0cb" category="inline-link-macro-rx"></block> e selezionare *Migrazione* come caso d'uso. Per completare il processo di migrazione, è necessario <block ref="26b59663dcf673cfcdf7f1e6b23597f9" category="inline-link-macro-rx"></block> immediatamente per migrare in modo permanente i dati e le impostazioni di configurazione della storage VM nel file system FSx for ONTAP di destinazione.</block>
   <block id="aa3bf76b3589430467bef386eaec9486" category="doc">Nuove regioni supportate in Azure</block>
   <block id="c1ad65632774d8f35681af3ad68ef48e" category="paragraph">È ora possibile distribuire Cloud Volumes ONTAP 9.12.1 GA e versioni successive in zone di disponibilità singole e multiple in Azure nelle seguenti regioni. Questo include il supporto per distribuzioni sia a nodo singolo che ad alta disponibilità (HA).</block>
   <block id="ef8436a4447e0d3f8eea6f08056a2a75" category="list-text">Giappone occidentale (japanwest)</block>
@@ -186,9 +150,6 @@
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mappa delle regioni globali sotto Azure</block>
   <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">Per un elenco di tutte le regioni, fare riferimento al<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>.</block>
   <block id="29759b568048f604f84457c1e384b4a3" category="section-title">19 febbraio 2026</block>
-  <block id="ca1d1a0086fee239544c6e4e89b5f8f8" category="doc">Visualizzazione del consumo aggiuntivo DII</block>
-  <block id="4d0aa03b8805975279d25e57b83cad25" category="inline-link-macro">Visualizza il consumo DII</block>
-  <block id="903f10a385ab3936430e26fbc1b90d88" category="paragraph">Il consumo del componente aggiuntivo Data Infrastructure Insights (DII) ora viene visualizzato nelle schede *Consumo attuale* e *Tendenza del consumo*. Per ulteriori informazioni, consultare <block ref="e1ed0a5aaa8506a20b57415cc0717b20" category="inline-link-macro-rx"></block>.</block>
   <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="doc">Carichi di lavoro KVM supportati in General Availability (GA)</block>
   <block id="2c4d488d266d9d0655ce2e1451e05b2d" category="paragraph">Il supporto per i carichi di lavoro Kubernetes è ora generalmente disponibile (GA) in NetApp Backup and Recovery. Questa versione dei carichi di lavoro Kubernetes introduce anche le seguenti funzionalità avanzate:</block>
   <block id="2329c3692bdf2d2f098db291ec4e9427" category="paragraph">*Supporto per la creazione di report*: ora è possibile generare report sulle attività di protezione per i cluster Kubernetes e le applicazioni protette da NetApp Backup and Recovery.</block>
@@ -227,7 +188,6 @@
   <block id="4caab03d94f5f056dee76ac3abd4066d" category="inline-link">Configurazione di Infrastructure Manager per distribuzioni in modalità privata</block>
   <block id="d79d7aeb01a8087d8ac3417a9437a457" category="paragraph">Nelle distribuzioni in modalità privata, sono necessarie alcune modifiche alla configurazione affinché Cloud Volumes ONTAP possa iniziare a utilizzare Infrastructure Manager. Fare riferimento a <block ref="a3ca45cd087005e24df23da60619241b" category="inline-link-rx"></block>.</block>
   <block id="56a5c925d77740ea69d50272863f3f75" category="section-title">26 febbraio 2026</block>
-  <block id="e2a0e249f352de2ea956157df300d5c0" category="paragraph">La versione 4.4.1 supporta sia la modalità standard che la modalità limitata.</block>
   <block id="b7c3f162d94516a17d91ff328463e7b2" category="doc">Rilascio modalità privata (4.4.0)</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">Sito di supporto NetApp</block>
   <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">Una nuova versione in modalità privata è ora disponibile per il download da<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block></block>
@@ -549,4 +509,7 @@
   <block id="0d1a008033e3d9d27f9dd95b4127ec91" category="paragraph">Se sei già un utente registrato, l'accesso dovrebbe continuare normalmente. Ad esempio, un ruolo sulla piattaforma che include un ruolo di amministratore di cartella o di progetto ha già accesso.</block>
   <block id="eeeb9dcaeb66c431b51b12eff19105f3" category="inline-link-macro">Ruoli di classificazione dei dati</block>
   <block id="31228a8fb4b495437a73c890178a5d10" category="paragraph">Per ulteriori informazioni, consulta <block ref="2470dbb8f361be9555feba4c3093f332" category="inline-link-macro-rx"></block>.</block>
+  <block id="ba0619dd0f47665766133e60320fb439" category="doc">Revisione del benessere</block>
+  <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">A partire da luglio 2026, la funzionalità di revisione del benessere non sarà più disponibile in Digital Advisor. Per qualsiasi domanda, inviare un'e-mail a mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].</block>
+  <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">18 maggio 2026</block>
 </blocks>

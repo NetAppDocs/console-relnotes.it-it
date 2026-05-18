@@ -1,0 +1,9 @@
+= Revisione del benessere
+:allow-uri-read: 
+
+
+
+
+=== Revisione del benessere
+
+A partire da luglio 2026, la funzionalità di revisione del benessere non sarà più disponibile in Digital Advisor. Per qualsiasi domanda, inviare un'e-mail a mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].

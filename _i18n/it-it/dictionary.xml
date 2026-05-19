@@ -280,9 +280,7 @@
   <block id="2bdd9842a1d8845c8d1b9f13695c4ac5" category="inline-link-macro">Scopri di più sull'assegnazione dei ruoli Keystone agli utenti partner.</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">Per ulteriori informazioni, vedere <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>.</block>
   <block id="f1997d5dfd164e5a0380ec3b9fe07b89" category="doc">Escludi in blocco gli utenti dagli avvisi sul comportamento degli utenti</block>
-  <block id="4de429b8f1b2702e94fc5d32dd614fa1" category="paragraph">Ransomware Resilience ora supporta il caricamento di un elenco JSON di utenti da escludere dagli avvisi sulle attività comportamentali degli utenti, oltre alle opzioni esistenti basate su UI e CSV.</block>
   <block id="0255e4883b8e158de2dac4173dac190a" category="paragraph">Per ulteriori informazioni, vedere <block ref="dfd47d5e016db97d5fa8c5e4a7bd25f8" category="inline-link-macro-rx"></block>.</block>
-  <block id="5d8e3a83bb9b2062983b23dd93a1a59a" category="section-title">Miglioramenti dell'attività comportamentale dell'utente</block>
   <block id="fcd457ee097f566ef709e77f46015c87" category="paragraph">Ransomware Resilience ha migliorato la comprensione del comportamento degli utenti aggiungendo avvisi via email e includendo gli eventi relativi al comportamento degli utenti nei dati degli eventi SIEM supportati (AWS Security Hub, Microsoft Sentinel e Splunk Cloud). Questi miglioramenti forniscono informazioni più accurate sul monitoraggio della sicurezza e della conformità.</block>
   <block id="5d8eeee45929294781013d6d152aae8a" category="inline-link-macro">Collega NetApp Ransomware Resilience a un SIEM</block>
   <block id="ffe0756ca1f78d7e15e127b325f96178" category="paragraph">Per ulteriori informazioni, vedere <block ref="372c79e94d2824fc0323cc318a30717d" category="inline-link-macro-rx"></block>.</block>
@@ -385,7 +383,6 @@
   <block id="8d4e1592ef4f14add49e9860e8b367dc" category="paragraph">Ransomware Resilience ora offre il supporto per la gestione degli eventi e delle informazioni di sicurezza (SIEM) per Splunk Enterprise, consentendo di centralizzare i dati di log e degli eventi e di semplificare l'analisi e il rilevamento delle minacce.</block>
   <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">Collega NetApp Ransomware Resilience a un SIEM</block>
   <block id="dbdca0e081ed0b247153e35ce9b1c298" category="paragraph">Per ulteriori informazioni, consultare <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>.</block>
-  <block id="54dee0adf9652288315f3c7099d462be" category="section-title">Miglioramento delle attività di comportamento degli utenti</block>
   <block id="7ee4b3a8392885d95b1b7c9f5a6c99e5" category="paragraph">Le informazioni relative alle violazioni dei dati vengono ora conservate per 13 mesi dopo un incidente, consentendo una conservazione dei record più lunga per le vostre esigenze di reporting.</block>
   <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">Scopri il rilevamento delle attività degli utenti</block>
   <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">Per ulteriori informazioni, consultare <block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>.</block>
@@ -527,4 +524,7 @@
   <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">Scarica i report in Ransomware Resilience</block>
   <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">Per ulteriori informazioni sui report, consultare <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>. Per ulteriori informazioni sul ripristino, consultare <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
   <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">Per ulteriori informazioni, consultare <block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>.</block>
+  <block id="25c586197cb6f55bfcb4c60401abba6c" category="paragraph">Ransomware Resilience ora supporta il caricamento di un elenco JSON di utenti da escludere dagli avvisi sul comportamento degli utenti, oltre alle opzioni esistenti basate su interfaccia utente e CSV.</block>
+  <block id="ecac6e0599f3e07a4eb088d4ffb44a1d" category="section-title">Miglioramenti al rilevamento del comportamento dell'utente</block>
+  <block id="d3e94cc4397c8143c67e5435f39f1c9d" category="section-title">Miglioramento del rilevamento del comportamento dell'utente</block>
 </blocks>

@@ -1007,23 +1007,3 @@ Il supporto per i carichi di lavoro Kubernetes è ora generalmente disponibile (
 *Supporto per la creazione di report*: ora è possibile generare report sulle attività di protezione per i cluster Kubernetes e le applicazioni protette da NetApp Backup and Recovery.
 
 Per dettagli sulla protezione dei carichi di lavoro Kubernetes, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro Kubernetes"].
-
-
-
-== 19 febbraio 2026
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== Nuove regioni supportate in Azure
-
-È ora possibile distribuire Cloud Volumes ONTAP 9.12.1 GA e versioni successive in zone di disponibilità singole e multiple in Azure nelle seguenti regioni. Questo include il supporto per distribuzioni sia a nodo singolo che ad alta disponibilità (HA).
-
-* Giappone occidentale (japanwest)
-* Indonesia centrale (indonesiacentral)
-
-
-Per un elenco di tutte le regioni, fare riferimento al https://bluexp.netapp.com/cloud-volumes-global-regions["Mappa delle regioni globali sotto Azure"^].

@@ -520,4 +520,8 @@
   <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Creare un gruppo di protezione in Ransomware Resilience</block>
   <block id="afe30c0d6b10a23db7ce0d1907082557" category="paragraph">Ransomware Resilience ora supporta la creazione di gruppi di protezione per i carichi di lavoro nei sistemi Google Cloud NetApp Volumes, consentendo di organizzare più carichi di lavoro sotto un'unica policy per semplificare la gestione. Per ulteriori informazioni, consultare <block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>.</block>
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">26 maggio 2026</block>
+  <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">Visualizzazione migliorata di più aggiornamenti nello stesso giorno nella cronologia dell'abbonamento</block>
+  <block id="9d9d2c4a682ab1170a2378566a9e0af1" category="inline-link-macro">Visualizza la cronologia dei tuoi abbonamenti Keystone</block>
+  <block id="fad09c803865d7a730faa5e2a3f20dc6" category="paragraph">Il grafico della cronologia degli abbonamenti ora mostra un numero quando si verificano più aggiornamenti di abbonamento di diverso tipo nello stesso giorno, anziché icone separate. Passando il mouse sul numero, è possibile visualizzare tutti i tipi di aggiornamento per quel giorno. Il report scaricato include una riga separata per ogni aggiornamento, fornendo un registro completo di tutte le modifiche. Per ulteriori informazioni, consultare <block ref="6bdc06544a2a6817dc4209abc6ea98ff" category="inline-link-macro-rx"></block>.</block>
+  <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">25 maggio 2026</block>
 </blocks>

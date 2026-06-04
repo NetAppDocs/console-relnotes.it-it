@@ -30,6 +30,40 @@ Bonifica:: Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 ====
 
 
+== 03 giugno 2026
+
+
+
+=== Pianificazione del ciclo di vita
+
+
+
+==== Aggiornamenti dei nomi delle funzionalità di pianificazione del ciclo di vita
+
+Le seguenti funzionalità di pianificazione del ciclo di vita hanno subito modifiche di nome:
+
+* La funzione di aggiornamento tecnologico ora si chiama *Aggiornamento del sistema*. Scopri come link:../use/tech-refresh.html["valutare un aggiornamento del sistema"].
+* La funzione di aggiunta di capacità ora si chiama *Espansione di archiviazione*. Scopri come link:../use/capacity-add.html["espandere lo spazio di archiviazione"].
+* La funzionalità Rinnovi ora si chiama *Support Renewals*. Scopri come link:../support/task-support-registration.html["registrati per ricevere supporto"].
+
+
+
+
+=== Consulente digitale
+
+
+
+==== Aggiornamenti del nome del widget di Digital Advisor
+
+Le seguenti funzionalità di Digital Advisor hanno cambiato nome:
+
+* La funzione Aggiornamento tecnico ora si chiama Aggiornamento di sistema. Scopri come link:https://docs.netapp.com/us-en/active-iq/evaluate-tech-refresh.html["valutare un aggiornamento del sistema"].
+* La funzione di aggiunta di capacità ora si chiama espansione dello storage. Scopri di più link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widget di Digital Advisor"].
+* La funzione Rinnovi ora si chiama Support Renewals. Scopri di più link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widget di Digital Advisor"].
+
+
+
+
 == 26 maggio 2026
 
 

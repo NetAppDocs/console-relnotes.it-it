@@ -391,4 +391,5 @@
   <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*Supporto per cloud storage compatibile S3*: NetApp Backup e ripristino per i carichi di lavoro di Volumes ora supporta il backup su cloud storage compatibile S3.</block>
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*Miglioramenti al ripristino di file e cartelle su una macchina virtuale guest*: ora è possibile ripristinare file e cartelle da uno snapshot su storage primario o secondario su una macchina virtuale Windows guest. Questa funzionalità è ora supportata per CIFS e per le macchine virtuali SAN.</block>
   <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">08 giugno 2026</block>
+  <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">Questa versione di Data Classification include miglioramenti alla sicurezza e alle prestazioni.</block>
 </blocks>

@@ -59,6 +59,16 @@ Per informazioni dettagliate sulla protezione dei carichi di lavoro Hyper-V, far
 
 
 
+=== Classificazione dei dati
+
+
+
+==== Miglioramenti generali
+
+Questa versione di Data Classification include miglioramenti alla sicurezza e alle prestazioni.
+
+
+
 == 03 giugno 2026
 
 

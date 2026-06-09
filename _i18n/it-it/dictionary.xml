@@ -406,4 +406,32 @@
   <block id="d4f1750ecbae7aeb8e4608c6adadf1b3" category="inline-link">Configurazioni supportate per Cloud Volumes ONTAP in AWS</block>
   <block id="2723587cecc87d757adc3d7f42677613" category="paragraph">Per ulteriori informazioni, consultare <block ref="5facb34de99943f35a6951018b8a6bef" category="inline-link-rx"></block>.</block>
   <block id="ee679c5a83450dd8f0c139cea8a1cc40" category="doc">Supporto per nuove istanze EC2 per Cloud Volumes ONTAP in AWS</block>
+  <block id="332fe49e1772f15dfec47321d1f86499" category="doc">Aggiornamenti di Kubernetes</block>
+  <block id="c0471f20c72304b23fb6eb762ed470b8" category="paragraph">Disaster Recovery ha introdotto le seguenti modifiche per i carichi di lavoro basati su Kubernetes:</block>
+  <block id="b1f52bc1b1d4ff2b36103a44b4128f19" category="section-title">Test del supporto di failover per i carichi di lavoro Kubernetes</block>
+  <block id="7e284075cd571fe0081cd386d1d3493c" category="paragraph">La funzionalità di ripristino di emergenza ora supporta il test del processo di failover per i carichi di lavoro Kubernetes. Il test del failover consente di convalidare i piani di ripristino di emergenza. Al termine del test, è possibile ripulire il failover di prova, in modo che il sistema elimini automaticamente le risorse di test per ridurre il sovraccarico e garantire la coerenza dell'ambiente.</block>
+  <block id="ec841432c6696238519b70833f9640bb" category="inline-link-macro">Testare il processo di failover</block>
+  <block id="6031837c36096c58788ef48c962f6ff8" category="paragraph">Per ulteriori informazioni, vedere <block ref="a8818044286b10a3ca635d0b39faff78" category="inline-link-macro-rx"></block>.</block>
+  <block id="9be7f1264301a801add3868ed7829904" category="section-title">Failover di test programmati</block>
+  <block id="2cb1fc25b0b81893e3832eea3384812d" category="paragraph">Ora è possibile automatizzare i test di ripristino di emergenza pianificando i failover di prova. È possibile impostare pianificazioni per failover di prova ricorrenti per convalidare continuamente i piani di ripristino senza intervento manuale, contribuendo a mantenere la fiducia negli obiettivi di ripristino e a soddisfare i requisiti di conformità.</block>
+  <block id="07851e0287e57a794c18de627c09e0e7" category="inline-link-macro">Gestire i piani di replica</block>
+  <block id="35bd874c9b191a5ec4ef2620bcba1d01" category="paragraph">Per ulteriori informazioni, vedere <block ref="5e1f430868dd2493a6125e8cf919005e" category="inline-link-macro-rx"></block>.</block>
+  <block id="61a19574e3bdebdbc07d7daaaf8f76e1" category="section-title">Rilevamento programmato dei carichi di lavoro Kubernetes</block>
+  <block id="d45fce8600e6e092745f48fddf5cd172" category="paragraph">Con la rilevazione programmata, puoi controllare la frequenza con cui Disaster Recovery esegue la scansione per individuare nuovi carichi di lavoro Kubernetes. Puoi configurare gli intervalli di rilevazione in base alla tua cadenza operativa, riducendo il sovraccarico di sistema non necessario e garantendo al contempo che i nuovi carichi di lavoro vengano rilevati e protetti tempestivamente.</block>
+  <block id="d5500e4522bde3536eb21086a6278cb6" category="inline-link-macro">Personalizza la pianificazione della discovery</block>
+  <block id="58b54ef9bb1184e1a76831a4c8532cdf" category="paragraph">Per ulteriori informazioni, vedere <block ref="00c64813bfb7d5f31a94dc7f7401aec7" category="inline-link-macro-rx"></block>.</block>
+  <block id="49bc059dcf19f0a0115deba3b42c6932" category="section-title">Aggiornamenti VMware</block>
+  <block id="239000f59be4987b700a238e8ca4cbac" category="section-title">Protezione per datastore vuoti</block>
+  <block id="9a870179d2b3e04319fde1e2148bdde1" category="inline-link-macro">informazioni di mapping</block>
+  <block id="386068b3c8ab30655c493a434548a956" category="paragraph">Disaster Recovery ora consente di configurare la protezione per i datastore che non contengono macchine virtuali (VM). Le VM aggiunte successivamente al datastore vengono rilevate automaticamente da Disaster Recovery, a quel punto è necessario fornire <block ref="96f22499fac7fb5ec06f64e20472e919" category="inline-link-macro-rx"></block>.</block>
+  <block id="8ea79c5d84513219216b19fc3aa62033" category="inline-link-macro">Failover verso un sito remoto</block>
+  <block id="fcf6f6ded14457afdca64680218d849c" category="paragraph">Quando si aggiunge un datastore vuoto a un piano di protezione, è necessario rimuovere il datastore dal piano di protezione prima di eseguire un failover oppure eseguire un failover forzato. Per ulteriori informazioni, vedere <block ref="a16180f75826879573c72d14ccfccc18" category="inline-link-macro-rx"></block>.</block>
+  <block id="2d2e356e77ef22acf218ffb017d91233" category="section-title">Ripristina i datastore precedentemente esclusi da un piano di protezione</block>
+  <block id="1453aa4dc117cbab5d75827143b273ea" category="paragraph">I datastore precedentemente esclusi dalla protezione possono ora essere riaggiunti. Questo miglioramento offre maggiore flessibilità nella gestione e nell'aggiornamento delle configurazioni di ripristino di emergenza nel tempo.</block>
+  <block id="e111b7436e71ef6b7b99d4ab60693716" category="inline-link-macro">Gestisci siti, gruppi di risorse e piani di replica</block>
+  <block id="0f76cabceee2286086c65391269ec324" category="paragraph">Per ulteriori informazioni, vedere <block ref="37d0eb884ec50ead320898709eb6d605" category="inline-link-macro-rx"></block>.</block>
+  <block id="05c185480595feac79a02ae4a685fcc6" category="section-title">Failover più rapido per i datastore basati su VMFS</block>
+  <block id="e63830ec714a620621135f51c7c84114" category="paragraph">La funzionalità di Disaster Recovery ha migliorato le prestazioni di failover per i datastore basati su VMFS. Le operazioni di ri-scansione dell'Host Bus Adapter (HBA) e di montaggio del datastore vengono ora eseguite in parallelo, riducendo i tempi complessivi di failover e minimizzando i tempi di inattività durante gli eventi di ripristino.</block>
+  <block id="69aa1f50c340d05c0f749dc51b5d5737" category="inline-link-macro">Esegui il failover con il ripristino di emergenza</block>
+  <block id="bda5d94c4f296d65baa89f57187dafbd" category="paragraph">Per ulteriori informazioni sui failover, vedere <block ref="6f81e5aa1c9b02c34c5ec309d5755115" category="inline-link-macro-rx"></block>.</block>
 </blocks>

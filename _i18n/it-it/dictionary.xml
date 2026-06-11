@@ -138,13 +138,8 @@
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">Per dettagli sulla protezione dei carichi di lavoro VMware, fare riferimento a<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>.</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">Questa versione dell'agente Console include miglioramenti della sicurezza e correzioni di bug, oltre alla seguente nuova funzionalità.</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">Per ulteriori informazioni, vedere <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>.</block>
-  <block id="70c542a285cfdf5cc22587e58fc3fcbb" category="doc">Playbook SOAR per Microsoft Sentinel e Splunk</block>
-  <block id="11759e65f10609550e1a85679db960a9" category="inline-link-macro">Microsoft Sentinel</block>
-  <block id="2f9304fe9b427489507405bef9a0bb9f" category="inline-link-macro">Splunk</block>
   <block id="c75f115758f26a9b54a9d51601b66cf9" category="inline-link-macro">Integra SOAR playbook</block>
   <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">Per ulteriori informazioni, vedere <block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>.</block>
-  <block id="462a6e98fbd2a13cda63645b676477e3" category="section-title">12 marzo 2026</block>
-  <block id="cb4ae29d8762239c8dfdfc76bdb65d37" category="paragraph">Ransomware Resilience ora offre playbook di orchestrazione, automazione e risposta alla sicurezza (SOAR) per <block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block> e <block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block>. I playbook consentono una gestione più semplice della risposta alle minacce, automatizzando le attività di test e gli sforzi essenziali di risposta al ransomware, inclusa la creazione di snapshot e la messa offline di un volume.</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">In questa versione, VMware workloads introduce i seguenti miglioramenti:</block>
   <block id="c951c234678bc7ac8d60ec274364552c" category="paragraph">*Supporto per la coerenza delle VM per livello di pianificazione*: ora puoi abilitare backup coerenti con le VM e con le applicazioni per livelli di pianificazione specifici durante la configurazione delle policy di protezione per i carichi di lavoro VMware. I livelli annuale, mensile e settimanale sono supportati.</block>
   <block id="69b1a964078d5301a2aa9822cb2304f2" category="section-title">16 marzo 2026</block>
@@ -434,4 +429,9 @@
   <block id="e63830ec714a620621135f51c7c84114" category="paragraph">La funzionalità di Disaster Recovery ha migliorato le prestazioni di failover per i datastore basati su VMFS. Le operazioni di ri-scansione dell'Host Bus Adapter (HBA) e di montaggio del datastore vengono ora eseguite in parallelo, riducendo i tempi complessivi di failover e minimizzando i tempi di inattività durante gli eventi di ripristino.</block>
   <block id="69aa1f50c340d05c0f749dc51b5d5737" category="inline-link-macro">Esegui il failover con il ripristino di emergenza</block>
   <block id="bda5d94c4f296d65baa89f57187dafbd" category="paragraph">Per ulteriori informazioni sui failover, vedere <block ref="6f81e5aa1c9b02c34c5ec309d5755115" category="inline-link-macro-rx"></block>.</block>
+  <block id="f1e8426ee8789bca46b26081b788d901" category="doc">Supporto per una nuova regione di Azure in Cloud Volumes ONTAP</block>
+  <block id="58c64fbe360d29edfbfa0f1e30f23980" category="paragraph">Ora è possibile distribuire Cloud Volumes ONTAP 9.12.1 GA e versioni successive in zone di disponibilità singole e multiple in Azure nella regione Malaysia West (malaysiawest). Ciò include il supporto sia per le distribuzioni a nodo singolo che per quelle ad alta disponibilità (HA).</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mappa delle regioni globali sotto Azure</block>
+  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">Per un elenco di tutte le regioni, fare riferimento al<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>.</block>
+  <block id="13a1b8a317b4b6dbe05a3757a911ea12" category="section-title">11 giugno 2026</block>
 </blocks>

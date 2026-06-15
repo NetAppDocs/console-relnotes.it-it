@@ -30,6 +30,28 @@ Bonifica:: Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 ====
 
 
+== 15 giugno 2026
+
+
+
+=== Backup e ripristino
+
+
+
+==== Miglioramenti dei carichi di lavoro Kubernetes
+
+In questa versione, Kubernetes workloads introduce i seguenti miglioramenti:
+
+* *Trident Protect 26.06*: Questa versione include Trident Protect 26.06.
+* *Salta la creazione dell'applicazione durante il ripristino*: Ora puoi saltare la creazione automatica dell'oggetto risorsa personalizzato dell'applicazione durante le operazioni di ripristino. Questo riduce le voci non necessarie nell'inventario dell'applicazione.
+* *Ripristino delle persistent volume claim delle VM*: durante il ripristino delle applicazioni basate su VM, ora puoi ripristinare singole persistent volume claim senza ripristinare l'intera virtual machine, rendendo il recupero più veloce quando dischi o volumi specifici sono interessati da corruzione o perdita di dati.
+* *Miglioramenti al monitoraggio dei processi*: Il monitoraggio dei processi ora offre una maggiore visibilità sui processi di protezione di Kubernetes. Puoi visualizzare informazioni dettagliate sullo stato dei processi e dei sottoprocessi e vedere lo storage di destinazione utilizzato da ciascuno di essi.
+
+
+Per dettagli sulla protezione dei carichi di lavoro Kubernetes, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro Kubernetes"].
+
+
+
 == 11 giugno 2026
 
 
@@ -860,21 +882,3 @@ Il report sugli abbonamenti scaricato dalla pagina *Abbonamenti* ora include il 
 ==== Aggiornamenti sulla visibilità delle colonne nella pagina degli abbonamenti
 
 Nella pagina *Abbonamenti*, la colonna *Versione Keystone* è ora nascosta per impostazione predefinita e la colonna *Abbonamenti collegati* viene visualizzata solo quando sono disponibili abbonamenti collegati.
-
-
-
-== 16 marzo 2026
-
-
-
-=== Backup e ripristino
-
-
-
-==== Miglioramenti dei carichi di lavoro VMware
-
-In questa versione, VMware workloads introduce i seguenti miglioramenti:
-
-*Supporto per la coerenza delle VM per livello di pianificazione*: ora puoi abilitare backup coerenti con le VM e con le applicazioni per livelli di pianificazione specifici durante la configurazione delle policy di protezione per i carichi di lavoro VMware. I livelli annuale, mensile e settimanale sono supportati.
-
-Per dettagli sulla protezione dei carichi di lavoro VMware, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro VMware"].

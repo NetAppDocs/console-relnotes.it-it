@@ -30,6 +30,48 @@ Bonifica:: Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 ====
 
 
+== 29 giugno 2026
+
+
+
+=== Consulente digitale
+
+
+
+==== Controllo dello stato di salute della migrazione GraphQL e miglioramenti dell'accuratezza dei dati
+
+Il modulo Health Check è stato migliorato con una maggiore precisione dei dati e raccomandazioni di versione allineate agli standard di attualità. Nell'ambito di questa release, è stata effettuata la migrazione dalla Public API a GraphQL, offrendo prestazioni migliorate, query flessibili e supporto a lungo termine.
+
+
+
+===== Software consigliato
+
+I miglioramenti software consigliati nel modulo Health Check ora forniscono dati più accurati e coerenti.
+
+* I conteggi di shelf e drive visualizzati nella firmware currency mostrano i valori precisi per sistema e non includono più i conteggi delle HA Pair.
+* Le raccomandazioni relative alla versione minima e più recente vengono ora calcolate a livello di cluster in base alla versione effettiva del cluster, in linea con gli standard di riferimento - in precedenza, queste raccomandazioni venivano calcolate a livello di nodo.
+
+
+
+
+===== AutoSupport dipendenza dai dati
+
+A seguito di miglioramenti al backend, le visualizzazioni relative all'adozione di AutoSupport e ai software consigliati si basano sui dati più recenti di AutoSupport. Questo potrebbe influire sulla tua visualizzazione attuale nei seguenti modi:
+
+[cols="30,70"]
+|===
+| Scenario | Sistemi interessati 
+
+
+| Nessun dato visualizzato | Sistemi che non hanno inviato un AutoSupport da ottobre 2025 
+
+
+| Valori obsoleti | Sistemi che non hanno inviato un AutoSupport negli ultimi 30 giorni 
+|===
+Riattiva AutoSupport sui sistemi interessati sopra elencati per ripristinare i dati correnti nelle viste di Health Check.
+
+
+
 == 15 giugno 2026
 
 

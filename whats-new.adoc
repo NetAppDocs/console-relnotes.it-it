@@ -30,6 +30,22 @@ Bonifica:: Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 ====
 
 
+== 07 luglio 2026
+
+
+
+=== Resilienza al ransomware
+
+
+
+==== Escludi i percorsi dei file dagli avvisi relativi al comportamento dell'utente
+
+Ransomware Resilience supporta l'esclusione di percorsi di file specifici dagli avvisi di monitoraggio del comportamento degli utenti. Puoi escludere i percorsi di file se sai che non sono a rischio o se stai lavorando su file in un volume che potrebbe attivare avvisi.
+
+Per ulteriori informazioni, vedi link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-users-manage.html["Escludi i percorsi dei file dagli avvisi"^].
+
+
+
 == 29 giugno 2026
 
 

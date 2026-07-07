@@ -473,4 +473,9 @@
   <block id="8a46b64d28b84f6e9e9f3b9872e38cee" category="paragraph">Per quanto riguarda l'utilizzo della capacità, la soglia di avviso per i picchi ora si basa sulla percentuale di picco garantito del tuo abbonamento invece che su un valore fisso del 20%. Ad esempio, se il tuo picco garantito è del 40%, l'avviso critico si attiva al 140% dell'utilizzo della capacità garantita.</block>
   <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">Visualizza e crea monitor di avviso per gli abbonamenti Keystone</block>
   <block id="e3d24640551dafdb75a00b4fd537dff8" category="paragraph">Per saperne di più, consulta <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>.</block>
+  <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">Escludi i percorsi dei file dagli avvisi relativi al comportamento dell'utente</block>
+  <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">Ransomware Resilience supporta l'esclusione di percorsi di file specifici dagli avvisi di monitoraggio del comportamento degli utenti. Puoi escludere i percorsi di file se sai che non sono a rischio o se stai lavorando su file in un volume che potrebbe attivare avvisi.</block>
+  <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">Escludi i percorsi dei file dagli avvisi</block>
+  <block id="4cbd1bb5d6b8178b77b88be565a35c9b" category="paragraph">Per ulteriori informazioni, vedi <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>.</block>
+  <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">07 luglio 2026</block>
 </blocks>

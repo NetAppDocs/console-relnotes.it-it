@@ -384,9 +384,9 @@ Per ulteriori informazioni, consultare  https://docs.netapp.com/us-en/cloud-volu
 
 Le seguenti funzionalità di pianificazione del ciclo di vita hanno subito modifiche di nome:
 
-* La funzione di aggiornamento tecnologico ora si chiama *Aggiornamento del sistema*. Scopri come link:../use/tech-refresh.html["valutare un aggiornamento del sistema"].
-* La funzione di aggiunta di capacità ora si chiama *Espansione di archiviazione*. Scopri come link:../use/capacity-add.html["espandere lo spazio di archiviazione"].
-* La funzionalità Rinnovi ora si chiama *Support Renewals*. Scopri come link:../support/task-support-registration.html["registrati per ricevere supporto"].
+* La funzione di aggiornamento tecnologico ora si chiama *Aggiornamento del sistema*. Scopri come  https://docs.netapp.com/us-en/console-lifecycle-planning/use/tech-refresh.html["valutare un aggiornamento del sistema"].
+* La funzione di aumento della capacità ora si chiama *Storage Expansion*. Scopri come  https://docs.netapp.com/us-en/console-lifecycle-planning/use/capacity-add.html["espandere lo spazio di archiviazione"].
+* La funzione Rinnovi ora si chiama *Support Renewals*. Scopri come  https://docs.netapp.com/us-en/console-lifecycle-planning/support/task-support-registration.html["registrati per ricevere supporto"].
 
 
 

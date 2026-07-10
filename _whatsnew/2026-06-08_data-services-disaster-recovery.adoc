@@ -4,6 +4,7 @@
 
 
 
+[[kubernetes-updates]]
 === Aggiornamenti di Kubernetes
 
 Disaster Recovery ha introdotto le seguenti modifiche per i carichi di lavoro basati su Kubernetes:
@@ -34,6 +35,7 @@ Per ulteriori informazioni, vedere link:https://docs.netapp.com/us-en/data-servi
 
 
 
+[[vmware-updates]]
 === Aggiornamenti VMware
 
 

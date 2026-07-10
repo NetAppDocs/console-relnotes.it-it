@@ -18,6 +18,7 @@ Visualizza il set completo di note di rilascio per le funzionalità NetApp Conso
 
 
 
+[[administration]]
 == Amministrazione
 
 * https://docs.netapp.com/us-en/console-setup-admin/whats-new.html["Configurazione e amministrazione"^]
@@ -31,6 +32,7 @@ Visualizza il set completo di note di rilascio per le funzionalità NetApp Conso
 
 
 
+[[storage]]
 == Magazzinaggio
 
 * https://docs.netapp.com/us-en/storage-management-fsx-ontap/whats-new.html["Amazon FSx per ONTAP"^]
@@ -48,6 +50,7 @@ Visualizza il set completo di note di rilascio per le funzionalità NetApp Conso
 
 
 
+[[storage-as-a-service]]
 == Lo storage come servizio
 
 * https://docs.netapp.com/us-en/keystone-staas/whats-new.html["Keystone"^]
@@ -55,6 +58,7 @@ Visualizza il set completo di note di rilascio per le funzionalità NetApp Conso
 
 
 
+[[data-services]]
 == Servizi dati
 
 * https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["Backup e ripristino"^]

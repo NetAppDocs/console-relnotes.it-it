@@ -4,6 +4,7 @@
 
 
 
+[[health-check-graphql-migration-and-data-accuracy-improvements]]
 === Controllo dello stato di salute della migrazione GraphQL e miglioramenti dell'accuratezza dei dati
 
 Il modulo Health Check è stato migliorato con una maggiore precisione dei dati e raccomandazioni di versione allineate agli standard di attualità. Nell'ambito di questa release, è stata effettuata la migrazione dalla Public API a GraphQL, offrendo prestazioni migliorate, query flessibili e supporto a lungo termine.

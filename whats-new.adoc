@@ -57,6 +57,17 @@ link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-cvo-roles.h
 
 
 
+[[amazon-fsx-for-ontap]]
+=== Amazon FSX per ONTAP
+
+
+
+==== Rimozione del carico di lavoro GenAI da Carichi di lavoro nella NetApp Console
+
+Il carico di lavoro GenAI è stato rimosso dalla sezione Carichi di lavoro nella NetApp Console.
+
+
+
 [[14-july-2026]]
 == 14 luglio 2026
 

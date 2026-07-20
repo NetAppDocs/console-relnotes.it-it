@@ -1005,23 +1005,3 @@ L'etichetta *Provisioned capacity* è stata rinominata in *Provisioned volume ca
 ==== Interruttore di previsione per il burst accumulato
 
 Ora è possibile utilizzare l'interruttore *Previsione* nella vista *Consumo massimo accumulato* della scheda *Andamento dei consumi* per proiettare il consumo massimo accumulato per i prossimi 120 giorni a partire dalla data corrente. Per ulteriori informazioni, consultare https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["Visualizza i dati previsionali"].
-
-
-
-[[20-april-2026]]
-== 20 aprile 2026
-
-
-
-[[backup-and-recovery]]
-=== Backup e ripristino
-
-
-
-==== Miglioramenti dei carichi di lavoro VMware
-
-In questa versione, VMware workloads introduce il seguente miglioramento:
-
-*Supporto SAN per ASA r2*: VMware workloads ora supporta la protezione delle VM su datastore VMFS ospitati da ambienti NetApp ASA r2 esclusivamente SAN.
-
-Per dettagli sulla protezione dei carichi di lavoro VMware, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro VMware"].

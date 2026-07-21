@@ -146,6 +146,19 @@ Il carico di lavoro GenAI è stato rimosso dalla sezione Carichi di lavoro nella
 
 
 
+[[digital-advisor]]
+=== Consulente digitale
+
+
+
+==== Avviso di disattivazione per Wellness Review
+
+La funzionalità "Revisione del benessere" è stata deprecata e non è più disponibile in Digital Advisor a partire da luglio 2026.
+
+Per domande o per condividere feedback, mailto:ng-activeiq-feedback@netapp.com[contatta il team di Active IQ].
+
+
+
 [[14-july-2026]]
 == 14 luglio 2026
 

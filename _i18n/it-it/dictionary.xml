@@ -531,4 +531,11 @@
   <block id="6e665113a95f128bda94a45125d034c0" category="inline-link">Visualizza i dettagli sui tuoi abbonamenti Keystone</block>
   <block id="ba93540c77434b5a45f562c939e84d30" category="paragraph">Per ulteriori informazioni, consultare<block ref="97b83a5c42cc5367f46b598d7c9e65ca" category="inline-link-rx"></block>.</block>
   <block id="e4f459430f502d8d3158a4b206057282" category="paragraph">NetApp Console 4.9.0 include la seguente nuova funzionalità di amministrazione.</block>
+  <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">Supporto per la regione Chile Central in Azure</block>
+  <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">Ora puoi distribuire Cloud Volumes ONTAP 9.12.1 GA e versioni successive nella regione Chile Central (chilecentral) in Azure. Sono supportati i seguenti tipi di distribuzione:</block>
+  <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Nodo singolo</block>
+  <block id="fce4191353d1af53ceb25c03f87affd6" category="list-text">HA in una singola zona di disponibilità tramite storage localmente ridondante (LRS)</block>
+  <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">Alta disponibilità in più zone di disponibilità tramite storage a ridondanza di zona (ZRS)</block>
+  <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">Per un elenco di tutte le regioni supportate, consulta <block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>.</block>
+  <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">23 luglio 2026</block>
 </blocks>

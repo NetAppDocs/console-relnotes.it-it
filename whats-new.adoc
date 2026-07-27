@@ -1133,27 +1133,3 @@ In questa versione, Kubernetes workloads introduce i seguenti miglioramenti:
 
 
 Per dettagli sulla protezione dei carichi di lavoro Kubernetes, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro Kubernetes"].
-
-
-
-[[27-april-2026]]
-== 27 aprile 2026
-
-
-
-[[keystone]]
-=== Keystone
-
-Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
-
-
-
-==== Etichetta Provisioned capacity rinominata
-
-L'etichetta *Provisioned capacity* è stata rinominata in *Provisioned volume capacity*. L'etichetta aggiornata è riportata anche nei relativi report in formato CSV ed Excel.
-
-
-
-==== Interruttore di previsione per il burst accumulato
-
-Ora è possibile utilizzare l'interruttore *Previsione* nella vista *Consumo massimo accumulato* della scheda *Andamento dei consumi* per proiettare il consumo massimo accumulato per i prossimi 120 giorni a partire dalla data corrente. Per ulteriori informazioni, consultare https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["Visualizza i dati previsionali"].

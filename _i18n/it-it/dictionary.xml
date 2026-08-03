@@ -464,7 +464,6 @@
   <block id="7c33460ede710e45d063c1062b0cacba" category="doc">Rimozione del carico di lavoro GenAI da Carichi di lavoro nella NetApp Console</block>
   <block id="ef8dda25d49364e8cb6cea8ce87a605c" category="paragraph">Il carico di lavoro GenAI è stato rimosso dalla sezione Carichi di lavoro nella NetApp Console.</block>
   <block id="66591c0e71be05bd24e1869944b92db6" category="doc">Supporto multi-bucket migliorato per tutti i carichi di lavoro</block>
-  <block id="fca26b0431792befd32dc54e69c74dc4" category="paragraph">In questa versione di backup e ripristino, puoi ora proteggere i carichi di lavoro all'interno di un sistema con fino a 100 bucket per sistema, su diversi provider cloud.</block>
   <block id="d41c5b540be0c3c679bd7d5c99b06670" category="inline-link">Scopri NetApp Backup and Recovery</block>
   <block id="9bf2c1ebc9be74ae2e995a0a4dab1fec" category="paragraph">Per dettagli su NetApp Backup e ripristino, consulta <block ref="a026c5bec08ff7bb5b963e48c0daa63e" category="inline-link-rx"></block>.</block>
   <block id="63a331b4a7ef8ade5f4d0df6929fdd39" category="doc">Presentazione della procedura semplificata di onboarding di Cloud Volumes ONTAP da AWS Marketplace</block>
@@ -585,4 +584,5 @@
   <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">Se in seguito vuoi includere una configurazione precedentemente scartata, puoi riattivarla nella dashboard well-architected. Questo ripristina la configurazione nell'analisi e ti permette di ottenere suggerimenti e correzioni per essa.</block>
   <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">03 agosto 2026</block>
+  <block id="62ff0d9db122207756fd73342a3eb3ad" category="paragraph">NetApp Backup and Recovery ora supporta la protezione dei carichi di lavoro all'interno di un sistema con un massimo di 100 bucket distribuiti su diversi provider cloud. Per supportare più di 6 bucket per sistema è necessario ONTAP 9.19.1 o versioni successive.</block>
 </blocks>

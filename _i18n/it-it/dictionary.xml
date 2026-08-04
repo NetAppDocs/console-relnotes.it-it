@@ -536,7 +536,6 @@
   <block id="400f918ffe7626d9fd96dbfc4fa0f591" category="paragraph">Per ulteriori informazioni, vedere <block ref="70ab6610cf4ffc0f4f5683c14443a025" category="inline-link-macro-rx"></block>.</block>
   <block id="363260f41aed8104ffe114ccda875937" category="section-title">Metti in pausa o elimina un sistema SIEM</block>
   <block id="b18d1990e5bda04c0ed4210a1113e197" category="paragraph">Ransomware Resilience ora include opzioni nell'interfaccia utente per sospendere o eliminare un sistema SIEM. Questo miglioramento rende più facile disattivare temporaneamente il sistema per la risoluzione dei problemi o la manutenzione, oppure rimuoverlo completamente.</block>
-  <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">${post_edited_translations.segment}</block>
   <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">Per ulteriori informazioni, vedere <block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>.</block>
   <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">27 luglio 2026</block>
   <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">Nomi di configurazione aggiornati per FSx for ONTAP nella dashboard well-architected</block>
@@ -608,4 +607,5 @@
   <block id="16d39f5d27761daa66696ada0758791c" category="paragraph">Ransomware Resilience ora offre un'esperienza utente semplificata per bloccare gli utenti e gestire gli utenti bloccati. Con questo aggiornamento, puoi facilmente visualizzare e modificare quali utenti hai bloccato. Devi aver configurato <block ref="0a9171a9aac1e029e209b0c543045273" category="inline-link-macro-rx"></block> per bloccare gli utenti.</block>
   <block id="21d100db43907eec54cab4e115af7c6b" category="inline-link-macro">Utenti bloccati gestiti</block>
   <block id="9d82773616a9fd5b52190dd3b03a9d0d" category="paragraph">Per ulteriori informazioni, vedere <block ref="c715c16e5dd5464a8f58103938ef0f46" category="inline-link-macro-rx"></block>.</block>
+  <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">Disabilita un sistema SIEM</block>
 </blocks>

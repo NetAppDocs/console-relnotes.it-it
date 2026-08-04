@@ -29,4 +29,4 @@ Per ulteriori informazioni, vedere link:https://docs.netapp.com/us-en/data-servi
 
 Ransomware Resilience ora include opzioni nell'interfaccia utente per sospendere o eliminare un sistema SIEM. Questo miglioramento rende più facile disattivare temporaneamente il sistema per la risoluzione dei problemi o la manutenzione, oppure rimuoverlo completamente.
 
-Per ulteriori informazioni, vedere link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html#disable-a-siem-system["${post_edited_translations.segment}"^].
+Per ulteriori informazioni, vedere link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html#disable-a-siem-system["Disabilita un sistema SIEM"^].

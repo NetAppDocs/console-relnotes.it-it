@@ -522,4 +522,24 @@
   <block id="5594c2174d528fb9d5b9250acc4fb0b3" category="doc">Cloud Volumes ONTAP 9.19.1</block>
   <block id="a504c964d28135033096219100cd2752" category="paragraph">La versione Release Candidate (RC) di Cloud Volumes ONTAP 9.19.1 è disponibile solo su Google Cloud per l'upgrade alla 9.19.1 General Availability (GA).</block>
   <block id="5289c2eccb07f2de1b015934c3e3c499" category="paragraph"><block ref="a12e21b39ac968ec668c91e1c7ce7228" category="inline-link-rx"></block>.</block>
+  <block id="63459ccd5f56d025aab8953dda2cac89" category="doc">Dashboard migliorata</block>
+  <block id="f682318aec1bd156e47f27a6821a89a5" category="paragraph">La dashboard di Disaster Recovery è stata rinnovata con un'esperienza migliorata che offre una panoramica completa e immediata dell'intero ambiente di Disaster Recovery. La nuova dashboard include:</block>
+  <block id="9823d8b117c3e7a42545ab50cbf51e42" category="list-text">*Visibilità unificata dei carichi di lavoro* — Monitora sia i carichi di lavoro VMware che quelli Kubernetes insieme allo stato di salute dell'infrastruttura sottostante da un'unica interfaccia.</block>
+  <block id="cb6d28fda9538aed2308a2a41da8fef6" category="list-text">*Segnalazione proattiva dei problemi* — La dashboard ora evidenzia automaticamente i problemi ambientali, consentendo una diagnosi più rapida e tempi di risoluzione ridotti.</block>
+  <block id="4682c01fd7e04d919efdbb898660b551" category="list-text">*Utilizzo della capacità* — Le metriche di capacità sono ora visualizzate direttamente nella dashboard, consentendo una più facile comprensione del consumo delle risorse.</block>
+  <block id="d1a664c22b47275444c9a34501c2aac2" category="inline-link-macro">Visualizza lo stato di salute dei tuoi piani di NetApp Disaster Recovery nella Dashboard</block>
+  <block id="83ffc188b91ae4a820fc973dcb4f2932" category="paragraph">Per ulteriori informazioni, vedi <block ref="8f765f2bdeedf185243a86837c41ce64" category="inline-link-macro-rx"></block>.</block>
+  <block id="1b89eeafa349152b4736736033fd9afa" category="section-title">Rapporti migliorati</block>
+  <block id="0dc7dafa2af4e7002cfea0adec9f9574" category="paragraph">Le funzionalità di reporting sono state ampliate per fornire una visione più approfondita delle attività di NetApp Disaster Recovery nel tuo ambiente:</block>
+  <block id="7f09e48950606d1acab05c889751f513" category="list-text">Genera report specifici per i carichi di lavoro VMware, per i carichi di lavoro Kubernetes o per entrambi, offrendoti la flessibilità di personalizzare i report in base al tuo pubblico.</block>
+  <block id="7a778b01d59bf3ae1ff3f2feb2d289b6" category="list-text">Ogni report fornisce un riepilogo completo delle attività per un periodo di tempo specificato, garantendo la massima visibilità sugli eventi nel tuo ambiente di Disaster Recovery.</block>
+  <block id="a82244df08ebf8974422f7646e0239a4" category="inline-link-macro">Crea report di NetApp Disaster Recovery</block>
+  <block id="fd5ba3d3711dc4d9c0e25f25fe06d680" category="paragraph">Per ulteriori informazioni, vedi <block ref="39a309d4a05fe8ce442631f7b813f522" category="inline-link-macro-rx"></block>.</block>
+  <block id="2c06591fa7a638998ecf07caf020e711" category="section-title">Registrazione delle attività utente</block>
+  <block id="c021095f262d283ec8653a39f95e447d" category="paragraph">NetApp Disaster Recovery ha migliorato la tracciabilità e la verificabilità dei job grazie alla registrazione dei job a livello utente. Ogni job eseguito ora registra l'utente che lo ha avviato, fornendo una chiara traccia di audit per la conformità e la risoluzione dei problemi. I job attivati automaticamente da NetApp Disaster Recovery sono identificati come "system", rendendo facile distinguere tra attività avviate dall'utente e attività avviate dal servizio.</block>
+  <block id="45b443b335251cfe162de8423d5b2021" category="inline-link-macro">Monitora i job di NetApp Disaster Recovery</block>
+  <block id="42ed5c1343751a7af21890f24cd3c64e" category="paragraph">Per ulteriori informazioni, vedi <block ref="40b7771ffeffc9237f3cc63a2ebdb5c0" category="inline-link-macro-rx"></block>.</block>
+  <block id="00d2a24b32e6b20b963007b68cdb131f" category="section-title">Ottimizzazione delle prestazioni e delle risorse</block>
+  <block id="30f4219e3688914aa51c7df386e1780b" category="paragraph">Sono stati apportati diversi miglioramenti "sotto il cofano" per ridurre il consumo complessivo di risorse di sistema e aumentare le prestazioni nelle operazioni di NetApp Disaster Recovery.</block>
+  <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">10 agosto 2026</block>
 </blocks>

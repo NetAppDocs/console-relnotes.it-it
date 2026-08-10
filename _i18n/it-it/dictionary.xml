@@ -542,4 +542,19 @@
   <block id="00d2a24b32e6b20b963007b68cdb131f" category="section-title">Ottimizzazione delle prestazioni e delle risorse</block>
   <block id="30f4219e3688914aa51c7df386e1780b" category="paragraph">Sono stati apportati diversi miglioramenti "sotto il cofano" per ridurre il consumo complessivo di risorse di sistema e aumentare le prestazioni nelle operazioni di NetApp Disaster Recovery.</block>
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">10 agosto 2026</block>
+  <block id="64c0705ecd150a07e521638d5157a4ec" category="doc">Miglioramenti generali al backup e al ripristino NetApp</block>
+  <block id="7700d007f970d2c042d61e3551aa039e" category="list-text">*Supporto per la distribuzione locale di NetApp Console*: questa versione di NetApp Backup and Recovery supporta la distribuzione locale di NetApp Console in stato di anteprima.</block>
+  <block id="ce2f56e5c9015b28eb92d0581ad9a718" category="list-text">*Conservazione dei dati relativi ai job per 90 giorni*: NetApp Backup and Recovery ora conserva le informazioni sui job nel Job Monitor per 90 giorni.</block>
+  <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">In questa versione, VMware workloads introduce i seguenti miglioramenti:</block>
+  <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*Supporto per il ripristino in una posizione alternativa per le VM SAN*: ora puoi ripristinare i backup delle VM basate su SAN in una posizione alternativa.</block>
+  <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*Supporto per l'eliminazione di più backup*: Ora puoi eliminare più backup contemporaneamente.</block>
+  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Miglioramenti dei carichi di lavoro Oracle Database</block>
+  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">In questa versione, Oracle Database workloads introduce i seguenti miglioramenti:</block>
+  <block id="7ac62e0d250037c318f5fcf102e2e700" category="list-text">*Ripristino e clonazione di database collegabili (PDB)*: Backup and Recovery per il servizio NetApp Console ora supporta il ripristino e la clonazione di database collegabili.</block>
+  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Panoramica sulla protezione dei carichi di lavoro Oracle Database</block>
+  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Per informazioni dettagliate sulla protezione dei carichi di lavoro Oracle Database, fare riferimento a<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>.</block>
+  <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*Anteprima del supporto per risorse isolate*: se esegui NetApp Backup and Recovery in una distribuzione locale di NetApp Console, puoi individuare, proteggere e ripristinare risorse Kubernetes isolate. Questa funzionalità è in anteprima per questa versione.</block>
+  <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">In questa versione, i carichi di lavoro ONTAP Volumes introducono i seguenti miglioramenti:</block>
+  <block id="a33b2a8cf6a943c4ae96728143fee277" category="list-text">*Dai priorità ai processi di ripristino rispetto ai backup*: Ora puoi dare priorità ai processi di ripristino rispetto ai processi di backup quando ripristini macchine virtuali o file.</block>
+  <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*Scopri i sistemi e i volumi ONTAP senza attivare NetApp Backup and Recovery*: Ora puoi scoprire sistemi e volumi senza attivare NetApp Backup and Recovery.</block>
 </blocks>

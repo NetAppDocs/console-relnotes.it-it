@@ -548,13 +548,12 @@
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">In questa versione, VMware workloads introduce i seguenti miglioramenti:</block>
   <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*Supporto per il ripristino in una posizione alternativa per le VM SAN*: ora puoi ripristinare i backup delle VM basate su SAN in una posizione alternativa.</block>
   <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*Supporto per l'eliminazione di più backup*: Ora puoi eliminare più backup contemporaneamente.</block>
-  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Miglioramenti dei carichi di lavoro Oracle Database</block>
-  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">In questa versione, Oracle Database workloads introduce i seguenti miglioramenti:</block>
-  <block id="7ac62e0d250037c318f5fcf102e2e700" category="list-text">*Ripristino e clonazione di database collegabili (PDB)*: Backup and Recovery per il servizio NetApp Console ora supporta il ripristino e la clonazione di database collegabili.</block>
-  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Panoramica sulla protezione dei carichi di lavoro Oracle Database</block>
-  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Per informazioni dettagliate sulla protezione dei carichi di lavoro Oracle Database, fare riferimento a<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>.</block>
   <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*Anteprima del supporto per risorse isolate*: se esegui NetApp Backup and Recovery in una distribuzione locale di NetApp Console, puoi individuare, proteggere e ripristinare risorse Kubernetes isolate. Questa funzionalità è in anteprima per questa versione.</block>
   <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">In questa versione, i carichi di lavoro ONTAP Volumes introducono i seguenti miglioramenti:</block>
   <block id="a33b2a8cf6a943c4ae96728143fee277" category="list-text">*Dai priorità ai processi di ripristino rispetto ai backup*: Ora puoi dare priorità ai processi di ripristino rispetto ai processi di backup quando ripristini macchine virtuali o file.</block>
   <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*Scopri i sistemi e i volumi ONTAP senza attivare NetApp Backup and Recovery*: Ora puoi scoprire sistemi e volumi senza attivare NetApp Backup and Recovery.</block>
+  <block id="a03ddc03cf03c3c53151794c95579535" category="doc">Scheda Scansioni attive per migliorare la gestione delle scansioni</block>
+  <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">Data Classification ora offre una scheda *Scansioni attive* nel menu Configurazione, offrendo un'esperienza migliorata per la gestione delle scansioni. La scheda Scansioni attive fornisce una panoramica di tutti i volumi che hai attivato per la scansione, con i consueti filtri per ordinare le tue risorse. La scheda offre anche una posizione centrale per dare priorità alle scansioni, metterle in pausa e rivedere gli errori.</block>
+  <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">Gestisci le scansioni</block>
+  <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">Per ulteriori informazioni, vedi <block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>.</block>
 </blocks>

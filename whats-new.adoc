@@ -73,6 +73,24 @@ Per ulteriori informazioni, vedi link:https://docs.netapp.com/us-en/data-service
 
 
 
+[[12-august-2026]]
+== 12 agosto 2026
+
+
+
+[[digital-advisor]]
+=== Consulente digitale
+
+
+
+==== Avviso di deprecazione per Config Drift
+
+La funzionalità Config Drift verrà deprecata in Digital Advisor a settembre 2026.
+
+Per domande o per condividere feedback, mailto:ng-activeiq-feedback@netapp.com[contatta il team di Active IQ].
+
+
+
 [[10-august-2026]]
 == 10 agosto 2026
 

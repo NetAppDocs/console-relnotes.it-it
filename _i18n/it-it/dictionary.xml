@@ -556,4 +556,10 @@
   <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">Data Classification ora offre una scheda *Scansioni attive* nel menu Configurazione, offrendo un'esperienza migliorata per la gestione delle scansioni. La scheda Scansioni attive fornisce una panoramica di tutti i volumi che hai attivato per la scansione, con i consueti filtri per ordinare le tue risorse. La scheda offre anche una posizione centrale per dare priorità alle scansioni, metterle in pausa e rivedere gli errori.</block>
   <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">Gestisci le scansioni</block>
   <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">Per ulteriori informazioni, vedi <block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>.</block>
+  <block id="b56346a21533cb3c02f75ab5cc7c59a8" category="doc">Console agent 4.10.0</block>
+  <block id="e25811fd33a54b98aaedd7e6a9ea664b" category="paragraph">La versione 4.10.0 supporta sia la modalità standard che la modalità limitata.</block>
+  <block id="657b18a162285732ef5f46d679b05663" category="section-title">Reattività e affidabilità migliorate per Cloud Mediator</block>
+  <block id="d04e4287a3b42a9890f48390e8193dc1" category="paragraph">Il servizio ora elabora gli aggiornamenti dello stato del cluster in modo più efficiente, riducendo i timeout intermittenti e i tempi di inattività e rafforzando la mediazione automatica dei failover non pianificati per le relazioni SMaS.</block>
+  <block id="8e185da70c606c7dcf3a854773e5a5fd" category="paragraph">NetApp Console 4.10.0 amministrazione include correzioni di sicurezza e bug.</block>
+  <block id="01b8b50c6af6a26d04385207f4b3c02e" category="section-title">13 agosto 2026</block>
 </blocks>

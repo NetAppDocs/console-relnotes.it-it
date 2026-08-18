@@ -423,7 +423,6 @@
   <block id="b18d1990e5bda04c0ed4210a1113e197" category="paragraph">Ransomware Resilience ora include opzioni nell'interfaccia utente per sospendere o eliminare un sistema SIEM. Questo miglioramento rende più facile disattivare temporaneamente il sistema per la risoluzione dei problemi o la manutenzione, oppure rimuoverlo completamente.</block>
   <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">Per ulteriori informazioni, vedere <block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>.</block>
   <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">27 luglio 2026</block>
-  <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">Nomi di configurazione aggiornati per FSx for ONTAP nella dashboard well-architected</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">La tabella seguente elenca i vecchi nomi di configurazione e i corrispondenti nuovi nomi di configurazione nella well-architected dashboard.</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">Vecchio nome della configurazione</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">Nuovo nome configurazione</block>
@@ -572,7 +571,8 @@
   <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">La dashboard ben progettata di NetApp Console è disponibile per Amazon FSx for NetApp ONTAP.</block>
   <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">Scopri l'analisi della configurazione per FSx for ONTAP</block>
   <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
-  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">La dashboard ben progettata in NetApp Console ora include nuovi nomi di configurazione dello storage per FSx for ONTAP.</block>
   <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">Problemi ben strutturati visualizzati nella pagina Sistemi di NetApp Console</block>
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Le notifiche relative ai problemi di architettura ben definita sono disponibili per Cloud Volumes ONTAP in Microsoft Azure dalla pagina Storage management Systems nella NetApp Console. Questa funzionalità ti aiuta a identificare rapidamente i problemi di configurazione nei tuoi sistemi Cloud Volumes ONTAP in Azure e a navigare al dashboard Workloads well-architected direttamente dalla notifica.</block>
+  <block id="33f99db970bd78e039b488318b97f37e" category="section-title">Nomi di configurazione aggiornati nella dashboard well-architected</block>
+  <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">La dashboard ben progettata di NetApp Console ora include nuovi nomi di configurazione dello storage.</block>
 </blocks>

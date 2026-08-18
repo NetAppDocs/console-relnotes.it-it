@@ -568,4 +568,8 @@
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">Scopri come proteggere i carichi di lavoro di Oracle Database con NetApp Backup and Recovery</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">Per informazioni dettagliate sulla protezione dei carichi di lavoro Oracle Database, fare riferimento a<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>.</block>
   <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">17 agosto 2026</block>
+  <block id="411510101e0d2ef6d81ff08c0e3c361c" category="doc">Supporto per Google Cloud NetApp Volumes nella dashboard ben progettata</block>
+  <block id="d34de5f33d744d45edd40a05562254f8" category="paragraph">La dashboard della NetApp Console ora supporta Google Cloud NetApp Volumes. Gli amministratori dello storage possono visualizzare lo stato dei pool di storage e delle configurazioni, ricevere consigli per migliorare efficienza, costi, prestazioni, affidabilità e sicurezza, e intervenire per ottimizzare le operazioni e seguire le best practice.</block>
+  <block id="9734fa1668ca0b65477c528e1024d6a1" category="inline-link-macro">Analisi della configurazione per Google Cloud NetApp Volumes</block>
+  <block id="63703f359f410e2c981eed9b102fdf93" category="paragraph">Scopri di più su <block ref="a1a9e128c0fafd7c1526a7b783f92760" category="inline-link-macro-rx"></block>.</block>
 </blocks>

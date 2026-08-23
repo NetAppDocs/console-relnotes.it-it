@@ -30,6 +30,27 @@ Bonifica:: Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 ====
 
 
+[[20-august-2026]]
+== 20 agosto 2026
+
+
+
+[[digital-advisor]]
+=== Consulente digitale
+
+
+
+==== Presentazione di Value Insights
+
+La funzionalità Value Insights consolida le informazioni generali su stato di salute, risparmi, stabilità e sicurezza dei sistemi ONTAP. Puoi usare queste informazioni per migliorare lo stato di salute e le prestazioni del sistema attraverso una visione continua e basata sui dati del tuo ambiente ONTAP.
+
+
+NOTE: Value Insights è disponibile solo per i sistemi ONTAP.
+
+Scopri di più su link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Value Insights"].
+
+
+
 [[17-august-2026]]
 == 17 agosto 2026
 
@@ -1219,21 +1240,3 @@ Le seguenti funzionalità di Digital Advisor hanno cambiato nome:
 Ransomware Resilience ora supporta la creazione di gruppi di protezione per i carichi di lavoro nei sistemi Google Cloud NetApp Volumes, consentendo di organizzare più carichi di lavoro sotto un'unica policy per semplificare la gestione.
 
 Per ulteriori informazioni, consultare link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-protection-group.html["Creare un gruppo di protezione in Ransomware Resilience"^].
-
-
-
-[[25-may-2026]]
-== 25 maggio 2026
-
-
-
-[[keystone]]
-=== Keystone
-
-Nuovi miglioramenti nella dashboard Keystone nella NetApp Console:
-
-
-
-==== Visualizzazione migliorata di più aggiornamenti nello stesso giorno nella cronologia dell'abbonamento
-
-Il grafico della cronologia degli abbonamenti ora mostra un numero quando si verificano più aggiornamenti di abbonamento di diverso tipo nello stesso giorno, anziché icone separate. Passando il mouse sul numero, è possibile visualizzare tutti i tipi di aggiornamento per quel giorno. Il report scaricato include una riga separata per ogni aggiornamento, fornendo un registro completo di tutte le modifiche. Per ulteriori informazioni, consultare https://docs.netapp.com/us-en/keystone-staas/integrations/subscription-timeline.html["Visualizza la cronologia dei tuoi abbonamenti Keystone"].

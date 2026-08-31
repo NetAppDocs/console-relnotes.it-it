@@ -580,4 +580,13 @@
   <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">Consegna degli eventi SIEM tramite l'agente della Console</block>
   <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">Ransomware Resilience ora supporta la distribuzione di eventi SIEM tramite l'agente Console, oltre all'opzione già esistente di distribuzione degli eventi tramite NetApp Console.</block>
   <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">Quando consegni eventi SIEM tramite l'agente Console, puoi mantenere la consegna degli eventi SIEM all'interno del tuo perimetro di rete. Questo semplifica il deployment per ambienti on-premises con allow list di indirizzi IP restrittive e può allinearsi meglio ai controlli di sicurezza esistenti. Per usare questa opzione, assicurati che l'agente Console possa risolvere e connettersi al tuo endpoint SIEM sulla porta richiesta attraverso qualsiasi controllo di firewall o proxy.</block>
+  <block id="e10cb273323f88df11fadb5507d738a0" category="doc">Gestione migliorata delle istantanee SnapMirror</block>
+  <block id="f0503ae9f824deb7b1d7d923eccde6cf" category="paragraph">Ora puoi attivare il failover utilizzando l'istantanea più recente, che è il metodo preferito quando non stai creando una nuova istantanea.</block>
+  <block id="904ad73a93f80a63956690821d3e7583" category="paragraph">Quando selezioni una baseline di snapshot specifica, gli snapshot di trasferimento SnapMirror sono nascosti per impostazione predefinita. Questo perché possono essere eliminati durante un failover, impedendo la riprotezione del carico di lavoro dopo il failover a causa di un errore "nessuno snapshot comune trovato". Puoi comunque usare questi snapshot, ma dovrai completare una conferma aggiuntiva per accettare il rischio.</block>
+  <block id="2652fb9c2d661c6e545a590071ac6a1f" category="inline-link-macro">Esegui il failover su un sito remoto</block>
+  <block id="b55121c9a6dfee22377b715103e30d54" category="paragraph">Per ulteriori informazioni, vedi <block ref="0659d04a54310aa1f4f7b2818a7e8b7d" category="inline-link-macro-rx"></block>.</block>
+  <block id="e2725f83c9b13c105b305f08c1ae5aa3" category="section-title">Altri miglioramenti</block>
+  <block id="c228cd16d1f14f9ba8606b879f59e931" category="list-text">Sono stati apportati piccoli miglioramenti per aumentare la resilienza del workflow di test failover.</block>
+  <block id="afb89ab075bef1d8e9fa1a1124a73a26" category="list-text">È stato corretto un errore di convalida durante l'aggiunta di uno script.</block>
+  <block id="91b0db938f6511dad8ea423304795a3a" category="section-title">31 agosto 2026</block>
 </blocks>

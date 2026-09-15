@@ -30,6 +30,24 @@ Bonifica:: Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 ====
 
 
+[[14-september-2026]]
+== 14 settembre 2026
+
+
+
+[[digital-advisor]]
+=== Consulente digitale
+
+
+
+==== Avviso di deprecazione per la macchina virtuale
+
+La funzionalità Macchina virtuale è deprecata in Digital Advisor da ottobre 2026.
+
+Per domande o per condividere feedback, mailto:ng-activeiq-feedback@netapp.com[contatta il team di Active IQ].
+
+
+
 [[02-september-2026]]
 == 02 settembre 2026
 

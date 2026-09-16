@@ -30,6 +30,22 @@ Bonifica:: Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 ====
 
 
+[[16-september-2026]]
+== 16 settembre 2026
+
+
+
+[[data-classification]]
+=== Classificazione dei dati
+
+
+
+==== Miglioramenti generali
+
+Questa versione di Data Classification include miglioramenti alla sicurezza e alle prestazioni.
+
+
+
 [[14-september-2026]]
 == 14 settembre 2026
 

@@ -217,8 +217,6 @@
   <block id="51f6395b88f3891175360eb16ab814d6" category="paragraph"><block ref="51f6395b88f3891175360eb16ab814d6" category="inline-link-rx"></block></block>
   <block id="2d6c818daeac263c2afd4036d7f74e1e" category="section-title">Implementazione semplificata di Cloud Volumes ONTAP in Google Cloud</block>
   <block id="cb811eee80c50a73b0cadcc740ccb6e0" category="paragraph">Ora puoi utilizzare la procedura guidata *Creazione rapida* per distribuire Cloud Volumes ONTAP in Google Cloud sia per configurazioni a nodo singolo che ad alta disponibilità (HA). Questo processo semplificato riduce i passaggi, imposta automaticamente i valori predefiniti in un'unica pagina e minimizza la navigazione per una distribuzione più rapida e semplice.</block>
-  <block id="66ac7407a9c84ca6778fae23ed993062" category="inline-link">Distribuisci Cloud Volumes ONTAP in Google Cloud con Quick create</block>
-  <block id="0dfb1e2c47e659e01c54c2e333c51aab" category="list-text"><block ref="0dfb1e2c47e659e01c54c2e333c51aab" category="inline-link-rx"></block></block>
   <block id="2ac8bb0efb00600c2a41354a94948174" category="inline-link">Distribuisci Cloud Volumes ONTAP utilizzando le opzioni avanzate in Google Cloud</block>
   <block id="6c9068df44f8a14533034d80a58ea324" category="list-text"><block ref="6c9068df44f8a14533034d80a58ea324" category="inline-link-rx"></block></block>
   <block id="12d92330947695a8724da477e7db5baa" category="section-title">Presentazione dei ruoli di accesso per Cloud Volumes ONTAP</block>
@@ -256,8 +254,6 @@
   <block id="3545b8b6c97019ee16382e1e9f1566d6" category="list-text">Associazione dell'abbonamento: puoi associare automaticamente il tuo abbonamento alla Console, evitando di doverlo collegare manualmente.</block>
   <block id="7fe500a5c571cd7ec037fadddeb65e6d" category="list-text">Distribuzione dell'agente della console con configurazione delle credenziali AWS: puoi creare automaticamente i ruoli AWS necessari. Il processo distribuisce uno stack AWS CloudFormation nel tuo account AWS con i ruoli e le policy richiesti da esaminare, quindi li associa alla NetApp Console, eliminando la configurazione manuale di IAM. Poi continui con la configurazione dell'agente, la rete e le impostazioni del gruppo di sicurezza per iniziare la distribuzione dell'agente.</block>
   <block id="1dc23a84b7e2b375289ce6857c758408" category="list-text">Distribuisci un nuovo sistema Cloud Volumes ONTAP in AWS: vai direttamente alla <block ref="956eaa6186169471a13345860cad0757" prefix=" " category="inline-code"></block>procedura guidata per una distribuzione di Cloud Volumes ONTAP più rapida e semplificata.</block>
-  <block id="5308f0957f4f665b7b8a7a70e7f26dbb" category="inline-link">Distribuisci Cloud Volumes ONTAP con creazione rapida</block>
-  <block id="92818173e0caa5fc0e16c368b850e85b" category="list-text"><block ref="92818173e0caa5fc0e16c368b850e85b" category="inline-link-rx"></block></block>
   <block id="45155a6d96a264e24647f30ebb774e4f" category="list-text"><block ref="45155a6d96a264e24647f30ebb774e4f" category="inline-link-rx"></block></block>
   <block id="e8f7f517a7c22ec0466a4d916c974b67" category="section-title">Analisi della configurazione ben strutturata per Cloud Volumes ONTAP in Azure</block>
   <block id="8579a865aaeb9e025994731e2e5b4b7b" category="paragraph">La NetApp Console ora supporta l'analisi della configurazione well-architected per i sistemi Cloud Volumes ONTAP in esecuzione su Microsoft Azure. La Console analizza quotidianamente le tue distribuzioni e fornisce uno stato well-architected, approfondimenti e raccomandazioni per aiutarti a mantenere sistemi allineati alle best practice di NetApp e al well-architected framework.</block>
@@ -553,4 +549,8 @@
   <block id="5cec02b4d4793bc47a228462c7e78bcc" category="section-title">Supporto SAN per Google Cloud NetApp Volumes</block>
   <block id="3f6e186b29c5d97616e385dd05ee9106" category="paragraph">Ransomware Resilience ora offre il supporto per i carichi di lavoro SAN da Google Cloud NetApp Volumes, permettendoti di rilevare attacchi ransomware basati sulla crittografia per i carichi di lavoro SAN. Il supporto per SAN in Google Cloud NetApp Volumes è ora generalmente disponibile.</block>
   <block id="c1e0bcf11a7a6fe71bc50ede69765bc4" category="paragraph">Per ulteriori informazioni, vedere <block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block> e <block ref="f8dd47dc9ffb08466a0ec3298a516926" category="inline-link-macro-rx"></block>.</block>
+  <block id="fa64a8ba43091dc1f18b40ede22ba208" category="inline-link">Implementa Cloud Volumes ONTAP con la creazione rapida in Google Cloud</block>
+  <block id="c334239a4338073665306baf11363bc2" category="list-text"><block ref="c334239a4338073665306baf11363bc2" category="inline-link-rx"></block></block>
+  <block id="d9862ed1f24a79da571ce975d43849ac" category="inline-link">Implementa Cloud Volumes ONTAP con Quick create in AWS</block>
+  <block id="a8756e706557440388ef829ae5f6fe1f" category="list-text"><block ref="a8756e706557440388ef829ae5f6fe1f" category="inline-link-rx"></block></block>
 </blocks>

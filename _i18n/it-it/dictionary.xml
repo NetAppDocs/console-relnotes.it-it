@@ -502,7 +502,6 @@
   <block id="3a487e075186bbd01e8a952b88b55326" category="list-text"><block ref="3a487e075186bbd01e8a952b88b55326" category="inline-link-rx"></block></block>
   <block id="5e6b403f3ce4af919738fd94fe35d2d0" category="section-title">02 settembre 2026</block>
   <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">Avviso di deprecazione per la macchina virtuale</block>
-  <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">La funzionalità Macchina virtuale è deprecata in Digital Advisor da ottobre 2026.</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">14 settembre 2026</block>
   <block id="b476893dc5d9404e756affcf8c5c5abf" category="paragraph">Cloud Volumes ONTAP ora supporta l'integrazione con <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block> in anteprima pubblica. Puoi integrare Cloud Volumes ONTAP con <block ref="ed504e51b6e034ace3c2f13f8d46981b" category="inline-link-macro-rx"></block> usando <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block> per rendere i dati NAS esistenti di Cloud Volumes ONTAP disponibili ai servizi di analytics e AI di Microsoft come Power BI, Azure AI Search, OpenAI e Microsoft Copilot. L'integrazione non richiede spostamento dei dati o duplicazione. L'integrazione utilizza l'accesso <block ref="aac36380121b9387ae99c37cf81e3144" category="inline-link-macro-rx"></block> per connettere Cloud Volumes ONTAP a un lakehouse Microsoft Fabric esistente.</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">Miglioramenti generali</block>
@@ -546,9 +545,6 @@
   <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">Ora puoi utilizzare i ripristini puliti per il recupero dopo comportamenti sospetti dell'utente e attacchi di crittografia basati sull'utente. Questo miglioramento si aggiunge al supporto esistente per gli attacchi basati sulla crittografia (entropia). Questa funzionalità avanzata ti permette di sfruttare l'approccio guidato del ripristino pulito, identificando i punti di ripristino ottimali per ridurre al minimo la perdita di dati e accelerare il recupero.</block>
   <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">Crea un ambiente di ripristino isolato per un ripristino pulito</block>
   <block id="00fb2a4960c9f2eed3f3d4165ea6d95a" category="paragraph">Per ulteriori informazioni, vedi <block ref="d2e686618a401b494c34aa9b2103f129" category="inline-link-macro-rx"></block>.</block>
-  <block id="5cec02b4d4793bc47a228462c7e78bcc" category="section-title">Supporto SAN per Google Cloud NetApp Volumes</block>
-  <block id="3f6e186b29c5d97616e385dd05ee9106" category="paragraph">Ransomware Resilience ora offre il supporto per i carichi di lavoro SAN da Google Cloud NetApp Volumes, permettendoti di rilevare attacchi ransomware basati sulla crittografia per i carichi di lavoro SAN. Il supporto per SAN in Google Cloud NetApp Volumes è ora generalmente disponibile.</block>
-  <block id="c1e0bcf11a7a6fe71bc50ede69765bc4" category="paragraph">Per ulteriori informazioni, vedere <block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block> e <block ref="f8dd47dc9ffb08466a0ec3298a516926" category="inline-link-macro-rx"></block>.</block>
   <block id="fa64a8ba43091dc1f18b40ede22ba208" category="inline-link">Implementa Cloud Volumes ONTAP con la creazione rapida in Google Cloud</block>
   <block id="c334239a4338073665306baf11363bc2" category="list-text"><block ref="c334239a4338073665306baf11363bc2" category="inline-link-rx"></block></block>
   <block id="d9862ed1f24a79da571ce975d43849ac" category="inline-link">Implementa Cloud Volumes ONTAP con Quick create in AWS</block>
@@ -578,4 +574,5 @@
   <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">Vai al<block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>.</block>
   <block id="1e464951e7ffdbf5ba8f20ee5038f44f" category="section-title">17 settembre 2026</block>
   <block id="9bb8a5cf038a4165b497e11d9718970b" category="cell">5.6.2 (31 agosto 2026)</block>
+  <block id="947172fbf1812b374d2eb98557cca1c0" category="paragraph">La funzionalità Macchina virtuale verrà deprecata in Digital Advisor a ottobre 2026.</block>
 </blocks>

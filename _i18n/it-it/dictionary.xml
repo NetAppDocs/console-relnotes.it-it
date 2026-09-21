@@ -575,4 +575,17 @@
   <block id="1e464951e7ffdbf5ba8f20ee5038f44f" category="section-title">17 settembre 2026</block>
   <block id="9bb8a5cf038a4165b497e11d9718970b" category="cell">5.6.2 (31 agosto 2026)</block>
   <block id="947172fbf1812b374d2eb98557cca1c0" category="paragraph">La funzionalità Macchina virtuale verrà deprecata in Digital Advisor a ottobre 2026.</block>
+  <block id="b97fde06b7b518f77d6af8b950fd42b8" category="doc">Supporto per licenze basate sulla capacità nelle implementazioni in modalità privata</block>
+  <block id="e7407e69cea5642ae9e0cd7198fe3213" category="paragraph">Ora puoi implementare i sistemi Cloud Volumes ONTAP in modalità privata con licenze basate sulla capacità in AWS, Azure e Google Cloud.</block>
+  <block id="5ac8ab42faf3d93a6c3b6ad39ea1d0cf" category="paragraph">NetApp supporta solo il pacchetto Essentials per il modello di licensing basato sulla capacità in modalità privata. Acquista un pacchetto Essentials Bring-Your-Own License (BYOL) basato sulla capacità da NetApp e assegnalo al tuo sistema durante la distribuzione. I primi 500 GiB di capacità utilizzata non vengono conteggiati ai fini del pagamento della licenza. Puoi acquistare pacchetti aggiuntivi man mano che le tue esigenze di carico di lavoro crescono.</block>
+  <block id="21712c9baed4035cb4259749b4f6b0b5" category="paragraph">NetApp consiglia il modello di licensing basato sulla capacità per tutte le implementazioni Cloud Volumes ONTAP in modalità privata. Se hai implementazioni esistenti in modalità privata con licenze basate sui nodi, puoi convertirle al modello di licensing basato sulla capacità acquistando un pacchetto Essentials da NetApp. Questa nuova funzionalità di implementazione, insieme all'opzione di conversione, supporta il piano di NetApp di passare gradualmente dalle licenze basate sui nodi a quelle basate sulla capacità.</block>
+  <block id="0ff1cb70b28d71c56ee0165393cbd500" category="inline-link">Licenze Cloud Volumes ONTAP</block>
+  <block id="659a7e43d06893f1e9ea314bf1e995c0" category="list-text"><block ref="659a7e43d06893f1e9ea314bf1e995c0" category="inline-link-rx"></block></block>
+  <block id="98a45c35578305189a0a42309be57c0e" category="inline-link">Scopri Cloud Volumes ONTAP BYOL</block>
+  <block id="d9f9f0f56fedf60259b456ffc4e59d78" category="list-text"><block ref="d9f9f0f56fedf60259b456ffc4e59d78" category="inline-link-rx"></block></block>
+  <block id="90df487d076cd9295a7192268b4439ee" category="inline-link">Fine della disponibilità delle licenze basate su nodi</block>
+  <block id="891135e9b9da3df96fe5c02cfac5295d" category="list-text"><block ref="891135e9b9da3df96fe5c02cfac5295d" category="inline-link-rx"></block></block>
+  <block id="c1abbf97e12a86fa8ee3d99a6d57e8d2" category="inline-link">Gestisci le licenze basate su nodo per Cloud Volumes ONTAP</block>
+  <block id="9bb44fee1ffc8cb84fe1dd304c171c38" category="list-text"><block ref="9bb44fee1ffc8cb84fe1dd304c171c38" category="inline-link-rx"></block></block>
+  <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">21 settembre 2026</block>
 </blocks>

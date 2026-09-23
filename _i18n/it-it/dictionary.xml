@@ -506,7 +506,6 @@
   <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">Questa versione di Data Classification include miglioramenti alla sicurezza e alle prestazioni.</block>
   <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">16 settembre 2026</block>
   <block id="6c302dca9120d9212ecda9d1ad1f74c9" category="paragraph">In questa versione, i carichi di lavoro KVM, Hyper-V e VMware introducono il seguente miglioramento:</block>
-  <block id="0898522d58ded515e98cbdbeae0b2894" category="paragraph">*Selezione delle credenziali durante il rilevamento dell'host VM*: Quando registri un host KVM, Hyper-V o VMware, ora puoi utilizzare le credenziali che hai già aggiunto a NetApp Backup and Recovery.</block>
   <block id="51b1f28526e9e7dfdb39548a8b5d4ac0" category="paragraph">*Protezione estesa dei dischi per le VM*: Per le configurazioni CIFS, NetApp Backup and Recovery ora supporta la protezione di ogni disco collegato a ciascuna VM in un gruppo di protezione. Questo include file distribuiti su più volumi ONTAP o sistemi di storage ONTAP (dischi estesi) e file limitati a una singola posizione.</block>
   <block id="1e62d1b5255654e86ebb8b223345252a" category="section-title">Miglioramento dei carichi di lavoro dei volumi ONTAP</block>
   <block id="705eb27960b89edebb2b2269e939009b" category="paragraph">In questa versione, i carichi di lavoro ONTAP Volumes introducono il seguente miglioramento in anteprima:</block>
@@ -593,4 +592,7 @@
   <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">Per ulteriori informazioni, vedi <block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>.</block>
   <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">Configura un sistema SIEM con webhook</block>
   <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">Per ulteriori informazioni, vedi <block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>.</block>
+  <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">Miglioramento generale di NetApp Backup and Recovery</block>
+  <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*Selezione delle credenziali durante il rilevamento dell'host VM*: Quando rilevi un host KVM, Hyper-V o VMware, ora puoi utilizzare le credenziali che hai già aggiunto a NetApp Backup and Recovery.</block>
+  <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Miglioramento dei carichi di lavoro Hyper-V</block>
 </blocks>

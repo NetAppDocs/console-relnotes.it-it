@@ -139,15 +139,15 @@ Se sei un nuovo abbonato a link:https://us-east-1.console.aws.amazon.com/marketp
 
 
 
-==== Miglioramenti generali al backup e al ripristino NetApp
+==== Miglioramento generale di NetApp Backup and Recovery
 
 In questa versione, i carichi di lavoro KVM, Hyper-V e VMware introducono il seguente miglioramento:
 
-*Selezione delle credenziali durante il rilevamento dell'host VM*: Quando registri un host KVM, Hyper-V o VMware, ora puoi utilizzare le credenziali che hai già aggiunto a NetApp Backup and Recovery.
+*Selezione delle credenziali durante il rilevamento dell'host VM*: Quando rilevi un host KVM, Hyper-V o VMware, ora puoi utilizzare le credenziali che hai già aggiunto a NetApp Backup and Recovery.
 
 
 
-==== Miglioramenti ai carichi di lavoro Hyper-V
+==== Miglioramento dei carichi di lavoro Hyper-V
 
 In questa versione, Hyper-V workloads introduce il seguente miglioramento:
 

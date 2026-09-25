@@ -30,6 +30,32 @@ Bonifica:: Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 ====
 
 
+[[25-september-2026]]
+== 25 settembre 2026
+
+
+
+[[digital-advisor]]
+=== Consulente digitale
+
+
+
+==== Aggiornamento dei contenuti per la dashboard Value Insights
+
+È stato pubblicato un aggiornamento della documentazione per la dashboard Value Insights.
+
+Scopri di più su link:https://kb.netapp.com/data-mgmt/Digital-Advisor-KBs/How_to_use_Value_Insights_Dashboard_in_Digital_Advisor["come utilizzare la dashboard "Value Insights" in Digital Advisor"^].
+
+
+
+==== Avviso di deprecazione per Config Drift
+
+La funzionalità Config Drift è stata ritirata e non è più disponibile in Digital Advisor da settembre 2026.
+
+Per domande o per condividere feedback, mailto:ng-activeiq-feedback@netapp.com[contatta il team di Active IQ].
+
+
+
 [[21-september-2026]]
 == 21 settembre 2026
 

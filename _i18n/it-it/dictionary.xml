@@ -262,7 +262,6 @@
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Nodo singolo</block>
   <block id="fce4191353d1af53ceb25c03f87affd6" category="list-text">HA in una singola zona di disponibilità tramite storage localmente ridondante (LRS)</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">Alta disponibilità in più zone di disponibilità tramite storage a ridondanza di zona (ZRS)</block>
-  <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">Per un elenco di tutte le regioni supportate, consulta <block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>.</block>
   <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">23 luglio 2026</block>
   <block id="752cfb7f100699ed10b934470fc8824c" category="doc">Standardizza i gruppi di protezione in base al carico di lavoro e al tipo di sistema</block>
   <block id="3a53d7e702e0596f76d0deb9f8cc03ea" category="paragraph">La funzionalità di resilienza contro i ransomware ora impone che i gruppi di protezione includano un solo tipo di workload e un solo tipo di sistema. Quando crei un nuovo gruppo di protezione, devi specificare sia il tipo di workload (file system o block) sia il sistema per il workload. Questo miglioramento garantisce che la strategia di protezione contro i ransomware scelta per il gruppo di protezione possa essere applicata con successo a tutti i workload del gruppo.</block>
@@ -460,8 +459,6 @@
   <block id="9775ec01b640ec37d790fc80fcd304fa" category="doc">Supporto per Cloud Volumes ONTAP nelle regioni Azure Secret e Top Secret (anteprima privata)</block>
   <block id="71220dfc0ef52806d7063323e20a8d01" category="paragraph">Cloud Volumes ONTAP ora supporta la distribuzione nelle regioni Azure Government Secret e Top Secret in anteprima privata. Questa funzionalità estende Cloud Volumes ONTAP agli ambienti classificati di Azure di Microsoft, permettendo ai clienti del settore pubblico e della difesa di usare ONTAP per la gestione, la protezione e il disaster recovery dei dati a supporto dei carichi di lavoro per la sicurezza nazionale. Contatta il tuo team NetApp per partecipare.</block>
   <block id="9a4d5529d16b869118217275b6da762d" category="paragraph">Per informazioni, consulta la documentazione di Azure:</block>
-  <block id="d6cb1d3533b658f7c8098c480b799207" category="inline-link">Cloud per le missioni del governo degli Stati Uniti^</block>
-  <block id="77063c44fc617a6f3c637b1e2c35bd37" category="list-text"><block ref="77063c44fc617a6f3c637b1e2c35bd37" category="inline-link-rx"></block></block>
   <block id="985c02ef44894c5b9eb81c7ef41befb6" category="inline-link">Azure Government Secret</block>
   <block id="97003784d2f5493688983ca3efa74e68" category="list-text"><block ref="97003784d2f5493688983ca3efa74e68" category="inline-link-rx"></block></block>
   <block id="68e1f1aba2e1561ee3226c9bcfef5ee1" category="inline-link">Azure Government Top Secret</block>
@@ -581,4 +578,7 @@
   <block id="ffc6d9152a780992794d0684b51c6723" category="section-title">La modalità privata 4.10.0 supporta Red Hat Enterprise Linux (RHEL) 9.6</block>
   <block id="e8df4a2f18a880c577818fb8618fed77" category="inline-link-macro">Scopri i requisiti dell'host per la modalità privata</block>
   <block id="a40f09cfdf03cc6659d4d7e08024fda0" category="paragraph">La modalità privata può ora essere installata ed eseguita su Red Hat Enterprise Linux (RHEL) 9.6, offrendoti il sistema operativo supportato più recente per una maggiore sicurezza e prestazioni superiori. <block ref="0ce7e93392d1f71f6b7bb5b508ff4113" category="inline-link-macro-rx"></block></block>
+  <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">Per un elenco di tutte le regioni supportate, consulta <block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>.</block>
+  <block id="2c35e19e5a880895a1f3f6748fe75e56" category="inline-link">Cloud per le missioni del governo degli Stati Uniti</block>
+  <block id="28426dd827c38f71cac9fa79f418b6f0" category="list-text"><block ref="28426dd827c38f71cac9fa79f418b6f0" category="inline-link-rx"></block></block>
 </blocks>

@@ -348,7 +348,7 @@ Cloud Volumes ONTAP ora supporta la distribuzione nelle regioni Azure Government
 
 Per informazioni, consulta la documentazione di Azure:
 
-* https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/["Cloud per le missioni del governo degli Stati Uniti^"]
+* https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/["Cloud per le missioni del governo degli Stati Uniti"^]
 * https://azure.microsoft.com/en-us/explore/global-infrastructure/government/national-security["Azure Government Secret"^]
 * https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions["Azure Government Top Secret"^]
 
@@ -460,7 +460,7 @@ Ora puoi distribuire Cloud Volumes ONTAP 9.12.1 GA e versioni successive nelle r
 * Alta disponibilità in più zone di disponibilità tramite storage a ridondanza di zona (ZRS)
 
 
-Per un elenco di tutte le regioni supportate, consulta  https://bluexp.netapp.com/cloud-volumes-global-regions["Mappa delle regioni globali sotto Azure"^].
+Per un elenco di tutte le regioni supportate, consulta  https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Mappa delle regioni globali sotto Azure"^].
 
 
 
@@ -927,7 +927,7 @@ Ora puoi distribuire Cloud Volumes ONTAP 9.12.1 GA e versioni successive nella r
 * Alta disponibilità in più zone di disponibilità tramite storage a ridondanza di zona (ZRS)
 
 
-Per un elenco di tutte le regioni supportate, consulta  https://bluexp.netapp.com/cloud-volumes-global-regions["Mappa delle regioni globali sotto Azure"^].
+Per un elenco di tutte le regioni supportate, consulta  https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Mappa delle regioni globali sotto Azure"^].
 
 
 

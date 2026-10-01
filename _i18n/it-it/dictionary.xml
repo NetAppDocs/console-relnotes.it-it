@@ -590,5 +590,5 @@
   <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">Valutazioni ben strutturate per le risorse Flex Unified</block>
   <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">La dashboard well-architected ora valuta i pool di storage e i volumi Flex Unified di Google Cloud NetApp Volumes in base al margine di capacità SSD, al margine di capacità del volume e alla copertura dei criteri di snapshot. I risultati vengono visualizzati nell'esperienza well-architected di Google Cloud NetApp Volumes e identificano le risorse in modalità Default o ONTAP.</block>
   <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">Le notifiche per i problemi well-architected sono disponibili per Google Cloud NetApp Volumes dalla pagina Sistemi di gestione dello storage in NetApp Console. Questa funzionalità ti aiuta a identificare rapidamente i problemi di configurazione nei tuoi sistemi Google Cloud NetApp Volumes e ad accedere alla dashboard well-architected dei workload dalla notifica.</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 settembre 2026</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">30 settembre 2026</block>
 </blocks>

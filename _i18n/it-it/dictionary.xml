@@ -139,11 +139,6 @@
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mappa delle regioni globali sotto Azure</block>
   <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">Automatizza le risposte agli avvisi di attività degli utenti</block>
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">Per ulteriori informazioni, vedi <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>.</block>
-  <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">Escludi i percorsi dei file dagli avvisi relativi al comportamento dell'utente</block>
-  <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">Ransomware Resilience supporta l'esclusione di percorsi di file specifici dagli avvisi di monitoraggio del comportamento degli utenti. Puoi escludere i percorsi di file se sai che non sono a rischio o se stai lavorando su file in un volume che potrebbe attivare avvisi.</block>
-  <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">Escludi i percorsi dei file dagli avvisi</block>
-  <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">07 luglio 2026</block>
-  <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">Per ulteriori informazioni, vedi <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>.</block>
   <block id="a3385cf694f169469155cf608126cc13" category="section-title">Gestisci Trident Protect dal menu Siti</block>
   <block id="d108f39d7ac8db7fc5eab434cd7df7fc" category="paragraph">Ora Disaster Recovery supporta la gestione di Trident Protect direttamente dal menu Siti nell'interfaccia utente di Disaster Recovery. Puoi aggiornare Trident Protect o rimuoverlo da Disaster Recovery, semplificando la gestione delle tue risorse Kubernetes.</block>
   <block id="ceb6da856e73533ddb08cf15abe120b7" category="inline-link-macro">Gestisci i siti</block>
@@ -161,8 +156,6 @@
   <block id="3ddd9403dd985627a83f357af005a768" category="section-title">Miglioramenti delle prestazioni del sistema</block>
   <block id="baa35064269b3904d8b57c0745ca18f8" category="paragraph">La funzionalità di disaster recovery ha introdotto modifiche per ridurre il consumo di risorse di sistema e migliorare le prestazioni in tutte le operazioni.</block>
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">13 luglio 2026</block>
-  <block id="edf20e41ca56535f9914b651d4176206" category="section-title">Modello ARM per Microsoft Sentinel</block>
-  <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">Ransomware Resilience ora offre un template Azure Resource Manager (ARM) per la connessione a Microsoft Sentinel come SIEM, offrendo un metodo secondario per facilitare il deployment.</block>
   <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">Scopri di più su questa versione di Cloud Volumes ONTAP</block>
   <block id="25e0da852d260d2649ca08106da6e096" category="section-title">Supporto per le macchine virtuali Google Cloud di prossima generazione in Cloud Volumes ONTAP HA</block>
   <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">Con la versione 9.19.1, NetApp sposta le implementazioni di Cloud Volumes ONTAP ad alta disponibilità (HA) dalle VM N2 alle VM di prossima generazione della serie C3 di Google Cloud, per offrirti un'esperienza più veloce e scalabile.</block>
@@ -551,8 +544,6 @@
   <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">21 settembre 2026</block>
   <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*: Questa versione include Trident Protect 26.09.</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*Ripristino di file e cartelle*: Ora puoi ripristinare o scaricare file e cartelle specifici dai backup delle applicazioni basate su macchine virtuali Kubernetes.</block>
-  <block id="3869c7cd38e882ee17d54e5db2f6888a" category="inline-link-macro">Configura Microsoft Sentinel SIEM in Ransomware Resilience</block>
-  <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">Per ulteriori informazioni, vedi <block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>.</block>
   <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">Configura un sistema SIEM con webhook</block>
   <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">Per ulteriori informazioni, vedi <block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>.</block>
   <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">Miglioramento generale di NetApp Backup and Recovery</block>
@@ -591,4 +582,8 @@
   <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">La dashboard well-architected ora valuta i pool di storage e i volumi Flex Unified di Google Cloud NetApp Volumes in base al margine di capacità SSD, al margine di capacità del volume e alla copertura dei criteri di snapshot. I risultati vengono visualizzati nell'esperienza well-architected di Google Cloud NetApp Volumes e identificano le risorse in modalità Default o ONTAP.</block>
   <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">Le notifiche per i problemi well-architected sono disponibili per Google Cloud NetApp Volumes dalla pagina Sistemi di gestione dello storage in NetApp Console. Questa funzionalità ti aiuta a identificare rapidamente i problemi di configurazione nei tuoi sistemi Google Cloud NetApp Volumes e ad accedere alla dashboard well-architected dei workload dalla notifica.</block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">30 settembre 2026</block>
+  <block id="935253a377b19143ee00ca184dec844f" category="paragraph">In questa versione, i carichi di lavoro di ONTAP Volumes introducono i seguenti miglioramenti in anteprima:</block>
+  <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*Annulla i processi di ripristino dei volumi*: Ora puoi annullare i processi di ripristino dei volumi ONTAP in corso dalla pagina di monitoraggio dei processi, semplificando la gestione dei processi lunghi o lenti.</block>
+  <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*Segnalazione dello stato di indicizzazione dei volumi migliorata*: la dashboard ONTAP Volumes ora riporta lo stato di indicizzazione in modo più accurato introducendo lo <block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block> stato per i volumi e le copie snapshot che non sono idonei per l'indicizzazione. Lo <block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block> stato è ora riservato ai volumi in attesa di essere indicizzati e i dettagli del volume ora mostrano lo stato di indicizzazione per ogni snapshot con un testo al passaggio del mouse che spiega perché un volume o una copia snapshot non verranno indicizzati.</block>
+  <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*Supporto AFX di NetApp*: Ora puoi proteggere i volumi ospitati su cluster AFX di NetApp a 2 e 4 nodi.</block>
 </blocks>

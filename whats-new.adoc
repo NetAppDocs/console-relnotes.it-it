@@ -30,6 +30,24 @@ Bonifica:: Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 ====
 
 
+[[04-october-2026]]
+== 04 ottobre 2026
+
+
+
+[[well-architected-dashboard]]
+=== Dashboard ben progettata
+
+
+
+==== Modifica e gestisci le regole personalizzate
+
+Ora puoi modificare le regole personalizzate nel catalogo delle regole. Puoi aggiornare i nomi e le impostazioni delle regole, rivedere le modifiche in chat, convalidare le modifiche ed eliminare le regole che non ti servono più.
+
+link:https://docs.netapp.com/us-en/console-well-architected/manage-custom-rules.html["Scopri come gestire le regole personalizzate"]
+
+
+
 [[30-september-2026]]
 == 30 settembre 2026
 

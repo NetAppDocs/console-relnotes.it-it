@@ -135,15 +135,6 @@
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mappa delle regioni globali sotto Azure</block>
   <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">Automatizza le risposte agli avvisi di attività degli utenti</block>
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">Per ulteriori informazioni, vedi <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>.</block>
-  <block id="b52a1b50313551938bf7b6520c957f67" category="doc">Console agent 4.9.0</block>
-  <block id="8643cb7b1a266632b3ce870a592c9aed" category="paragraph">La versione 4.9.0 supporta sia la modalità standard che la modalità limitata.</block>
-  <block id="148954cf851ed4aa263eb6cd90ea3000" category="paragraph-title">Supporto per l'accesso in base al ruolo per Cloud Volumes ONTAP</block>
-  <block id="bfc35791f70b3b115636ea79999bc1e3" category="paragraph">La console supporta l'accesso in base al ruolo per Cloud Volumes ONTAP.</block>
-  <block id="a849f909985995e89c42154f270a1245" category="inline-link-macro">Scopri di più sull'accesso in base al ruolo per Cloud Volumes ONTAP</block>
-  <block id="ea256e0ef091d570fc3443bfdb29b124" category="paragraph"><block ref="8c5db5921f383526df21d84d3b1bfd83" category="inline-link-macro-rx"></block>.</block>
-  <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">15 luglio 2026</block>
-  <block id="7c33460ede710e45d063c1062b0cacba" category="doc">Rimozione del carico di lavoro GenAI da Carichi di lavoro nella NetApp Console</block>
-  <block id="ef8dda25d49364e8cb6cea8ce87a605c" category="paragraph">Il carico di lavoro GenAI è stato rimosso dalla sezione Carichi di lavoro nella NetApp Console.</block>
   <block id="63a331b4a7ef8ade5f4d0df6929fdd39" category="doc">Presentazione della procedura semplificata di onboarding di Cloud Volumes ONTAP da AWS Marketplace</block>
   <block id="3c7e14792d1bfe3f0ac2972bb2b2b283" category="paragraph">NetApp introduce un flusso di onboarding semplificato per Cloud Volumes ONTAP da AWS Marketplace, riducendo i passaggi manuali e le difficoltà di onboarding.</block>
   <block id="07de933840f509439b88a42c1b5a81f8" category="paragraph">In precedenza, l'implementazione Cloud Volumes ONTAP tramite AWS Marketplace richiedeva la navigazione tra diverse schermate e la configurazione manuale di ruoli, policy e credenziali. Questo rendeva l'onboarding lento e soggetto a errori.</block>
@@ -171,8 +162,6 @@
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">Crea le tue regole personalizzate</block>
   <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">Scrivi regole personalizzate in linguaggio semplice per assicurarti che i tuoi sistemi rispettino gli standard della tua organizzazione e le best practice di NetApp. Testa le regole con una simulazione, poi pianifica che vengano eseguite su tutti i tuoi ambienti.</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">Scopri di più sulle regole personalizzate</block>
-  <block id="3cf43920c00fe2ea8865c490f81428d4" category="doc">Avviso di disattivazione per Wellness Review</block>
-  <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">La funzionalità "Revisione del benessere" è stata deprecata e non è più disponibile in Digital Advisor a partire da luglio 2026.</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">Per domande o per condividere feedback, mailto:ng-activeiq-feedback@netapp.com[contatta il team di Active IQ].</block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
   <block id="59ad121b0ef1b561c2f96f9b5fbd50f8" category="doc">Configura il SIEM tramite webhook</block>
@@ -185,7 +174,6 @@
   <block id="495b22b0bc55d3822a5ffc86d03d07c9" category="paragraph">Nella tabella degli abbonamenti (*Archiviazione &gt; Keystone &gt; Abbonamenti*), la colonna *Giorni alla scadenza dell'abbonamento* ora visualizza un'icona accanto alla data di scadenza. Il colore dell'icona indica la prossimità alla scadenza quando il rinnovo automatico è disattivato: verde (&gt;120 giorni), arancione (91–120 giorni), rosso (&lt;90 giorni) o grigio (scaduto). Per gli abbonamenti con rinnovo automatico attivo, viene visualizzata un'icona di rinnovo automatico che indica che l'abbonamento si rinnoverà automaticamente al termine del periodo corrente. Lo stato è di sola lettura e riflette i termini del tuo contratto. Una volta che apri un abbonamento, queste icone compaiono nell'intestazione dei dettagli dell'abbonamento nelle schede *Consumo corrente*, *Andamento del consumo*, *Cronologia dell'abbonamento* e *Risorse*, dandoti visibilità su scadenza e stato di rinnovo mentre navighi.</block>
   <block id="6e665113a95f128bda94a45125d034c0" category="inline-link">Visualizza i dettagli sui tuoi abbonamenti Keystone</block>
   <block id="ba93540c77434b5a45f562c939e84d30" category="paragraph">Per ulteriori informazioni, consultare<block ref="97b83a5c42cc5367f46b598d7c9e65ca" category="inline-link-rx"></block>.</block>
-  <block id="e4f459430f502d8d3158a4b206057282" category="paragraph">NetApp Console 4.9.0 include la seguente nuova funzionalità di amministrazione.</block>
   <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">Supporto per la regione Chile Central in Azure</block>
   <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">Ora puoi distribuire Cloud Volumes ONTAP 9.12.1 GA e versioni successive nella regione Chile Central (chilecentral) in Azure. Sono supportati i seguenti tipi di distribuzione:</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Nodo singolo</block>
@@ -558,4 +546,12 @@
   <block id="92337d8e70dfe880909b2051333e2fe4" category="paragraph">*Modifica delle licenze*: I costi non si applicano più ai backup che utilizzano architetture disk-to-disk o disk-to-disk fan-out. I costi si applicano solo ai backup nello storage a oggetti, inclusi i backup che utilizzano architetture 3-2-1 o disk-to-object-storage.</block>
   <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">Scopri come proteggere i carichi di lavoro di Microsoft SQL Server con NetApp Backup and Recovery</block>
   <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">Per i dettagli sulla protezione dei carichi di lavoro di Microsoft SQL Server, consulta<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>.</block>
+  <block id="73c20ad627e7f815932cb8837d70e1e8" category="doc">Genera informazioni sullo stato di salute per gli abbonamenti Keystone</block>
+  <block id="ae638b3203053916360a0f228b8b54d7" category="paragraph">Questa release di Keystone STaaS include i seguenti aggiornamenti nel Keystone dashboard in NetApp Console.</block>
+  <block id="a0c062a66e58943547f514904ae51daa" category="inline-link">Genera e pianifica report sullo stato di salute per gli abbonamenti Keystone</block>
+  <block id="6da38bfefa907461e0fc0e4cbf32c236" category="paragraph">Puoi scaricare report PowerPoint su richiesta o pianificare una consegna una tantum, settimanale, mensile o trimestrale da *Archiviazione &gt; Keystone &gt; Monitoraggio &gt; Report sullo stato di salute* in NetApp Console. Ogni report combina l'utilizzo della sottoscrizione, lo stato operativo, i rischi e le vulnerabilità nelle sottoscrizioni selezionate, aiutandoti a identificare i problemi e a condividere informazioni utili con i destinatari. Per saperne di più, consulta <block ref="d2f756b41ddff582298cd4e997cfe66a" category="inline-link-rx"></block>.</block>
+  <block id="bebf4a0b6cd7d09b5a94da709f1d8c60" category="section-title">Visualizza la capacità del cluster e degli aggregati di ONTAP</block>
+  <block id="56ba911e47b6675e519daaae8a0c4ab8" category="inline-link">Visualizza le risorse tra i tuoi abbonamenti Keystone</block>
+  <block id="c270abc6d843162d4ce7721540f24540" category="inline-link">Visualizza le risorse associate a un abbonamento Keystone</block>
+  <block id="e411d22d2770471ccb53afad75a6607f" category="paragraph">Puoi visualizzare la capacità fisica, la capacità logica e l'efficienza dello storage per i cluster ONTAP e i relativi aggregati in *Risorse &gt; Cluster e aggregati*. Questa funzionalità è disponibile solo per gli abbonamenti Keystone STaaS fatturati in base alla capacità fisica. Per saperne di più, consulta<block ref="7f77c8bd4b401343bdf134614dcbbc54" category="inline-link-rx"></block> e<block ref="e5507f6e8dbcc07ae7ce3bb876484b8a" category="inline-link-rx"></block>.</block>
 </blocks>

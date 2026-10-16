@@ -177,7 +177,6 @@
   <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">Supporto per la regione Chile Central in Azure</block>
   <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">Ora puoi distribuire Cloud Volumes ONTAP 9.12.1 GA e versioni successive nella regione Chile Central (chilecentral) in Azure. Sono supportati i seguenti tipi di distribuzione:</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Nodo singolo</block>
-  <block id="fce4191353d1af53ceb25c03f87affd6" category="list-text">HA in una singola zona di disponibilità tramite storage localmente ridondante (LRS)</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">Alta disponibilità in più zone di disponibilità tramite storage a ridondanza di zona (ZRS)</block>
   <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">23 luglio 2026</block>
   <block id="752cfb7f100699ed10b934470fc8824c" category="doc">Standardizza i gruppi di protezione in base al carico di lavoro e al tipo di sistema</block>
@@ -561,7 +560,6 @@
   <block id="cb7f1191bad9ffa813970eda72e677c3" category="paragraph"><block ref="cb7f1191bad9ffa813970eda72e677c3" category="inline-link-rx"></block></block>
   <block id="b9a06ca155484f482929cec5f8dd93f2" category="section-title">Crittografia di Azure nell'host per Cloud Volumes ONTAP</block>
   <block id="65c800dc2b98e78e47a93565108209a8" category="paragraph">A partire da Cloud Volumes ONTAP 9.19.1 GA, la crittografia di Azure nell'host è abilitata per impostazione predefinita per le nuove implementazioni Azure a nodo singolo e ad alta disponibilità (HA) che soddisfano i prerequisiti. Questa funzionalità crittografa i dati sul server fisico che ospita la VM, inclusi il disco temporaneo e le cache associate a livello host, mentre i dati vengono scritti nell'host e letti dall'host.</block>
-  <block id="e4d61d3550f13efd53aeff4a22e83ea8" category="paragraph">Prima di distribuire Cloud Volumes ONTAP in Azure, assicurati che siano soddisfatti i seguenti prerequisiti:</block>
   <block id="66661aefda04e7e8fc3b285416a5747c" category="inline-link">Documentazione Microsoft: Abilitare la crittografia sull'host</block>
   <block id="ad0c10652c212a9436d51cb4a4ff84e1" category="list-text">La<block ref="9b5430cc1667a3828b4733b3fceebcc5" prefix=" " category="inline-code"></block> funzionalità è registrata per il tuo abbonamento Azure. Consulta <block ref="7a203e9800b2ad6ccab50741b723916c" category="inline-link-rx"></block>.</block>
   <block id="3ef3dd18f4a36e278227da4d639cfc32" category="inline-link">Documentazione Microsoft: trovare le dimensioni delle macchine virtuali supportate</block>
@@ -590,4 +588,6 @@
   <block id="17b21ea825fede0731081b59fb813a26" category="inline-link-macro">Scopri Value Insights in Digital Advisor</block>
   <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>.</block>
   <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">15 ottobre 2026</block>
+  <block id="f06295aec82b8045d499f988d711565d" category="list-text">HA in una singola zona di disponibilità con storage con ridondanza locale (LRS)</block>
+  <block id="145afd276d37daec187001af80160d51" category="paragraph">Prima di distribuire Cloud Volumes ONTAP in Azure, assicurati che il tuo ambiente soddisfi i seguenti prerequisiti:</block>
 </blocks>

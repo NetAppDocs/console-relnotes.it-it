@@ -135,11 +135,8 @@
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">Per domande o per condividere feedback, mailto:ng-activeiq-feedback@netapp.com[contatta il team di Active IQ].</block>
   <block id="777ce6dfcc1db686d2520e63a7141ce2" category="inline-link-macro">Configura un sistema SIEM</block>
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">Per ulteriori informazioni, vedi <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>.</block>
-  <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">Supporto per la regione Chile Central in Azure</block>
-  <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">Ora puoi distribuire Cloud Volumes ONTAP 9.12.1 GA e versioni successive nella regione Chile Central (chilecentral) in Azure. Sono supportati i seguenti tipi di distribuzione:</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Nodo singolo</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">Alta disponibilità in più zone di disponibilità tramite storage a ridondanza di zona (ZRS)</block>
-  <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">23 luglio 2026</block>
   <block id="752cfb7f100699ed10b934470fc8824c" category="doc">Standardizza i gruppi di protezione in base al carico di lavoro e al tipo di sistema</block>
   <block id="3a53d7e702e0596f76d0deb9f8cc03ea" category="paragraph">La funzionalità di resilienza contro i ransomware ora impone che i gruppi di protezione includano un solo tipo di workload e un solo tipo di sistema. Quando crei un nuovo gruppo di protezione, devi specificare sia il tipo di workload (file system o block) sia il sistema per il workload. Questo miglioramento garantisce che la strategia di protezione contro i ransomware scelta per il gruppo di protezione possa essere applicata con successo a tutti i workload del gruppo.</block>
   <block id="372c0699ee751a2658f1b4a897349a47" category="paragraph">Se hai gruppi di protezione esistenti che combinano tipi di sistema e di workload, puoi continuare a usarli, ma non puoi aggiungere workload al gruppo di protezione.</block>
@@ -470,4 +467,9 @@
   <block id="145afd276d37daec187001af80160d51" category="paragraph">Prima di distribuire Cloud Volumes ONTAP in Azure, assicurati che il tuo ambiente soddisfi i seguenti prerequisiti:</block>
   <block id="b81cecd98ea4b4f80df7b99bd8f7480e" category="paragraph">*Supporto per Oracle Data Guard*: NetApp Backup and Recovery ora supporta l'utilizzo di gruppi di protezione per proteggere i database primari e di standby che utilizzano Oracle Data Guard per l'alta disponibilità.</block>
   <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">19 ottobre 2026</block>
+  <block id="9c69ebaff6f598ab67f6d1508e967991" category="doc">Configurazione avanzata dell'ambiente di ripristino isolato</block>
+  <block id="4e23b3af211270de0f48ae9f92705a15" category="paragraph">Ransomware Resilience offre ora un flusso di lavoro migliorato per la configurazione di ambienti di ripristino isolati. Il nuovo flusso di lavoro chiarisce e semplifica il processo di configurazione di un ambiente di ripristino isolato per il cloud o ambienti on-premises.</block>
+  <block id="6651425a5192383a0828ba04484a8d4e" category="section-title">Il livello di servizio Flex di Google Cloud NetApp Volumes è generalmente disponibile</block>
+  <block id="70f3cf57a8612bb7c7ed814b764ffe7b" category="paragraph">Il supporto per il livello di servizio Flex di Google Cloud NetApp Volumes in Ransomware Resilience è ora generalmente disponibile (GA).</block>
+  <block id="d3b51a13c8511879c5378f17bd12c127" category="section-title">20 ottobre 2026</block>
 </blocks>

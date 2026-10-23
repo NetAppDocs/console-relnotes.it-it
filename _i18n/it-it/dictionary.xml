@@ -472,4 +472,8 @@
   <block id="6651425a5192383a0828ba04484a8d4e" category="section-title">Il livello di servizio Flex di Google Cloud NetApp Volumes è generalmente disponibile</block>
   <block id="70f3cf57a8612bb7c7ed814b764ffe7b" category="paragraph">Il supporto per il livello di servizio Flex di Google Cloud NetApp Volumes in Ransomware Resilience è ora generalmente disponibile (GA).</block>
   <block id="d3b51a13c8511879c5378f17bd12c127" category="section-title">20 ottobre 2026</block>
+  <block id="07405e58de7ae5291e2723155a5869b4" category="section-title">Flusso di lavoro ottimizzato per abilitare il monitoraggio delle attività degli utenti</block>
+  <block id="dd9dd4a4b292f36f08cee46f9ba3ffa3" category="paragraph">Ransomware Resilience ha migliorato il flusso di lavoro per abilitare il monitoraggio dell'attività degli utenti. In precedenza, Ransomware Resilience verificava la connessione del data collector ogni volta che abilitavi una strategia di protezione dal ransomware con il monitoraggio dell'attività degli utenti su un workload. Con questo aggiornamento, questo controllo viene ora saltato se esiste un data collector per la storage VM ed è nello stato "running", accelerando il flusso di lavoro di protezione.</block>
+  <block id="b79c3e2214dfd55d5e8b57ef1d6ae5bb" category="inline-link-macro">proteggere i carichi di lavoro</block>
+  <block id="5f705092fbb64e2adcc5b83793eed660" category="paragraph">Per ulteriori informazioni, consulta <block ref="f5df6f8f09e7648e9d6889e3e6e725cb" category="inline-link-macro-rx"></block>.</block>
 </blocks>

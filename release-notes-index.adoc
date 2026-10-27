@@ -4,7 +4,7 @@ permalink: release-notes-index.html
 keywords: release notes 
 summary: Visualizza il set completo di note di rilascio per le funzionalità di amministrazione e archiviazione NetApp Console e per i servizi dati NetApp . 
 ---
-= Indice delle note di rilascio
+= Indice delle note di rilascio per NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

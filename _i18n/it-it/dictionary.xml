@@ -486,4 +486,8 @@
   <block id="08853958e0db62fd50058fd45b355d7a" category="doc">Console agent 4.12.0</block>
   <block id="67b83a9547aaccf9123cbc81823aeda8" category="paragraph">La versione 4.12.0 supporta sia la modalità standard che la modalità limitata.</block>
   <block id="f3826fe13aaaec9b1aee814413e5cc00" category="paragraph">Questa versione include miglioramenti alla sicurezza e correzioni di bug.</block>
+  <block id="2be8ebee916d12326ebe44540fa72ba0" category="doc">Nuovo flusso di lavoro manuale per la creazione di un agente di attività utente</block>
+  <block id="2ffea3ae8ed4896a570069b1313e624e" category="paragraph">Ransomware Resilience ora offre un flusso di lavoro manuale per la creazione dell'agente di attività utente, consentendoti un maggiore controllo su come creare l'agente di attività utente sulla tua VM. Con questo nuovo flusso di lavoro, puoi installare direttamente l'agente di attività utente e configurare le impostazioni del proxy senza fornire le chiavi SSH della VM.</block>
+  <block id="59ad45573dbf4296a202cefa7894c118" category="inline-link-macro">Creare un agente di attività utente</block>
+  <block id="77330beb10dbe494866c425493911f54" category="paragraph">Per ulteriori informazioni, consulta <block ref="d3340d58befe5e951629759650e09b2d" category="inline-link-macro-rx"></block>.</block>
 </blocks>

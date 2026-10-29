@@ -111,7 +111,7 @@ Per ulteriori informazioni, vedi link:https://docs.netapp.com/us-en/data-service
 
 
 
-==== Flusso di lavoro ottimizzato per abilitare il monitoraggio delle attività degli utenti
+==== Flusso di lavoro migliorato per abilitare il monitoraggio delle attività degli utenti
 
 Ransomware Resilience ha migliorato il flusso di lavoro per abilitare il monitoraggio dell'attività degli utenti. In precedenza, Ransomware Resilience verificava la connessione del data collector ogni volta che abilitavi una strategia di protezione dal ransomware con il monitoraggio dell'attività degli utenti su un workload. Con questo aggiornamento, questo controllo viene ora saltato se esiste un data collector per la storage VM ed è nello stato "running", accelerando il flusso di lavoro di protezione.
 
@@ -656,7 +656,7 @@ La funzionalità di Disaster Recovery ha inoltre aumentato la resilienza del ser
 
 
 
-==== Supporto migliorato per i ripristini puliti
+==== Supporto per il ripristino pulito in caso di comportamenti sospetti degli utenti e attacchi di crittografia basati sugli utenti
 
 Ora puoi utilizzare i ripristini puliti per il recupero dopo comportamenti sospetti dell'utente e attacchi di crittografia basati sull'utente. Questo miglioramento si aggiunge al supporto esistente per gli attacchi basati sulla crittografia (entropia). Questa funzionalità avanzata ti permette di sfruttare l'approccio guidato del ripristino pulito, identificando i punti di ripristino ottimali per ridurre al minimo la perdita di dati e accelerare il recupero.
 

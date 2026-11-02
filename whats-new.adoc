@@ -30,6 +30,34 @@ Bonifica:: Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 ====
 
 
+[[02-november-2026]]
+== 02 novembre 2026
+
+
+
+[[cloud-volumes-ontap]]
+=== Cloud Volumes ONTAP
+
+
+
+==== Indicazioni per aggiornare gli hotfix di ONTAP per versioni specifiche di Cloud Volumes ONTAP
+
+ONTAP ha rilasciato i seguenti hotfix compatibili con le versioni 9.14.1, 9.15.1, 9.16.1, 9.17.1, 9.18.1 e 9.19.1 di Cloud Volumes ONTAP:
+
+* 9.14.1P18HF1
+* 9.15.1P20HF1
+* 9.16.1P16HF1
+* 9.17.1P11HF1
+* 9.18.1P8HF1
+* 9.19.1P3HF1
+
+
+Per maggiori dettagli, consulta  https://security.netapp.com/advisory/ntap-20261021-0021["Avviso di sicurezza NTAP 20261021-0021"^].
+
+Per i tuoi sistemi Cloud Volumes ONTAP, potresti ricevere una richiesta di aggiornamento a questi hotfix nella NetApp Console. Tuttavia, questi hotfix sono supportati solo quando la versione dell'agente di NetApp Console è 4.12.0 o successiva. Se la versione dell'agente di NetApp Console è precedente alla 4.12.0, ignora la richiesta.
+
+
+
 [[26-october-2026]]
 == 26 ottobre 2026
 
@@ -524,7 +552,7 @@ NetApp supporta solo il pacchetto Essentials per il modello di licensing basato 
 NetApp consiglia il modello di licensing basato sulla capacità per tutte le implementazioni Cloud Volumes ONTAP in modalità privata. Se hai implementazioni esistenti in modalità privata con licenze basate sui nodi, puoi convertirle al modello di licensing basato sulla capacità acquistando un pacchetto Essentials da NetApp. Questa nuova funzionalità di implementazione, insieme all'opzione di conversione, supporta il piano di NetApp di passare gradualmente dalle licenze basate sui nodi a quelle basate sulla capacità.
 
 .Link correlati
-* https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_capacity-license-darkmode/concept-licensing.html["Licenze Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html["Licenze Cloud Volumes ONTAP"^]
 * https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-license-management.html["Scopri Cloud Volumes ONTAP BYOL"^]
 * https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html#end-of-availability-of-node-based-licenses["Fine della disponibilità delle licenze basate su nodi"^]
 * https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-manage-node-licenses.html["Gestisci le licenze basate su nodo per Cloud Volumes ONTAP"^]
@@ -1067,59 +1095,3 @@ Per ulteriori informazioni, vedi link:https://docs.netapp.com/us-en/data-service
 ==== Ottimizzazione delle prestazioni e delle risorse
 
 Sono stati apportati diversi miglioramenti "sotto il cofano" per ridurre il consumo complessivo di risorse di sistema e aumentare le prestazioni nelle operazioni di NetApp Disaster Recovery.
-
-
-
-[[03-august-2026]]
-== 03 agosto 2026
-
-
-
-[[ransomware-resilience]]
-=== Resilienza al ransomware
-
-
-
-==== Supporto SAN per Google Cloud NetApp Volumes (anteprima)
-
-Ransomware Resilience ora supporta i carichi di lavoro SAN di Google Cloud NetApp Volumes, consentendoti di rilevare gli attacchi ransomware basati sulla crittografia per i carichi di lavoro SAN. Il supporto per SAN in Google Cloud NetApp Volumes è attualmente in anteprima.
-
-Per ulteriori informazioni, vedere link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html#supported-systems["sistemi supportati"^] e link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-limitations.html#azure-netapp-files-limitations["Archiviazione SAN nella resilienza al ransomware"^].
-
-
-
-==== Interfaccia semplificata per il blocco degli utenti
-
-Ransomware Resilience ora offre un'esperienza utente semplificata per bloccare gli utenti e gestire gli utenti bloccati. Con questo aggiornamento, puoi facilmente visualizzare e modificare quali utenti hai bloccato. Devi aver configurato link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["rilevamento dell'attività dell'utente"^] per bloccare gli utenti.
-
-Per ulteriori informazioni, vedere link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-users-manage.html#manage-blocked-users["Utenti bloccati gestiti"^].
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Integrazione di Cloud Volumes ONTAP con Microsoft OneLake
-
-Cloud Volumes ONTAP ora supporta l'integrazione con link:https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview["Microsoft OneLake"^] in anteprima pubblica. Puoi integrare Cloud Volumes ONTAP con link:https://community.fabric.microsoft.com/["Microsoft Fabric"^] usando link:https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview["Microsoft OneLake"^] per rendere i dati NAS esistenti di Cloud Volumes ONTAP disponibili ai servizi di analytics e AI di Microsoft come Power BI, Azure AI Search, OpenAI e Microsoft Copilot. L'integrazione non richiede spostamento dei dati o duplicazione. L'integrazione utilizza l'accesso link:https://docs.netapp.com/us-en/ontap/s3-multiprotocol/index.html["ONTAP S3 multiprotocollo"^] per connettere Cloud Volumes ONTAP a un lakehouse Microsoft Fabric esistente.
-
-.Articoli e risorse correlati:
-* https://www.netapp.com/blog/optimize-ai-analytics-microsoft-onelake/?utm_content=nativelink&utm_medium=internal&utm_source=linkedin&utm_campaign=b2d-port-all-na-ww-digi-blog-1747859361262&es_id=956c739202["NetApp blog: Ottimizza l'AI e l'analisi con Microsoft OneLake e NetApp Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-azure-onelake.html["Integra i sistemi Cloud Volumes ONTAP con Microsoft OneLake per AI e analytics"^]
-* https://www.netapp.com/media/160786-na-1263-netapp-cloud-volumes-ontap-azure-onelake.pdf["Integrazione di Cloud Volumes ONTAP con Microsoft OneLake - Nota tecnica"^]
-
-
-
-
-==== Correggi, ignora e riattiva le configurazioni per Cloud Volumes ONTAP in Microsoft Azure
-
-La dashboard ben progettata di NetApp Console ora ti permette di correggere i suggerimenti di configurazione per i tuoi sistemi Cloud Volumes ONTAP.
-
-Puoi anche escludere una o più configurazioni dall'analisi dell'architettura ben strutturata. Questo ti permette di ignorare configurazioni specifiche che non si applicano al tuo ambiente.
-
-Se in seguito vuoi includere una configurazione precedentemente scartata, puoi riattivarla nella dashboard well-architected. Questo ripristina la configurazione nell'analisi e ti permette di ottenere suggerimenti e correzioni per essa.
-
-* link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-improve-configurations-cvo.html["Correggi, ignora e riattiva le configurazioni per Cloud Volumes ONTAP in Microsoft Azure"^]
-

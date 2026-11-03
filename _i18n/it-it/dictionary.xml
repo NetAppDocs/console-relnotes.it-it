@@ -524,4 +524,101 @@
   <block id="93a6a64e1df6cd0e2f07d8b931635a5f" category="paragraph">Per maggiori dettagli, consulta <block ref="12c9bbef01f1c6198b57112eba5f4e7e" category="inline-link-rx"></block>.</block>
   <block id="a2b19abf4eb1b38f190f7260dec9b0ee" category="paragraph">Per i tuoi sistemi Cloud Volumes ONTAP, potresti ricevere una richiesta di aggiornamento a questi hotfix nella NetApp Console. Tuttavia, questi hotfix sono supportati solo quando la versione dell'agente di NetApp Console è 4.12.0 o successiva. Se la versione dell'agente di NetApp Console è precedente alla 4.12.0, ignora la richiesta.</block>
   <block id="066f3a9431c48361a10c813b2b187f91" category="section-title">02 novembre 2026</block>
+  <block id="f5740048ddae6de6c98d146bef8a05eb" category="doc">Miglioramenti all'amministrazione di Workload Factory</block>
+  <block id="d5700d6fbdfdaa11c8c6dcbd565d8446" category="section-title">Verifica e aggiorna i dati del dashboard personalizzato</block>
+  <block id="a2ace9589bb1ff3e1b64e40ba9982721" category="paragraph">Ora puoi vedere quando le metriche della tua dashboard personalizzata sono state aggiornate l'ultima volta e aggiornarle manualmente. Passa il mouse su *Aggiorna dati* per visualizzare la data e l'ora dell'ultimo aggiornamento.</block>
+  <block id="6497706c70a607634590a156941b4e50" category="paragraph">Seleziona *Aggiorna dati* per avviare una nuova scansione. Un banner conferma che la scansione è stata avviata e il pulsante è disabilitato fino al termine della scansione.</block>
+  <block id="2895998bd3d7c5fdb39e7fddc2bd608a" category="paragraph">Quando sono disponibili nuovi dati, seleziona *Caricali ora* nel banner di notifica per aggiornare la dashboard.</block>
+  <block id="f418ba29e821ca3da1b907e6156d2db5" category="paragraph">Sia *Aggiorna dati* che *Carica ora* creano eventi di raccolta di dati in Tracker.</block>
+  <block id="0b62b5947fe6e091e6c0c1e387e32e69" category="inline-link-macro">Scopri come aggiornare i dati della dashboard personalizzata</block>
+  <block id="d6592fddba6a07bb0a917566a4081fc5" category="paragraph"><block ref="d6592fddba6a07bb0a917566a4081fc5" category="inline-link-macro-rx"></block></block>
+  <block id="524f9b4ee818c419ee1585959e10855c" category="section-title">Specifica le regioni per dashboard personalizzate</block>
+  <block id="9aca8419896ce9b5d75b523be971bafb" category="paragraph">Le dashboard personalizzate ora ti chiedono di scegliere una o più regioni se la richiesta non le include. I dati della dashboard sono limitati alle regioni che selezioni.</block>
+  <block id="35a63836682befdc98086e583b61298a" category="inline-link-macro">Scopri come creare una dashboard personalizzata</block>
+  <block id="265c60992e7c3b3f876f80926a9c3a65" category="paragraph"><block ref="265c60992e7c3b3f876f80926a9c3a65" category="inline-link-macro-rx"></block></block>
+  <block id="639dc972d056a14ca9535d40d9ba48bb" category="section-title">Criteri IAM per la creazione del collegamento FSx for ONTAP</block>
+  <block id="20721709cc5df2882070722a30cc34c3" category="paragraph">Il template CloudFormation e il codice Terraform per la creazione dei link ora utilizzano una policy IAM anziché le autorizzazioni Lambda inline.</block>
+  <block id="68cd2ca9724f378c0a2815415eeecfbd" category="inline-link-macro">Impara come creare un link</block>
+  <block id="2f101cc9d5d0dd23089ae6fca31ac27f" category="paragraph"><block ref="2f101cc9d5d0dd23089ae6fca31ac27f" category="inline-link-macro-rx"></block></block>
+  <block id="b3e7d6d7f8501adc86f1a7337ebfb531" category="section-title">Audit e monitoraggio delle azioni degli agenti di IA</block>
+  <block id="5aecb2747daa4a62ad221d70aaf568df" category="paragraph">Ora puoi usare Tracker per esaminare le modifiche alle impostazioni dell'agente AI e, in modalità di lettura/scrittura, ogni richiesta di approvazione, inclusa la domanda dell'agente e la risposta dell'utente.</block>
+  <block id="25d50a8630b3c335d684f59cca6d3ace" category="paragraph">Le modifiche alle risorse effettuate tramite le API di Workload Factory vengono registrate dal servizio di Workload Factory che esegue l'operazione.</block>
+  <block id="db0781c4ffb5f26ba7ad4f2ffe3dfdbd" category="inline-link-macro">Scopri il controllo e il tracciamento delle azioni degli agenti</block>
+  <block id="d280606d2d970fea6313288893352119" category="paragraph"><block ref="d280606d2d970fea6313288893352119" category="inline-link-macro-rx"></block></block>
+  <block id="9e81dbda2a0d084e31f85eea0c371131" category="section-title">Miglioramenti di Amazon FSx for NetApp ONTAP</block>
+  <block id="230227ce1631475a082d9f0865ea84b2" category="section-title">Miglioramenti al diagramma del gruppo initiator</block>
+  <block id="9312a185b7f4389cd2dc1b61172e5f20" category="paragraph">Il diagramma che mostra i gruppi di initiator per i dispositivi a blocchi nella pagina Manage Client Access ora include più dettagli sugli host. Quando passi il mouse su un host nel diagramma, vengono visualizzati i dettagli dell'host, tra cui host name, instance ID, tipo di workload, regione e iSCSI Qualified Name (IQN).</block>
+  <block id="40a8a1ceba59de4101cf77a14d6fb2d5" category="section-title">Miglioramento dell'email per problemi di architettura ottimale</block>
+  <block id="954ae82c2d96e9bd8c7d4e143bf3c187" category="paragraph">Il nuovo design delle email fornisce maggiori dettagli e contesto sui problemi di configurazione rilevati da Workload Factory. L'email include il numero di risorse analizzate, quante presentano avvisi o problemi critici e quali sono questi problemi. L'email contiene anche un link alla dashboard well-architected di FSx for ONTAP, così puoi risolvere subito i problemi.</block>
+  <block id="1854fdec65dd4a2dd839c666aba07186" category="section-title">Miglioramenti della dashboard Well-Architected</block>
+  <block id="4640bfbf90e44f31ffe06c764207a151" category="section-title">Supporto per controlli di configurazione selezionati</block>
+  <block id="4baa1879436d89821519b031a9b29e1d" category="paragraph">Puoi eseguire manualmente l'analisi sulle configurazioni selezionate, in modo da analizzare solo le configurazioni che ti interessano e ridurre i tempi di attesa.</block>
+  <block id="9864fa88fc3747e67b6fc38c9b938677" category="section-title">Nuove raccomandazioni nell'analisi well-architected</block>
+  <block id="a38b9a0af0de5e85c5e64a158079deb5" category="paragraph">Workload Factory ora include le seguenti configurazioni nell'analisi dell'architettura ottimale per i file system FSx for ONTAP:</block>
+  <block id="696836fc5f2a32266d0ffc0fb5047e3b" category="paragraph">Per i carichi di lavoro di storage:</block>
+  <block id="c244576dbf541429d6bef056ce769d1b" category="list-text">*Connetti l'host al nodo di failover*: verifica se gli host sono connessi al nodo di failover in un file system FSx for ONTAP active-passive per garantire l'affidabilità.</block>
+  <block id="6ebacaf65862325841aba88bf388a132" category="list-text">*Connetti l'host al nodo preferito*: verifica se gli host sono connessi ai loro dispositivi a blocchi utilizzando il nodo preferito per ottimizzare le prestazioni.</block>
+  <block id="b25392745f1a47aaf9f1983cd8b1eff5" category="list-text">*Limite nel rilevamento multi-device di ARP/AI*: ARP/AI offre una copertura di protezione completa quando a un volume è collegato un solo dispositivo a blocchi. Se a un volume sono collegati più dispositivi a blocchi, Workload Factory li sposta su nuovi volumi in modo che ciascun volume abbia un solo dispositivo a blocchi.</block>
+  <block id="034f9073833298cb75f90f7455203432" category="list-text">*Pulizia dei cloni*: verifica se sono presenti cloni di volumi più vecchi di 30 giorni che possono essere eliminati per ottimizzare l'utilizzo dello storage e ridurre i costi.</block>
+  <block id="8e5f97675e6b58e2c142d4e3623f4e20" category="list-text">*Corrispondenza tra il sistema operativo di igroup e quello dell'host*: verifica se il sistema operativo del gruppo initiator (igroup) corrisponde al sistema operativo dell'host per prevenire problemi di I/O o di prestazioni.</block>
+  <block id="68545ea02d5d413d5558618d4f250fed" category="paragraph">Per i carichi di lavoro Kubernetes:</block>
+  <block id="92ea527417ca1a6f10e672dd5dc590fb" category="list-text">*Configurazione QoS*: verifica se i volumi persistenti di Kubernetes sono protetti con una policy QoS di ONTAP per ottimizzare le prestazioni.</block>
+  <block id="a48d1b9cc2b4fca01a8c056a0f21ca0b" category="list-text">*VM di storage Kubernetes dedicata*: verifica se il file system utilizza una VM di storage dedicata per i carichi di lavoro Kubernetes per migliorare l'isolamento e semplificare la gestione dello storage.</block>
+  <block id="e8b78d1ad4445d483c25f605f3dcd508" category="list-text">*Policy di esportazione dedicata per Kubernetes*: verifica se ogni volume persistente di Kubernetes dispone di una policy di esportazione dedicata che consente l'accesso solo dai nodi worker del cluster.</block>
+  <block id="15c94f3b03de47c250527326d660fabe" category="list-text">*CHAP bidirezionale per i backend iSCSI di Kubernetes*: verifica se i backend iSCSI di Trident hanno l'autenticazione CHAP reciproca abilitata per motivi di sicurezza.</block>
+  <block id="a9f15f720c325ed93ec2ae6e8f017053" category="list-text">*Disabilita<block ref="d51321f13693d09d4a9cbb2758b42d12" prefix=" " category="inline-code"></block> sulla VM di storage dell'applicazione*: verifica se<block ref="d51321f13693d09d4a9cbb2758b42d12" prefix=" " category="inline-code"></block> è disabilitato sulla VM di storage dell'applicazione per impedire ai client di elencare le esportazioni a cui non possono accedere.</block>
+  <block id="8c491145be7052ead6caabd40f13d8d8" category="paragraph">Per i carichi di lavoro del database:</block>
+  <block id="109086be5976370a05137d1276790c52" category="list-text">*Politica di snapshot SAP HANA*: verifica se la politica di snapshot è impostata su "Nessuno" per i volumi SAP HANA, al fine di ridurre i costi dello storage e migliorare le prestazioni per i dati del database attivo.</block>
+  <block id="f516997bc5858804907fffead3bf17bc" category="list-text">*Politica di snapshot di MySQL*: verifica se la policy di snapshot è impostata su "None" per i volumi MySQL, per ridurre i costi di storage e migliorare le prestazioni dei dati attivi del database.</block>
+  <block id="326acdfcec515bde261a6c24416222fc" category="list-text">*Politica di snapshot di PostgreSQL*: verifica se la politica di snapshot è impostata su "Nessuno" per i volumi PostgreSQL per ridurre i costi di archiviazione e migliorare le prestazioni per i dati attivi del database.</block>
+  <block id="b37f9a2971bf4d3f39ba06b420da1cf6" category="section-title">Valori attuali e consigliati per le configurazioni</block>
+  <block id="da748e56834f287fe9b9c164de80a667" category="paragraph">Nella dashboard well-architected puoi visualizzare i valori attuali e quelli consigliati per alcune configurazioni non ottimizzate. Questo ti indica qual è il valore consigliato prima di correggerlo.</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">Tiering dei dati freddi</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">policy di Snapshot</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">margine di capacità SSD</block>
+  <block id="4c3fd0f1c4be65a2279b728897c84838" category="section-title">Ottimizzazione dei costi</block>
+  <block id="7d9291e210fb85e5195b3fd168c5441e" category="section-title">Previsione dei costi e informazioni dettagliate</block>
+  <block id="abc7b1907c0e0856759e4d13b2c516f0" category="paragraph">Ora puoi prevedere i costi dei tuoi file system FSx for ONTAP utilizzando la funzionalità di previsione dei costi. Questo ti aiuta a pianificare il tuo budget e a ottimizzare le tue risorse in modo efficace. Puoi anche visualizzare informazioni dettagliate sui tuoi costi e sui modelli di utilizzo per individuare opportunità di ottimizzazione dei costi.</block>
+  <block id="0e1d8ca59fdf60970c2d4a8bbabe2e5b" category="section-title">Report sui costi e sull'utilizzo di AWS (CUR)</block>
+  <block id="133a30124f90912db7b6e93321823906" category="paragraph">Workload Factory ora utilizza AWS Cost and Usage Reports (CUR) invece di AWS Cost Explorer per fornire record di fatturazione dettagliati, recapiti ai bucket S3 di tua proprietà. CUR offre una maggiore granularità dei costi e costituisce la base per casi d'uso avanzati di FinOps, chargeback e allocazione dei costi.</block>
+  <block id="9744964a1ca6fbce3b75a4f5042f9597" category="section-title">Miglioramenti alla migrazione delle Storage VM</block>
+  <block id="e6567f9c034c2cedd4efbe2f207f9b2a" category="paragraph">Workload Factory offre una guida avanzata all'interno dell'interfaccia utente per la migrazione delle VM di storage. Questo include istruzioni dettagliate e una prova preliminare prima di portare la migrazione in produzione.</block>
+  <block id="5d9883007f4bc5361c0311ad3ad7cfd1" category="inline-link-macro">Scopri di più sulla migrazione delle VM di storage</block>
+  <block id="f9aacc67b23285dcf36836993d0a0240" category="paragraph"><block ref="f9aacc67b23285dcf36836993d0a0240" category="inline-link-macro-rx"></block></block>
+  <block id="f96336c52a88a7b30c68866854b7e3f2" category="section-title">Miglioramento della notifica e-mail del ritardo della replica</block>
+  <block id="1e403f6a94558e4fb3362faed8f74a9b" category="paragraph">Quando si verifica un numero elevato di eventi correlati di ritardo della replica, Workload Factory li raggruppa automaticamente in un'unica notifica email, così non vieni sommerso dalle notifiche.</block>
+  <block id="f45963c176c2d5c66e1ddbfab6e6a59e" category="section-title">Miglioramento della gestione automatica della capacità</block>
+  <block id="cc7093a020c173b1abf32b6436684cd2" category="paragraph">Ora puoi attivare le notifiche automatiche di gestione della capacità per provare la funzionalità prima di chiedere a Workload Factory di gestire automaticamente la tua capacità. Riceverai una notifica quando la capacità del tuo file system sta per esaurirsi.</block>
+  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="section-title">Configurazioni del database incluse nella dashboard ben strutturata</block>
+  <block id="17d52f36b5492e8aeada41d949434243" category="paragraph">La dashboard ben progettata ora include suggerimenti per le configurazioni del database, consentendoti di valutare e ottimizzare la tua configurazione in base alle migliori pratiche. Le prime configurazioni incluse nella dashboard sono:</block>
+  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">Efficienze dello storage</block>
+  <block id="ea87fe154a3b0752922812472bd1e33d" category="list-text">Gestione dello spazio del dispositivo a blocchi</block>
+  <block id="6fcd25081a49cfc1b0ec4806afa3d35f" category="list-text">Tipo OS</block>
+  <block id="935aff9bc7bcf43dd1fe5825226b72c1" category="list-text">Abbina il tipo di sistema operativo del dispositivo a blocchi all'host</block>
+  <block id="868e9efce60d04bdf51fc2494a73a9ce" category="list-text">Dispositivi a blocchi inattivi (LUNs)</block>
+  <block id="797a6fe95ffc7bef7107556bac722567" category="list-text">Posizionamento dei file di dati (.mdf)</block>
+  <block id="27c70398ced593abb96a3c33b5e1072b" category="list-text">Posizionamento dei file di registro (.ldf)</block>
+  <block id="346c87aaab415cd5adb218f88181ede8" category="list-text">Stato I/O multipath</block>
+  <block id="92a6dbd219f1455bd74f5d666b1b27c5" category="list-text">Timeout Multipath I/O</block>
+  <block id="6716a97e4d0f5c2b2ba84a9c8a65b74d" category="list-text">Quorum del cluster</block>
+  <block id="34d46ee23892b96b30e5db7bf4eb7871" category="list-text">Ridimensionamento delle risorse di calcolo</block>
+  <block id="33bf723377efe51bc70f70bbb5efa8a4" category="paragraph">Seleziona il menu principale nella console di Workload Factory, quindi seleziona *Well-architected* per trovare la dashboard well-architected.</block>
+  <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Opzione di menu ben strutturata nella console di NetApp Workload Factory</block>
+  <block id="907c87089cf5fa75c43bfe9077e20f0d" category="paragraph"><block ref="907c87089cf5fa75c43bfe9077e20f0d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="84ae0158deb3f95e6027fdf8d5ff467d" category="section-title">Punti decisionali relativi al throughput</block>
+  <block id="b9b80cf2e741a86ab9f6e9dd0b8f44ac" category="paragraph">Ora puoi visualizzare i suggerimenti sul throughput del client e i punti decisionali dell'automazione. Passa il mouse su un punto decisionale per visualizzare i dettagli, come lo SKU corrente e quello consigliato o le metriche che hanno superato la soglia nella finestra temporale (%).</block>
+  <block id="490c092a516d299c8fbfc8f3e4bca146" category="section-title">Miglioramenti di Google Cloud NetApp Volumes</block>
+  <block id="6d3b86d67ca631d6e7b36cd36908e1a9" category="section-title">Visualizza i pool di storage di Google Cloud NetApp Volumes</block>
+  <block id="655c266ebeabfc3d2b4a982b26cfc3a8" category="paragraph">Ora puoi visualizzare i pool di storage di Google Cloud NetApp Volumes in NetApp Workload Factory. Filtra per progetti, credenziali e regione e seleziona il nome di un pool di storage per visualizzarne tutti i dettagli, inclusi zona, zona di replica, throughput, descrizione ed etichette.</block>
+  <block id="d96dd657e1823dcd531c1900f529272e" category="section-title">Miglioramenti di OCI NetApp Storage Service</block>
+  <block id="3fbce80cc4c6eedf8f73c5f9b6c3f793" category="section-title">Analisi di architettura ottimale per i sistemi OCI NSS</block>
+  <block id="9f5fa839697eb430476ab0306b2d577b" category="paragraph">NetApp Workload Factory include la valutazione well-architected per i sistemi OCI NSS. La valutazione fornisce approfondimenti, raccomandazioni e soluzioni per aiutarti a raggiungere l'eccellenza operativa.</block>
+  <block id="d7662b370716819187607c075f76f667" category="paragraph">Sono disponibili valutazioni della configurazione per i seguenti pilastri di OCI Well-Architected Framework:</block>
+  <block id="9d065ca994a324833e03b9b5b5ed7cd9" category="list-text">Affidabilità: capacità degli oggetti file, policy di Snapshot e margine di capacità SSD</block>
+  <block id="4ddeff02856cd810ad47ff7e36c7b39c" category="list-text">Eccellenza operativa: reporting della capacità visibile all'host e margine di capacità del volume</block>
+  <block id="7dc11e8b104c8a8c4a3b0a79dfe90760" category="list-text">Ottimizzazione dei costi: tiering dei dati cold, pulizia degli Snapshot ed efficienze dello storage</block>
+  <block id="4c08f7b0400f82cb6607401bcdf078f1" category="inline-link-macro">l'analisi well-architected per i sistemi OCI NSS</block>
+  <block id="5514a97cb8286872cf232b29c81405be" category="inline-link-macro">implementazione di configurazioni ben progettate</block>
+  <block id="6c5cb49a519e4001a13828cd8f9f28ab" category="paragraph">Scopri di più su <block ref="026b7813287d66b370ca6b12a499c052" category="inline-link-macro-rx"></block> e su <block ref="503539a9757057d0d19762cf2dfced52" category="inline-link-macro-rx"></block>.</block>
+  <block id="8b253c1d4259c21c8314fc85adcb31d6" category="section-title">01 novembre 2026</block>
 </blocks>

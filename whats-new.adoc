@@ -250,6 +250,44 @@ Ora puoi visualizzare i suggerimenti sul throughput del client e i punti decisio
 
 
 
+==== Workload Factory per i miglioramenti EDA
+
+Questi miglioramenti riguardano i dettagli del volume nell'analisi della latenza, un controllo della pressione del file system, i punti decisionali del throughput e la possibilità di eseguire nuovamente un'analisi della latenza.
+
+
+
+===== Visualizza i dettagli del volume durante l'analisi della latenza
+
+In Workload Factory puoi visualizzare ulteriori dettagli sul volume mentre analizzi un evento di latenza, così puoi vedere come è configurato il volume. La pagina Analisi dettagliata della latenza mostra *Tipo di volume* (RW o DP) e *Stile di volume* (FlexVol o FlexGroup).
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/task-analyze-latency-trends.html["Scopri come analizzare le tendenze della latenza"]
+
+
+
+===== Controlla la pressione del file system per un evento di latenza
+
+In Workload Factory, puoi verificare se la pressione sul file system ha influito sulle prestazioni quando si è verificato un evento di latenza, così puoi decidere se analizzare il file system. Per un volume con un avviso di latenza, puoi visualizzare i dati di CloudWatch dei 40 minuti precedenti all'evento e aprire il file system per approfondire.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/learn-latency-monitoring.html#file-system-pressure["Scopri i controlli della pressione del file system"]
+
+
+
+===== Esamina i punti decisionali relativi al throughput per EDA
+
+Puoi rivedere i punti decisionali relativi al throughput del client nella dashboard EDA Overview, così puoi vedere quando Workload Factory ha consigliato o applicato una modifica del throughput. Passa il mouse su un punto decisionale per visualizzare i dettagli, ad esempio lo SKU corrente e quello consigliato oppure le metriche che hanno superato la soglia nell'intervallo di tempo.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/task-use-overview-dashboard.html#analyze-capacity-and-throughput-trends-and-decision-points["Scopri come esaminare i punti decisionali relativi al throughput"]
+
+
+
+===== Esegui nuovamente un'analisi della latenza
+
+Puoi eseguire di nuovo un'analisi della latenza in Workload Factory per un volume, così puoi aggiornare i risultati dopo aver esaminato il problema o apportato una modifica. Seleziona *Esegui di nuovo l'analisi* per avviare una nuova analisi e aggiornare i risultati.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/task-analyze-latency-issues.html["Impara ad analizzare i problemi di latenza"]
+
+
+
 ==== Miglioramenti di Google Cloud NetApp Volumes
 
 
@@ -1188,131 +1226,3 @@ NetApp Console 4.10.0 amministrazione include correzioni di sicurezza e bug.
 Ransomware Resilience ora supporta l'eliminazione di un data collector. Il data collector viene creato automaticamente quando abiliti il rilevamento dell'attività utente sui workload; se il data collector diventa obsoleto, ora puoi eliminarlo manualmente.
 
 Per ulteriori informazioni, vedi link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#delete-a-data-collector["Elimina un raccoglitore di dati"^].
-
-
-
-[[12-august-2026]]
-== 12 agosto 2026
-
-
-
-[[digital-advisor]]
-=== Consulente digitale
-
-
-
-==== Avviso di deprecazione per Config Drift
-
-La funzionalità Config Drift verrà deprecata in Digital Advisor a settembre 2026.
-
-Per domande o per condividere feedback, mailto:ng-activeiq-feedback@netapp.com[contatta il team di Active IQ].
-
-
-
-[[10-august-2026]]
-== 10 agosto 2026
-
-
-
-[[backup-and-recovery]]
-=== Backup e ripristino
-
-
-
-==== Miglioramenti generali al backup e al ripristino NetApp
-
-* *Supporto per la distribuzione locale di NetApp Console*: questa versione di NetApp Backup and Recovery supporta la distribuzione locale di NetApp Console in stato di anteprima.
-* *Conservazione dei dati relativi ai job per 90 giorni*: NetApp Backup and Recovery ora conserva le informazioni sui job nel Job Monitor per 90 giorni.
-
-
-
-
-==== Miglioramenti dei carichi di lavoro VMware
-
-In questa versione, VMware workloads introduce i seguenti miglioramenti:
-
-* *Supporto per il ripristino in una posizione alternativa per le VM SAN*: ora puoi ripristinare i backup delle VM basate su SAN in una posizione alternativa.
-* *Supporto per l'eliminazione di più backup*: Ora puoi eliminare più backup contemporaneamente.
-
-
-Per dettagli sulla protezione dei carichi di lavoro VMware, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro VMware"].
-
-
-
-==== Miglioramenti dei carichi di lavoro Kubernetes
-
-In questa versione, Kubernetes workloads introduce i seguenti miglioramenti:
-
-* *Anteprima del supporto per risorse isolate*: se esegui NetApp Backup and Recovery in una distribuzione locale di NetApp Console, puoi individuare, proteggere e ripristinare risorse Kubernetes isolate. Questa funzionalità è in anteprima per questa versione.
-
-
-Per dettagli sulla protezione dei carichi di lavoro Kubernetes, fare riferimento a https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Panoramica sulla protezione dei carichi di lavoro Kubernetes"].
-
-
-
-==== Miglioramenti dei carichi di lavoro di ONTAP Volumes
-
-In questa versione, i carichi di lavoro ONTAP Volumes introducono i seguenti miglioramenti:
-
-* *Dai priorità ai processi di ripristino rispetto ai backup*: ora puoi dare priorità ai processi di ripristino rispetto ai processi di backup quando ripristini volumi, file o cartelle.
-* *Scopri i sistemi e i volumi ONTAP senza attivare NetApp Backup and Recovery*: Ora puoi scoprire sistemi e volumi senza attivare NetApp Backup and Recovery.
-
-
-Per informazioni dettagliate sulla protezione dei carichi di lavoro di ONTAP Volumes, fare riferimento a  https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Panoramica dei carichi di lavoro di Protect ONTAP Volumes"].
-
-
-
-[[data-classification]]
-=== Classificazione dei dati
-
-
-
-==== Scheda Scansioni attive per migliorare la gestione delle scansioni
-
-Data Classification ora offre una scheda *Scansioni attive* nel menu Configurazione, offrendo un'esperienza migliorata per la gestione delle scansioni. La scheda Scansioni attive fornisce una panoramica di tutti i volumi che hai attivato per la scansione, con i consueti filtri per ordinare le tue risorse. La scheda offre anche una posizione centrale per dare priorità alle scansioni, metterle in pausa e rivedere gli errori.
-
-Per ulteriori informazioni, vedi link:https://docs.netapp.com/us-en/data-services-data-classification/task-managing-repo-scanning.html["Gestisci le scansioni"^].
-
-
-
-[[disaster-recovery]]
-=== Ripristino dopo un disastro
-
-
-
-==== Dashboard migliorata
-
-La dashboard di Disaster Recovery è stata rinnovata con un'esperienza migliorata che offre una panoramica completa e immediata dell'intero ambiente di Disaster Recovery. La nuova dashboard include:
-
-* *Visibilità unificata dei carichi di lavoro* — Monitora sia i carichi di lavoro VMware che quelli Kubernetes insieme allo stato di salute dell'infrastruttura sottostante da un'unica interfaccia.
-* *Segnalazione proattiva dei problemi* — La dashboard ora evidenzia automaticamente i problemi ambientali, consentendo una diagnosi più rapida e tempi di risoluzione ridotti.
-* *Utilizzo della capacità* — Le metriche di capacità sono ora visualizzate direttamente nella dashboard, consentendo una più facile comprensione del consumo delle risorse.
-
-
-Per ulteriori informazioni, vedi link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/dashboard-view.html["Visualizza lo stato di salute dei tuoi piani di NetApp Disaster Recovery nella Dashboard"^].
-
-
-
-==== Rapporti migliorati
-
-Le funzionalità di reporting sono state ampliate per fornire una visione più approfondita delle attività di NetApp Disaster Recovery nel tuo ambiente:
-
-* Genera report specifici per i carichi di lavoro VMware, per i carichi di lavoro Kubernetes o per entrambi, offrendoti la flessibilità di personalizzare i report in base al tuo pubblico.
-* Ogni report fornisce un riepilogo completo delle attività per un periodo di tempo specificato, garantendo la massima visibilità sugli eventi nel tuo ambiente di Disaster Recovery.
-
-
-Per ulteriori informazioni, vedi link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/reports.html["Crea report di NetApp Disaster Recovery"^].
-
-
-
-==== Registrazione delle attività utente
-
-NetApp Disaster Recovery ha migliorato la tracciabilità e la verificabilità dei job grazie alla registrazione dei job a livello utente. Ogni job eseguito ora registra l'utente che lo ha avviato, fornendo una chiara traccia di audit per la conformità e la risoluzione dei problemi. I job attivati automaticamente da NetApp Disaster Recovery sono identificati come "system", rendendo facile distinguere tra attività avviate dall'utente e attività avviate dal servizio.
-
-Per ulteriori informazioni, vedi link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/monitor-jobs.html["Monitora i job di NetApp Disaster Recovery"^].
-
-
-
-==== Ottimizzazione delle prestazioni e delle risorse
-
-Sono stati apportati diversi miglioramenti "sotto il cofano" per ridurre il consumo complessivo di risorse di sistema e aumentare le prestazioni nelle operazioni di NetApp Disaster Recovery.

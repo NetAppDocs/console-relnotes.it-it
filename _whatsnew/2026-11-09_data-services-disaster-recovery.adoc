@@ -1,0 +1,12 @@
+= Miglioramento del monitoraggio dei job durante la riesecuzione dei job
+:allow-uri-read: 
+
+
+
+
+[[job-monitoring-enhancement-when-rerunning-jobs]]
+=== Miglioramento del monitoraggio dei job durante la riesecuzione dei job
+
+Se riesegui determinate operazioni non riuscite, annullate o scadute, NetApp Disaster Recovery ora registra queste operazioni come nuovi job e identifica l'utente che ha avviato l'azione. In precedenza, Disaster Recovery elencava i nuovi job sotto il job iniziale. Questo miglioramento crea un audit trail più visibile per i job in Disaster Recovery, a condizione che la richiesta non sia stata oscurata. Si applica solo ai job di rilevamento, risincronizzazione, conformità, protezione, piano di replica e conservazione dei backup. Le operazioni di failback, failover e migrazione rieseguite non vengono elencate come nuovi job. Solo il job più recente in una catena di riesecuzioni è idoneo e al massimo puoi accodare una sola riesecuzione dietro a un job in esecuzione.
+
+Per ulteriori informazioni, vedi link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/monitor-jobs.html["Monitora i job in Disaster Recovery"^].

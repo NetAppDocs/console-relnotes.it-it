@@ -935,17 +935,6 @@ Per informazioni dettagliate sulla protezione dei carichi di lavoro di ONTAP Vol
 
 
 
-[[data-classification]]
-=== Classificazione dei dati
-
-
-
-==== Miglioramenti generali
-
-Questa versione di Data Classification include miglioramenti alla sicurezza e alle prestazioni.
-
-
-
 [[disaster-recovery]]
 === Ripristino dopo un disastro
 

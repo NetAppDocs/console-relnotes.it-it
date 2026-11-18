@@ -633,4 +633,11 @@
   <block id="00a970696886f2596c6dc19470a99b67" category="paragraph">Questa funzionalità è disponibile come anteprima pubblica. La configurazione è supportata solo tramite la CLI di ONTAP. L'integrazione di NetApp Console non è ancora disponibile.</block>
   <block id="840c0d6ab3aac46cebc73c413bcb3de2" category="inline-link">Configura l'autenticazione Microsoft Entra ID per SMB</block>
   <block id="4751d6cb0ce22c95620735a0f455e8e4" category="paragraph"><block ref="4751d6cb0ce22c95620735a0f455e8e4" category="inline-link-rx"></block></block>
+  <block id="8e185e7635097d7251137556c4d7b148" category="doc">Inserzione PAYGO separata per Cloud Volumes ONTAP in AWS Marketplace</block>
+  <block id="e22492ae15b7a204416f84c3bc5e2d1e" category="paragraph">NetApp ora offre un'offerta pay-as-you-go (PAYGO) separata per Cloud Volumes ONTAP in AWS Marketplace tramite NetApp Standalone Listing (NSL). NetApp aveva già introdotto l'abbonamento Standalone Cloud Volumes ONTAP per adeguarsi alle modifiche dell'AWS Enterprise Discount Program (EDP). L'offerta PAYGO è ora disponibile nella stessa offerta NSL insieme al contratto annuale di Cloud Volumes ONTAP, semplificando il monitoraggio dell'utilizzo PAYGO, il controllo degli addebiti di spillover e la gestione dei costi di consumo.</block>
+  <block id="76d4be3bca7251e78e8b9d340a9e88e6" category="paragraph">Sia il contratto annuale di Cloud Volumes ONTAP sia l'offerta PAYGO rimangono separati dal contratto annuale e dalle offerte PAYGO di NetApp Intelligence Services (NIS), consentendo una fatturazione separata per la capacità di Cloud Volumes ONTAP e i servizi dati.</block>
+  <block id="79ef9f61ccfcabc1d70e24a061eef1a5" category="inline-link">Scopri di più sulle preferenze di fatturazione</block>
+  <block id="90354e46cc101991e55370e682628f58" category="inline-link">Distribuisci Cloud Volumes ONTAP utilizzando l'offerta standalone su AWS Marketplace</block>
+  <block id="464804aa8527c7a5675dd4c8d2b5f2b5" category="paragraph"><block ref="70563190697b86d4b7fef9663334a2c7" category="inline-link-rx"></block> <block ref="2d3a44ea7e8ca99b971ec5f419723d79" category="inline-link-rx"></block></block>
+  <block id="bc2dc85706f0ec1cefd21d3f849eb1e9" category="section-title">18 novembre 2026</block>
 </blocks>

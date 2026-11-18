@@ -139,12 +139,6 @@
   <block id="c85cd7cc7711f70f8bc51d35495063e2" category="section-title">Miglioramento dei carichi di lavoro di Oracle Database</block>
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">Scopri come proteggere i carichi di lavoro di Oracle Database con NetApp Backup and Recovery</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">Per informazioni dettagliate sulla protezione dei carichi di lavoro Oracle Database, fare riferimento a<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>.</block>
-  <block id="8f24b7f6865330e0469a323257c15e3e" category="doc">Presentazione di Value Insights</block>
-  <block id="6452c5c2797e19754a12693289884cfc" category="paragraph">La funzionalità Value Insights consolida le informazioni generali su stato di salute, risparmi, stabilità e sicurezza dei sistemi ONTAP. Puoi usare queste informazioni per migliorare lo stato di salute e le prestazioni del sistema attraverso una visione continua e basata sui dati del tuo ambiente ONTAP.</block>
-  <block id="581e60c850c8a18ee458ccadb49ea628" category="admonition">Value Insights è disponibile solo per i sistemi ONTAP.</block>
-  <block id="4818a68f374e0754b0e7babe3b943331" category="inline-link-macro">Value Insights</block>
-  <block id="0f040cc490eb4ad3366e4020a72ff0c2" category="paragraph">Scopri di più su <block ref="d7e943b7b795a7bed90e4ce411daf4a9" category="inline-link-macro-rx"></block>.</block>
-  <block id="f1c51501659d7bb0b0146707e6fe220c" category="section-title">20 agosto 2026</block>
   <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">Supporto per le regioni Austria East e Belgium Central in Azure</block>
   <block id="44e833213a99257d69192896111996f4" category="paragraph">Ora puoi distribuire Cloud Volumes ONTAP 9.12.1 GA e versioni successive nelle regioni Austria East (austriaeast) e Belgium Central (belgiumcentral) in Azure. Sono supportati i seguenti tipi di deployment:</block>
   <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">25 agosto 2026</block>
@@ -611,4 +605,32 @@
   <block id="a849f909985995e89c42154f270a1245" category="inline-link-macro">Scopri di più sull'accesso in base al ruolo per Cloud Volumes ONTAP</block>
   <block id="cd27e9569393bf08fe35ccdf2583e61b" category="paragraph">Ora puoi assegnare il ruolo di collaboratore di Cloud Volumes ONTAP per dare ai membri ampio accesso alla gestione dei sistemi Cloud Volumes ONTAP senza consentire loro di eliminare sistemi, volumi, aggregati o relazioni di replica <block ref="8c5db5921f383526df21d84d3b1bfd83" category="inline-link-macro-rx"></block>.</block>
   <block id="3cc38715797be469f39edd81c803bf02" category="section-title">17 novembre 2026</block>
+  <block id="0826142964deaae8afd3cda87c05f9f5" category="doc">Nuovo ruolo di collaboratore di Cloud Volumes ONTAP</block>
+  <block id="14332acd533c12a2fdcddeb8adea61b3" category="paragraph">NetApp aggiunge il ruolo *Cloud Volumes ONTAP contributor*, che ha più autorizzazioni del ruolo operator ma meno del ruolo admin. Un utente con il ruolo operator può eseguire diversi flussi di lavoro quotidiani, incluse le attività di replica di SnapMirror. Il ruolo admin copre questi flussi di lavoro, ma consente anche agli utenti admin di eliminare i sistemi Cloud Volumes ONTAP, cosa che molte organizzazioni non vogliono per gli utenti operativi. Questo ruolo è importante perché la Console al momento non supporta la verifica multi-admin (MAV); senza di essa, un utente admin può eseguire operazioni sensibili, come eliminare sistemi, senza una seconda approvazione. Il ruolo contributor consente agli utenti di eseguire la maggior parte delle operazioni critiche, come creare sistemi, gestire la replica e gestire lo storage, impedendo però l'eliminazione dei sistemi.</block>
+  <block id="0fba01d9b0e41b7d0de97f3cfdb7dcec" category="paragraph">Il ruolo di collaboratore include tutte le autorizzazioni di operatore, comprese le funzionalità aggiuntive per:</block>
+  <block id="535581d758075804b4cc52814e262a35" category="list-text">Crea sistemi Cloud Volumes ONTAP</block>
+  <block id="31252110f902a9c33dd1668a2ddf9d60" category="list-text">Aggiorna le impostazioni di sistema, ad esempio cambiando il tipo di istanza o aggiornando la versione di ONTAP</block>
+  <block id="1c755f1ffdbed31cec4887edbc313b67" category="list-text">Gestisci la replica, incluse le operazioni di interruzione, risincronizzazione, risincronizzazione inversa e modifica delle pianificazioni di replica e delle velocità di trasferimento</block>
+  <block id="caa47e3dc29de6679c6dde1ec5cda5ca" category="list-text">Gestire lo spazio di archiviazione, ad esempio aggiungendo aggregati e aumentando la capacità</block>
+  <block id="105df9d41da1a27f8246ba8df705efc9" category="paragraph">Un utente con il ruolo di collaboratore non può eseguire le seguenti attività:</block>
+  <block id="75bfd853ccf811b5f9e995e9b420f0ee" category="list-text">Elimina sistemi, volumi, aggregati o relazioni di replica</block>
+  <block id="26539d0b254897846cdbf2f9df3a2da2" category="list-text">Accendere o spegnere i sistemi</block>
+  <block id="cc940bf2667209e4d71ddc12d8f2e5ed" category="list-text">Imposta una password</block>
+  <block id="c8764bac128bda390f467bc548de68a5" category="list-text">Accedi a ONTAP System Manager</block>
+  <block id="2ece167d1d26caae4635d1e5a4d74785" category="paragraph">Assegni il ruolo di collaboratore da *Amministrazione &gt; Identità*, nello stesso modo in cui assegni agli utenti gli altri ruoli di Cloud Volumes ONTAP.</block>
+  <block id="38231d7ab948e14954505c434dbc3406" category="inline-link">Ruoli di accesso di Cloud Volumes ONTAP nella NetApp Console</block>
+  <block id="ad25b993a54c0c353ed1957e95a74d22" category="list-text"><block ref="ad25b993a54c0c353ed1957e95a74d22" category="inline-link-rx"></block></block>
+  <block id="07ee22b21ec2682df904eeff73509ddc" category="inline-link">Configura l'accesso in base al ruolo per Cloud Volumes ONTAP in NetApp Console</block>
+  <block id="c1fb6aa9d061f2b296f150910042d1d2" category="list-text"><block ref="c1fb6aa9d061f2b296f150910042d1d2" category="inline-link-rx"></block></block>
+  <block id="f50849d7a51a2af22661c16f98df65ff" category="inline-link">NetApp Console access ruoli</block>
+  <block id="7d8c2cdcdb7f43c46c64f18123f8002b" category="list-text"><block ref="7d8c2cdcdb7f43c46c64f18123f8002b" category="inline-link-rx"></block></block>
+  <block id="ef4dbf81033bbcf56fd22e4eb2c913da" category="section-title">Autenticazione utente ibrida Microsoft Entra ID per SMB (anteprima pubblica)</block>
+  <block id="4df90909cc2d04997870c4949a39d14b" category="inline-link">Microsoft Entra ID</block>
+  <block id="dd462d22f562824f1314114fe0506920" category="paragraph">Cloud Volumes ONTAP 9.19.1 e versioni successive supportano l'autenticazione utente ibrida con<block ref="c92d60eae0a0d9ece702070bd9116954" category="inline-link-rx"></block> per accedere alle condivisioni SMB.</block>
+  <block id="56ed7687386c4ddd3c49ce19fe20121e" category="paragraph">In precedenza, Cloud Volumes ONTAP supportava l'autenticazione SMB solo per gli utenti di dominio, il che richiedeva la configurazione di Active Directory (AD) locale. Con l'autenticazione utente ibrida, puoi estendere l'autenticazione SMB al cloud tramite Microsoft Entra ID, continuando a utilizzare l'infrastruttura AD locale esistente.</block>
+  <block id="66b8d64c32b9c85c4b6e1af3b9d47224" category="inline-link">Microsoft Entra Connect</block>
+  <block id="b733c58ccb9be823aebceeba2e6d6c49" category="paragraph">Con l'autenticazione utente ibrida, gli utenti vengono creati in AD locale e sincronizzati con Microsoft Entra ID usando<block ref="98031aa8f0e636ad4eef034480e4f6c2" category="inline-link-rx"></block>. ONTAP autentica gli utenti che accedono alle condivisioni SMB comunicando sia con AD locale che con Microsoft Entra ID.</block>
+  <block id="00a970696886f2596c6dc19470a99b67" category="paragraph">Questa funzionalità è disponibile come anteprima pubblica. La configurazione è supportata solo tramite la CLI di ONTAP. L'integrazione di NetApp Console non è ancora disponibile.</block>
+  <block id="840c0d6ab3aac46cebc73c413bcb3de2" category="inline-link">Configura l'autenticazione Microsoft Entra ID per SMB</block>
+  <block id="4751d6cb0ce22c95620735a0f455e8e4" category="paragraph"><block ref="4751d6cb0ce22c95620735a0f455e8e4" category="inline-link-rx"></block></block>
 </blocks>

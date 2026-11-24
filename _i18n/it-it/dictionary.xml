@@ -642,4 +642,12 @@
   <block id="e32f3db58cd6a52e42519a253337192b" category="list-text">*Maggiori dettagli durante la selezione di un volume di origine*: l'elenco dei volumi ora mostra il tipo di volume, lo stile del volume, il tipo di SnapLock, la protezione esistente e lo stato di integrità della protezione. La colonna Protezione esistente è più ampia, in modo da poter visualizzare tutti gli indicatori di protezione (snapshot, replica e backup).</block>
   <block id="da6b444d508815a1ee28ad87ca1663f9" category="list-text">*Supporto per la protezione dei volumi ospitati nelle regioni Azure China*: ora puoi eseguire il backup dei volumi ONTAP nello storage Azure Blob in Azure China (21Vianet). Questo supporto si applica sia a Cloud Volumes ONTAP sia ai sistemi ONTAP on-premises. Le regioni Azure Commercial e Azure Government restano invariate.</block>
   <block id="915ff3f4971afffdc671ac4bb1e52630" category="section-title">23 novembre 2026</block>
+  <block id="5a910ff91567ebb4e0ae85635837c5a8" category="doc">Supporto per le regioni Danimarca orientale e India centro-meridionale in Azure</block>
+  <block id="b9433802e6e744b5cc84b87da127cf0e" category="paragraph">Ora puoi distribuire Cloud Volumes ONTAP 9.12.1 GA e versioni successive nelle aree geografiche Danimarca orientale (denmarkeast) e India centro-meridionale (indiasouthcentral) in Azure. Sono supportati i seguenti tipi di distribuzione:</block>
+  <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Nodo singolo</block>
+  <block id="f06295aec82b8045d499f988d711565d" category="list-text">HA in una singola zona di disponibilità con storage con ridondanza locale (LRS)</block>
+  <block id="893f7f9c4326ccc9db9efcafead22429" category="list-text">HA in più zone di disponibilità usando zone-redundant storage (ZRS) - Solo per India South Central</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mappa delle regioni globali sotto Azure</block>
+  <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">Per un elenco di tutte le regioni supportate, consulta <block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>.</block>
+  <block id="1d13d5e4cee76a1ac900dd9c56640ddb" category="section-title">24 novembre 2026</block>
 </blocks>

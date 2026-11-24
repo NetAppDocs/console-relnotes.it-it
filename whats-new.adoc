@@ -30,6 +30,29 @@ Bonifica:: Il servizio di bonifica è stato rimosso il 22 aprile 2024.
 ====
 
 
+[[24-november-2026]]
+== 24 novembre 2026
+
+
+
+[[cloud-volumes-ontap]]
+=== Cloud Volumes ONTAP
+
+
+
+==== Supporto per le regioni Danimarca orientale e India centro-meridionale in Azure
+
+Ora puoi distribuire Cloud Volumes ONTAP 9.12.1 GA e versioni successive nelle aree geografiche Danimarca orientale (denmarkeast) e India centro-meridionale (indiasouthcentral) in Azure. Sono supportati i seguenti tipi di distribuzione:
+
+* Nodo singolo
+* HA in una singola zona di disponibilità con storage con ridondanza locale (LRS)
+* HA in più zone di disponibilità usando zone-redundant storage (ZRS) - Solo per India South Central
+
+
+Per un elenco di tutte le regioni supportate, consulta  https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Mappa delle regioni globali sotto Azure"^].
+
+
+
 [[23-november-2026]]
 == 23 novembre 2026
 

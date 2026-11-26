@@ -493,7 +493,6 @@
   <block id="9744964a1ca6fbce3b75a4f5042f9597" category="section-title">Miglioramenti alla migrazione delle Storage VM</block>
   <block id="e6567f9c034c2cedd4efbe2f207f9b2a" category="paragraph">Workload Factory offre una guida avanzata all'interno dell'interfaccia utente per la migrazione delle VM di storage. Questo include istruzioni dettagliate e una prova preliminare prima di portare la migrazione in produzione.</block>
   <block id="5d9883007f4bc5361c0311ad3ad7cfd1" category="inline-link-macro">Scopri di più sulla migrazione delle VM di storage</block>
-  <block id="f9aacc67b23285dcf36836993d0a0240" category="paragraph"><block ref="f9aacc67b23285dcf36836993d0a0240" category="inline-link-macro-rx"></block></block>
   <block id="f96336c52a88a7b30c68866854b7e3f2" category="section-title">Miglioramento della notifica e-mail del ritardo della replica</block>
   <block id="1e403f6a94558e4fb3362faed8f74a9b" category="paragraph">Quando si verifica un numero elevato di eventi correlati di ritardo della replica, Workload Factory li raggruppa automaticamente in un'unica notifica email, così non vieni sommerso dalle notifiche.</block>
   <block id="f45963c176c2d5c66e1ddbfab6e6a59e" category="section-title">Miglioramento della gestione automatica della capacità</block>
@@ -650,4 +649,5 @@
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mappa delle regioni globali sotto Azure</block>
   <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">Per un elenco di tutte le regioni supportate, consulta <block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>.</block>
   <block id="1d13d5e4cee76a1ac900dd9c56640ddb" category="section-title">24 novembre 2026</block>
+  <block id="d708ba996885d5ea1c1b9727bc557415" category="paragraph"><block ref="d708ba996885d5ea1c1b9727bc557415" category="inline-link-macro-rx"></block></block>
 </blocks>

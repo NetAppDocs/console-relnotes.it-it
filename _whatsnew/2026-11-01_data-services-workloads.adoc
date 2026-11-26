@@ -138,7 +138,7 @@ Workload Factory ora utilizza AWS Cost and Usage Reports (CUR) invece di AWS Cos
 
 Workload Factory offre una guida avanzata all'interno dell'interfaccia utente per la migrazione delle VM di storage. Questo include istruzioni dettagliate e una prova preliminare prima di portare la migrazione in produzione.
 
-link:fsx-storage/create-replication.html["Scopri di più sulla migrazione delle VM di storage"]
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-storage/create-replication.html["Scopri di più sulla migrazione delle VM di storage"]
 
 
 
